@@ -11,3 +11,11 @@ coordinate · estimate · routine · resolve · flexible
 在线页：https://c2007c187e23464b87061b80d83ffebb.sg2.agentos-app.run/words-episode-3.html
 
 公众号草稿已创建；群发接口权限不足，待后台手动发布。
+
+### 2026-09-28 · 公众号第 5 期
+
+schedule · confirm · purchase · reliable · maintain
+
+在线页：https://c2007c187e23464b87061b80d83ffebb.sg2.agentos-app.run/words-episode-5.html
+
+次日公众号草稿已创建，未执行群发；本地单词朗读按钮已加入在线页。

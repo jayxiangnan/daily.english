@@ -1,0 +1,7 @@
+[
+  {"word":"schedule","phonetic":"/ˈʃedjuːl/","meaning":"n. 日程安排，时间表；v. 安排，预定","en":"I scheduled a meeting with the client for Monday morning.","zh":"我安排了周一上午与客户开会。","tip":"schedule 可以看作“把事情放进时间表”。名词是日程，动词是安排；常用 schedule a meeting（安排会议）和 be on schedule（按计划进行）。"},
+  {"word":"confirm","phonetic":"/kənˈfɜːm/","meaning":"v. 确认，证实","en":"Please confirm that you received the updated document.","zh":"请确认你已收到更新后的文件。","tip":"con（共同、完全）+ firm（坚定）= 把事情定下来 = 确认。邮件里常见 please confirm、confirm receipt（确认收悉）。"},
+  {"word":"purchase","phonetic":"/ˈpɜːtʃəs/","meaning":"v. 购买；n. 购买的物品，采购","en":"You can purchase the tickets online before the event.","zh":"你可以在活动前在线购买门票。","tip":"purchase 比 buy 更正式，常见于订单、报销和采购场景。记住 purchase order（采购订单）和 proof of purchase（购买凭证）。"},
+  {"word":"reliable","phonetic":"/rɪˈlaɪəbl/","meaning":"adj. 可靠的，可信赖的","en":"We need a reliable way to back up important files.","zh":"我们需要一种可靠的方法来备份重要文件。","tip":"rely（依靠）+ able（能够）= 值得依靠的 = 可靠的。人和工具都能用：a reliable colleague、a reliable source。"},
+  {"word":"maintain","phonetic":"/meɪnˈteɪn/","meaning":"v. 维持，保持；维护","en":"Regular updates help maintain the security of the system.","zh":"定期更新有助于维护系统安全。","tip":"main（手）+ tain（握住）= 一直抓在手里 = 维持。maintain a relationship 是维系关系，maintain equipment 是维护设备。"}
+]
