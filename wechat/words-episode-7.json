@@ -1,0 +1,42 @@
+[
+  {
+    "word": "retrieve",
+    "phonetic": "/rɪˈtriːv/",
+    "meaning": "v. 取回；检索（信息）",
+    "en": "Can you retrieve the receipt from your email?",
+    "zh": "你能从邮箱里找出那张收据吗？",
+    "tip": "把 retrieve 想成“重新取回来”。找回文件、邮件或数据时，常说 retrieve a file、retrieve data。"
+  },
+  {
+    "word": "notify",
+    "phonetic": "/ˈnoʊtɪfaɪ/",
+    "meaning": "v. 通知，告知",
+    "en": "Please notify the team if the meeting time changes.",
+    "zh": "如果会议时间有变，请通知团队。",
+    "tip": "常用 notify someone of something（把某事通知某人）。手机上的 notification 就是“通知”。"
+  },
+  {
+    "word": "arrange",
+    "phonetic": "/əˈreɪndʒ/",
+    "meaning": "v. 安排；整理，布置",
+    "en": "I'll arrange a call with the supplier tomorrow.",
+    "zh": "我明天会安排与供应商通话。",
+    "tip": "arrange a meeting/call 是安排会议或通话；arrange the files 是整理文件。记住它既能安排事情，也能整理物品。"
+  },
+  {
+    "word": "optional",
+    "phonetic": "/ˈɑːpʃənəl/",
+    "meaning": "adj. 可选的，非必需的",
+    "en": "Adding a photo is optional, so you can skip this step.",
+    "zh": "添加照片是可选的，所以你可以跳过这一步。",
+    "tip": "option（选项）+ -al = 可选择的。填写表单时，optional field 表示“选填项”。"
+  },
+  {
+    "word": "postpone",
+    "phonetic": "/poʊstˈpoʊn/",
+    "meaning": "v. 推迟，延期",
+    "en": "We need to postpone the launch until Friday.",
+    "zh": "我们需要把上线时间推迟到周五。",
+    "tip": "postpone 是“改到更晚”，不是取消。常用 postpone something until Friday（把某事推迟到周五）。"
+  }
+]

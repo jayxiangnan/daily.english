@@ -20,6 +20,7 @@
 
 | 期数 | 日期 | 单词 |
 |------|------|------|
+| [第 7 期](archive/2026-09-30.md) | 2026-09-30 | retrieve · notify · arrange · optional · postpone |
 | [第 6 期](archive/2026-09-29.md) | 2026-09-29 | compromise · elaborate · suspend · substantial · distinct |
 | [第 5 期](archive/2026-09-28.md) | 2026-09-28 | schedule · confirm · purchase · reliable · maintain |
 | [第 4 期](archive/2026-09-27.md) | 2026-09-27 | tackle · ambiguous · amend · diligent · prevalent |
