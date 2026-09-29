@@ -12,6 +12,14 @@ CONFIG = os.path.join(BASE, "config.json")
 API = "https://api.weixin.qq.com/cgi-bin"
 
 
+def tls_context():
+    """在系统 Python 缺少自带 CA 包时使用 macOS 的系统证书。"""
+    cafile = os.environ.get("SSL_CERT_FILE")
+    if not cafile and os.path.isfile("/etc/ssl/cert.pem"):
+        cafile = "/etc/ssl/cert.pem"
+    return ssl.create_default_context(cafile=cafile)
+
+
 def load_cfg():
     with open(CONFIG, encoding="utf-8") as f:
         return json.load(f)
@@ -19,7 +27,7 @@ def load_cfg():
 
 def http(url, data=None, raw=False, retries=3):
     """带重试的请求，应对微信 API 偶发 SSL/超时抖动"""
-    ctx = ssl.create_default_context()
+    ctx = tls_context()
     body = json.dumps(data, ensure_ascii=False).encode("utf-8") if data is not None else None
     last = None
     for attempt in range(retries):
@@ -102,7 +110,7 @@ def upload_image(token, path, retries=3):
         "User-Agent": "Mozilla/5.0",
         "Content-Type": f"multipart/form-data; boundary={boundary}",
     }
-    ctx = ssl.create_default_context()
+    ctx = tls_context()
     last = None
     for i in range(retries):
         try:
@@ -276,6 +284,8 @@ def main():
             "articles": article["articles"][0],
         })
         if r.get("errcode") != 0:
+            if r.get("errcode") == 53407:
+                print("该草稿正在定时发布，微信不允许修改；请先在公众号后台处理定时状态。")
             print("更新草稿失败:", json.dumps(r, ensure_ascii=False))
             sys.exit(1)
         print(f"[2/3] 草稿更新成功 media_id={args.update_media_id}")
