@@ -12,6 +12,7 @@
 |------|------|
 | `archive/` | 每期 Markdown 归档，可直接阅读 |
 | `wechat/words-episode-N.json` | 每期单词原始数据（音标、释义、例句、记忆贴士） |
+| `wechat/lesson-episode-N.json` | 情境对话、用法辨析、易错点与练习（第 7 期起） |
 | `outputs/words-episode-N.html` | 每期在线页面，带语音朗读 |
 | `wechat/push_wechat.py` | 微信公众号推送脚本（建草稿 / 群发 / 自动生成封面） |
 | `wechat/brand-copy.md` | 品牌文案：简介、自动回复、底部引导语 |
@@ -20,7 +21,7 @@
 
 | 期数 | 日期 | 单词 |
 |------|------|------|
-| [第 7 期](archive/2026-09-30.md) | 2026-09-30 | retrieve · notify · arrange · optional · postpone |
+| [第 7 期：临时改期的工作沟通](archive/2026-09-30.md) | 2026-09-30 | retrieve · notify · arrange · optional · postpone |
 | [第 6 期](archive/2026-09-29.md) | 2026-09-29 | compromise · elaborate · suspend · substantial · distinct |
 | [第 5 期](archive/2026-09-28.md) | 2026-09-28 | schedule · confirm · purchase · reliable · maintain |
 | [第 4 期](archive/2026-09-27.md) | 2026-09-27 | tackle · ambiguous · amend · diligent · prevalent |
@@ -30,7 +31,9 @@
 
 ## 关于自动化
 
-每日流程：选取 5 个新词（与历史去重）→ 生成在线页面 → 生成内容封面 → 推送公众号 → 归档提交到本仓库。
+每日流程：选取 5 个新词（与历史去重）→ 围绕具体情境写对话、用法辨析、易错点与练习 → 生成在线页面、归档和公众号草稿 → 由运营者核查语言准确性、实际语境和原创表达后决定是否发布。
+
+自动化仅准备草稿，不自动群发。AI 可以辅助整理，但不能替代真人选题、审稿和发布判断；内容质量与平台推荐量均无保证。
 
 单词去重使用完整历史词库，因此公众号期数与内部累计期数是两套编号，公众号从第 1 期起算。
 

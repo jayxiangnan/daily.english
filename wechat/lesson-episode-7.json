@@ -1,0 +1,24 @@
+{
+  "title": "临时改期，怎样用 5 个词把工作交接清楚？",
+  "lead": "客户说原定周三的上线可能要改期。你需要找回最新日程、通知同事、安排沟通，并说明哪些环节可以调整。今天的 5 个词，正好组成一条完整的处理路径。",
+  "dialogue": [
+    {"en": "Could you retrieve the latest schedule from the shared folder?", "zh": "你能从共享文件夹里找回最新版日程吗？"},
+    {"en": "Sure. I'll notify the team and arrange a short call with the client.", "zh": "可以。我会通知团队，再安排一次与客户的简短通话。"},
+    {"en": "Is the demo optional?", "zh": "演示环节可以不参加吗？"},
+    {"en": "Yes. But if testing isn't complete, we'll postpone the launch until Friday.", "zh": "可以。但如果测试还没完成，我们会把上线推迟到周五。"}
+  ],
+  "notes": {
+    "retrieve": {"usage": "已知文件或资料存放在哪里，需要把它调出来时，用 retrieve；泛泛地“找一找”可以用 find。", "pitfall": "说 retrieve the file from the folder；from 后面接取回的位置。"},
+    "notify": {"usage": "比 tell 更正式，适合工作邮件或流程通知：notify someone of/about a change。", "pitfall": "直接说 notify the team，不说 notify to the team。"},
+    "arrange": {"usage": "arrange a call with someone 强调把通话时间和参与人协调好。", "pitfall": "安排与客户的通话，用 arrange a call with the client。"},
+    "optional": {"usage": "optional 表示可以选择不做；required 或 mandatory 表示必须做。", "pitfall": "先问清楚具体环节是否 optional，别把“可选”理解成“已经取消”。"},
+    "postpone": {"usage": "postpone something until Friday 表示把某事推迟到周五；cancel 才是取消。", "pitfall": "如果新时间未定，可说 postpone the launch，不要臆造一个确定日期。"}
+  },
+  "practice": [
+    {"question": "“请通知团队时间有变”中的“通知”用哪个词？", "answer": "notify", "explanation": "notify the team of the change；notify 后直接接人。"},
+    {"question": "“演示可以不参加，但测试必须完成”中的“可选”用哪个词？", "answer": "optional", "explanation": "The demo is optional, but the testing is required."},
+    {"question": "“把上线推迟到周五”该怎么说？", "answer": "postpone the launch until Friday", "explanation": "postpone 表示推迟；until Friday 指明新的时间点。"}
+  ],
+  "closing": "记住这条顺序：先 retrieve 信息，再 notify 相关人，接着 arrange 沟通，确认哪些环节 optional，最后决定是否 postpone。下次临时改期，可以按这个顺序写一封清楚的邮件。",
+  "creation_note": "本期由 AI 辅助整理；发布前请由运营者核查释义、例句和实际工作语境。"
+}

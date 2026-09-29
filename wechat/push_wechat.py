@@ -5,7 +5,7 @@
 - 默认只创建草稿（安全，可预览）
 - 加 --publish 参数才会真正群发推送给关注者（不可撤销，请谨慎）
 """
-import json, sys, os, ssl, time, urllib.request, urllib.parse, argparse
+import json, sys, os, ssl, time, urllib.request, urllib.parse, argparse, html
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 CONFIG = os.path.join(BASE, "config.json")
@@ -118,10 +118,45 @@ def upload_image(token, path, retries=3):
     raise last
 
 
-def build_html(words, date_cn, episode, online_url=None):
+def lesson_html(lesson):
+    """可选的情境讲解，草稿正文也完整呈现，不依赖外链。"""
+    if not lesson:
+        return "", "", ""
+    esc = html.escape
+    lead = (f'<section style="margin:0 0 22px;padding:20px 18px;background:#fff;border-radius:12px;line-height:1.8;">'
+            f'<p style="margin:0 0 8px;color:#667eea;font-size:13px;">今日情境</p>'
+            f'<h2 style="margin:0 0 10px;color:#2c3e50;font-size:20px;">{esc(lesson["title"])}</h2>'
+            f'<p style="margin:0;color:#4a5568;font-size:15px;">{esc(lesson["lead"])}</p></section>')
+    lines = "".join(
+        f'<p style="margin:0 0 12px;line-height:1.7;"><strong style="color:#2c3e50;">{esc(line["en"])}</strong>'
+        f'<br><span style="color:#718096;font-size:14px;">{esc(line["zh"])}</span></p>'
+        for line in lesson["dialogue"]
+    )
+    dialogue = (f'<section style="margin:0 0 22px;padding:20px 18px;background:#fff;border-radius:12px;">'
+                f'<h2 style="margin:0 0 16px;color:#2c3e50;font-size:19px;">工作场景对话</h2>{lines}</section>')
+    practice = "".join(
+        f'<p style="margin:0 0 12px;line-height:1.7;"><strong>{i}. {esc(item["question"])}</strong>'
+        f'<br><span style="color:#667eea;">答案：{esc(item["answer"])}</span>'
+        f'<br><span style="color:#718096;font-size:14px;">{esc(item["explanation"])}</span></p>'
+        for i, item in enumerate(lesson["practice"], 1)
+    )
+    end = (f'<section style="margin:0 0 22px;padding:20px 18px;background:#fff;border-radius:12px;">'
+           f'<h2 style="margin:0 0 14px;color:#2c3e50;font-size:19px;">用一分钟检验是否会用</h2>{practice}'
+           f'<p style="margin:16px 0 0;line-height:1.8;color:#4a5568;">{esc(lesson["closing"])}</p>'
+           f'<p style="margin:16px 0 0;color:#9aa0a6;font-size:12px;">{esc(lesson["creation_note"])}</p></section>')
+    return lead, dialogue, end
+
+
+def build_html(words, date_cn, episode, online_url=None, lesson=None):
     """生成公众号兼容正文：纯内联样式，无 JS、无外链 CSS"""
     cards = []
     for i, w in enumerate(words, 1):
+        notes = lesson.get("notes", {}).get(w["word"], {}) if lesson else {}
+        notes_html = "".join(
+            f'<p style="margin:10px 0 0;font-size:14px;color:#4a5568;line-height:1.7;">'
+            f'<strong>{label}</strong> {html.escape(notes[key])}</p>'
+            for key, label in (("usage", "怎么用："), ("pitfall", "易错点：")) if notes.get(key)
+        )
         tip_html = (
             f'<p style="margin:14px 0 0;padding:12px 14px;background:#fdf6ec;border-radius:8px;'
             f'font-size:14px;color:#a3661a;line-height:1.7;">💡 {w["tip"]}</p>'
@@ -139,6 +174,7 @@ def build_html(words, date_cn, episode, online_url=None):
     <p style="margin:0;font-size:13px;color:#9aa0a6;line-height:1.6;">{w['zh']}</p>
   </section>
   {tip_html}
+  {notes_html}
 </section>""")
 
     online_html = (
@@ -146,6 +182,7 @@ def build_html(words, date_cn, episode, online_url=None):
         f'color:#4a5568;line-height:1.8;text-align:center;">🔊 点击文末「阅读原文」可在线听单词发音</p>'
     ) if online_url else ""
 
+    lead_html, dialogue_html, end_html = lesson_html(lesson)
     return f"""
 <section style="padding:18px 16px;background:#f3f5f9;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;">
   <section style="text-align:center;padding:26px 16px;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);border-radius:14px;margin-bottom:22px;">
@@ -153,7 +190,10 @@ def build_html(words, date_cn, episode, online_url=None):
     <p style="margin:10px 0 0;font-size:14px;color:rgba(255,255,255,0.9);">{date_cn} · 第 {episode} 期</p>
     <p style="margin:12px 0 0;font-size:13px;color:rgba(255,255,255,0.75);">生活 & 职场高频实用词汇</p>
   </section>
+  {lead_html}
+  {dialogue_html}
   {''.join(cards)}
+  {end_html}
   {online_html}
   <p style="margin:26px 0 0;text-align:center;font-size:13px;color:#a0a0a0;line-height:1.8;">
     每天 5 个词，日拱一卒<br/>坚持积累，静待花开
@@ -164,6 +204,8 @@ def build_html(words, date_cn, episode, online_url=None):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--words", required=True, help="单词数据 JSON 文件路径")
+    ap.add_argument("--lesson", default=None, help="情境、用法和练习 JSON；不传则沿用旧版五词格式")
+    ap.add_argument("--update-media-id", default=None, help="更新已有草稿，避免重复建稿；不用于群发")
     ap.add_argument("--title", default=None)
     ap.add_argument("--digest", default="每天 5 个生活与职场高频实用词汇")
     ap.add_argument("--date", required=True, help="中文日期，如 2026年9月24日")
@@ -178,13 +220,28 @@ def main():
     cfg = load_cfg()
     with open(args.words, encoding="utf-8") as f:
         words = json.load(f)
+    lesson = None
+    if args.lesson:
+        with open(args.lesson, encoding="utf-8") as f:
+            lesson = json.load(f)
+    if args.update_media_id and args.publish:
+        ap.error("更新草稿时不能传 --publish")
 
     token = get_token(cfg["appid"], cfg["appsecret"])
     print("[1/3] access_token 获取成功")
 
-    content = build_html(words, args.date, args.episode, args.online_url)
-    title = args.title or f"每日 5 词 · 第 {args.episode} 期（{args.date}）"
+    content = build_html(words, args.date, args.episode, args.online_url, lesson)
+    title = args.title or (f'{lesson["title"]}｜第 {args.episode} 期' if lesson else f"每日 5 词 · 第 {args.episode} 期（{args.date}）")
     thumb = args.thumb or cfg.get("thumb_media_id")
+    if args.update_media_id and not args.thumb:
+        existing = http(f"{API}/draft/get?access_token={token}", {"media_id": args.update_media_id})
+        old_articles = existing.get("news_item") or existing.get("articles") or []
+        old_title = old_articles[0].get("title", "") if old_articles else ""
+        if f"第 {args.episode} 期" not in old_title and f"第{args.episode}期" not in old_title:
+            raise RuntimeError("目标草稿期数不匹配，停止更新")
+        thumb = old_articles[0].get("thumb_media_id") or thumb
+    if not thumb:
+        raise RuntimeError("缺少封面 thumb_media_id")
     if args.auto_cover:
         try:
             cover = os.path.join(BASE, f"cover-ep{args.episode}.png")
@@ -211,6 +268,19 @@ def main():
             "only_fans_can_comment": 0,
         }]
     }
+
+    if args.update_media_id:
+        r = http(f"{API}/draft/update?access_token={token}", {
+            "media_id": args.update_media_id,
+            "index": 0,
+            "articles": article["articles"][0],
+        })
+        if r.get("errcode") != 0:
+            print("更新草稿失败:", json.dumps(r, ensure_ascii=False))
+            sys.exit(1)
+        print(f"[2/3] 草稿更新成功 media_id={args.update_media_id}")
+        print("[3/3] 仅更新草稿，未群发。")
+        return
 
     r = http(f"{API}/draft/add?access_token={token}", article)
     if "media_id" not in r:
