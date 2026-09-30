@@ -1,0 +1,24 @@
+{
+  "title":"需求临时增加，怎样在不拖延上线的情况下做取舍？",
+  "lead":"客户在上线前一天提出两个新需求。团队必须先判断什么最重要，再利用现有资源压缩流程，同时尽量满足客户。五个词串起了一次真实的项目决策。",
+  "dialogue":[
+    {"en":"The client added two requests for tomorrow's launch.","zh":"客户为明天的上线新增了两个需求。"},
+    {"en":"Let's prioritize the payment fix and implement it first.","zh":"我们先确定支付修复的优先级，并先把它实施起来。"},
+    {"en":"Can we leverage the existing template to streamline the review?","zh":"我们能借助现有模板来简化审核吗？"},
+    {"en":"Yes, and we can accommodate the second request if testing stays on schedule.","zh":"可以；如果测试按计划进行，我们也能满足第二个需求。"}
+  ],
+  "notes":{
+    "implement":{"usage":"implement a plan/policy/process 表示把已经决定的方案落地；put forward 才是提出方案。","pitfall":"implement 后直接接计划或措施，不说 implement about the plan。"},
+    "prioritize":{"usage":"prioritize A over B 表示把 A 排在 B 前；也可说 prioritize tasks，根据重要性安排任务。","pitfall":"prioritize 不等于 complete；它只说明先后顺序，不代表任务已经完成。"},
+    "leverage":{"usage":"leverage existing data/tools/experience 表示善用已有资源，语气比 use 更强调资源带来的优势。","pitfall":"这里的 leverage 是动词，第三人称要写 leverages；不要把它误写成 leverege。"},
+    "streamline":{"usage":"streamline a process/workflow 表示删减不必要步骤，让流程更高效；不一定意味着减少人员。","pitfall":"streamline 不是“加快所有事情”，必须说明被简化的流程或环节。"},
+    "accommodate":{"usage":"accommodate a request/need 表示尽量满足请求或需求，也可表示容纳人数。","pitfall":"accommodate 的拼写是 a-c-c-o-m-m-o-d-a-t-e，两个 c、两个 m。"}
+  },
+  "practice":[
+    {"question":"“先处理支付漏洞，再做新功能”中的“优先处理”怎么说？","answer":"prioritize the payment bug over new features","explanation":"prioritize A over B 表示把 A 放在 B 前面。"},
+    {"question":"“借助现有模板简化审核”怎么表达？","answer":"leverage the existing template to streamline the review","explanation":"leverage 表示善用已有资源，streamline 表示让流程更高效。"},
+    {"question":"下列哪个词表示“实施已经决定的流程”：implement 还是 propose？","answer":"implement","explanation":"implement 是落地执行；propose 是提出、建议。"}
+  ],
+  "closing":"遇到临时需求，先 prioritize，再 implement 最关键的部分；随后 leverage 已有资源 streamline 流程，最后确认能否 accommodate 其他请求。这样的表达既说明取舍，也给客户留下可执行的预期。",
+  "creation_note":"本期由 AI 辅助整理；发布前请由运营者核查释义、例句和实际工作语境。"
+}
