@@ -1,71 +1,26 @@
 {
-  "title": "水槽漏水后，怎样说明问题和后续安排？",
-  "lead": "租客发现水槽下方滴水，联系物业。双方先控制水损，再确认漏点、评估橱柜情况，最后安排维修和留存记录。这是一段示例沟通，不是亲身经历。",
-  "dialogue": [
-    {
-      "en": "Tenant: Water is dripping under the kitchen sink. I've turned off the valve to contain the damage.",
-      "zh": "租客：厨房水槽下方在滴水。我已经关掉阀门，防止损失扩大。"
-    },
-    {
-      "en": "Manager: Thanks. Can you document the wet area with a few photos before the plumber arrives?",
-      "zh": "物业：谢谢。水管工到之前，你能拍几张照片记录潮湿区域吗？"
-    },
-    {
-      "en": "Tenant: Yes. Will the plumber be able to trace the leak today?",
-      "zh": "租客：可以。水管工今天能查到漏水源头吗？"
-    },
-    {
-      "en": "Manager: They'll inspect the connection and assess any damage to the cabinet.",
-      "zh": "物业：他们会检查连接处，并评估橱柜是否受损。"
-    },
-    {
-      "en": "Tenant: Once they find the cause, can they repair it today?",
-      "zh": "租客：找到原因后，今天能修好吗？"
-    },
-    {
-      "en": "Manager: If it's a loose connection, probably. If a part needs replacing, we'll let you know the next step.",
-      "zh": "物业：如果只是连接松了，很可能可以。如果需要更换部件，我们会告知下一步安排。"
-    }
+  "title":"买菜订单少了一件，如何清楚申请退款？",
+  "lead":"在线买菜订单送达后，顾客发现燕麦奶缺货，却仍在小票上看到收费。客服先核对订单和替代品记录，再处理退款。这是用于练习的虚构对话。",
+  "dialogue":[
+    {"en":"Customer: The oat milk is missing from my delivery, but the receipt shows a charge for it.","zh":"顾客：送来的订单里没有燕麦奶，但小票上有这件商品的费用。"},
+    {"en":"Agent: I'm sorry about that. Let me verify the order against the receipt. Did you receive a substitute?","zh":"客服：很抱歉。我来对照小票核实订单。您收到替代商品了吗？"},
+    {"en":"Customer: No. There was no substitute, and I'd prefer a refund to another delivery.","zh":"顾客：没有。我没收到替代品，而且比起再次配送，我更希望退款。"},
+    {"en":"Agent: I can see that the item was marked unavailable after checkout, but the charge wasn't removed.","zh":"客服：我看到结账后这件商品被标为无货，但费用没有被取消。"},
+    {"en":"Customer: Could you request a refund for that item and let me know when it's processed?","zh":"顾客：您能为这件商品申请退款，并在处理完成后告诉我吗？"},
+    {"en":"Agent: Yes. I'll submit the request now and send you an update when I have a result.","zh":"客服：可以。我现在提交申请，有结果后会告知您。"}
   ],
-  "notes": {
-    "trace": {
-      "usage": "trace the leak to a worn seal 中的 to 引出查到的源头；track the repair 则是跟进维修进度。",
-      "pitfall": "还未检查时说 try to trace the leak；不要把猜测说成已确认的原因。"
-    },
-    "contain": {
-      "usage": "contain the damage / contain the spread of water 指先控制范围，常用于事故的第一步。",
-      "pitfall": "contain 不等于 repair：关阀门能控制水损，但未必修复漏点。"
-    },
-    "assess": {
-      "usage": "assess the damage / assess whether repairs are needed 是检查后作判断；estimate the cost 专指估算费用。",
-      "pitfall": "说 assess the damage，不说 assess about the damage；后面直接接宾语。"
-    },
-    "repair": {
-      "usage": "repair a connection/appliance 是修好原物；replace a seal 是换上新密封圈。",
-      "pitfall": "原因未明时不要保证 can repair it today；可用 If it's a loose connection, probably 表达条件。"
-    },
-    "document": {
-      "usage": "document the damage with photos 说明记录什么、用什么方式；record 也可表示记录，但 document 更强调留下可供核对的资料。",
-      "pitfall": "作动词时说 document the damage，不说 document about the damage；发音重音在首音节。"
-    }
+  "notes":{
+    "receipt":{"usage":"check the receipt 是核对付款明细；check the order 是核对订购内容。两者对照才能发现少货仍收费。","pitfall":"receipt 的 p 不发音；不要误写成 recipe（食谱）。"},
+    "charge":{"usage":"a charge for an item 是某件商品对应的收费；pay for an item 强调付款动作。","pitfall":"这里说 a charge for the oat milk，不说 a charge of the oat milk。"},
+    "verify":{"usage":"verify the order against the receipt 表示拿小票作依据核实；confirm the delivery time 则是确认送达时间。","pitfall":"核实时不预设结论。先说 Let me verify，再解释核对结果。"},
+    "substitute":{"usage":"a substitute for the oat milk 是燕麦奶的替代品；replacement 更宽泛，也可能指补发同款商品。","pitfall":"作名词时说 a substitute for something，不说 a substitute of something。"},
+    "refund":{"usage":"request a refund for the missing item 是为少送的商品申请退款；return an item 是把已收到的商品退回。","pitfall":"提交申请不等于退款已到账。客服可说 I'll submit the request，待有结果再通知。"}
   },
-  "practice": [
-    {
-      "question": "维修人员尚未到场，你想说“我先关了阀门，防止损失扩大”。用 contain 写一句英文。",
-      "answer": "I turned off the valve to contain the damage.",
-      "explanation": "contain the damage 只说明控制范围，不暗示漏点已经修好。"
-    },
-    {
-      "question": "选词填空：The plumber will ___ the leak to its source and ___ any damage to the cabinet.（trace / assess）",
-      "answer": "trace; assess",
-      "explanation": "trace 查源头；assess 判断受损程度。"
-    },
-    {
-      "question": "水管工还没检查，哪句更审慎？A. They will repair it today. B. If it's a loose connection, they may be able to repair it today.",
-      "answer": "B",
-      "explanation": "B 保留诊断条件，没有把未知的维修结果说成承诺。"
-    }
+  "practice":[
+    {"question":"你收到订单，但某件商品没送到、却出现在小票上。用 receipt 和 charge 写一句英文说明问题。","answer":"The receipt shows a charge for an item I didn't receive.","explanation":"charge for 指某件商品的收费；didn't receive 明确说明少货。"},
+    {"question":"填空：Let me ___ the order against the receipt. Did you receive a ___ for the missing item?（verify / substitute）","answer":"verify; substitute","explanation":"verify 是对照核实；substitute 是替代商品。"},
+    {"question":"顾客不想补送，只想退回这件商品的费用。应说 request a refund，还是 return the item？","answer":"request a refund for the missing item","explanation":"商品根本没收到，不能说把它 return；应申请 refund。"}
   ],
-  "closing": "这段沟通按处理顺序展开：先 contain 损失并 document 现状，再 trace 原因、assess 影响，最后判断能否 repair。顺序说清楚，对方也更容易给出具体安排。",
-  "creation_note": "本期由 AI 辅助整理，示例情境为虚构；草稿待运营者人工审阅英语表达、维修情境与教学内容后再决定是否发布。"
+  "closing":"说明少货问题时，先指出 receipt 上仍有 charge；请客服 verify 订单，再说清是否收到 substitute，最后提出 refund 诉求。这样能把事实和希望的处理方式分开说清楚。",
+  "creation_note":"本期由 AI 辅助整理，示例对话为虚构；草稿待运营者人工审阅英语表达、购物流程与教学内容后再决定是否发布。"
 }

@@ -141,7 +141,7 @@ def lesson_html(lesson):
         for line in lesson["dialogue"]
     )
     dialogue = (f'<section style="margin:0 0 22px;padding:20px 18px;background:#fff;border-radius:12px;">'
-                f'<h2 style="margin:0 0 16px;color:#2c3e50;font-size:19px;">工作场景对话</h2>{lines}</section>')
+                f'<h2 style="margin:0 0 16px;color:#2c3e50;font-size:19px;">情境对话</h2>{lines}</section>')
     practice = "".join(
         f'<p style="margin:0 0 12px;line-height:1.7;"><strong>{i}. {esc(item["question"])}</strong>'
         f'<br><span style="color:#667eea;">答案：{esc(item["answer"])}</span>'

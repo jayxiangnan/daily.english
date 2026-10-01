@@ -1,42 +1,7 @@
 [
-  {
-    "word": "trace",
-    "phonetic": "/treɪs/",
-    "meaning": "v. 追查（来源、原因）",
-    "en": "The plumber traced the leak to a worn seal under the sink.",
-    "zh": "水管工查出漏水源于水槽下方一个磨损的密封圈。",
-    "tip": "trace a problem to its source 强调沿线索找到源头；track 更常用于持续追踪位置或进展。"
-  },
-  {
-    "word": "contain",
-    "phonetic": "/kənˈteɪn/",
-    "meaning": "v. 控制（问题），防止扩大",
-    "en": "We turned off the water to contain the damage.",
-    "zh": "我们关掉水源，以免损失扩大。",
-    "tip": "contain the damage 是控制损害范围；fix the leak 才是修好漏水原因。"
-  },
-  {
-    "word": "assess",
-    "phonetic": "/əˈses/",
-    "meaning": "v. 评估；判断（程度、风险）",
-    "en": "The plumber will assess whether the cabinet has water damage.",
-    "zh": "水管工会评估橱柜是否受了水损。",
-    "tip": "assess the damage 强调检查后判断程度；estimate the cost 是估算费用。"
-  },
-  {
-    "word": "repair",
-    "phonetic": "/rɪˈper/",
-    "meaning": "v. 修理；修复",
-    "en": "The plumber can repair the connection this afternoon.",
-    "zh": "水管工今天下午可以修好连接处。",
-    "tip": "repair 是修好原有部件；replace 是换掉部件。先确认故障点，再决定修还是换。"
-  },
-  {
-    "word": "document",
-    "phonetic": "/ˈdɑːkjument/",
-    "meaning": "v. 记录；留存证据",
-    "en": "Please document the damage with photos before the repair.",
-    "zh": "维修前请拍照记录受损情况。",
-    "tip": "这里 document 是动词，重音在首音节；a document 是名词“文件”。"
-  }
+  {"word":"receipt","phonetic":"/rɪˈsiːt/","meaning":"n. 收据；购物小票","en":"The receipt shows a charge for the missing oat milk.","zh":"小票显示，未送达的燕麦奶仍被计费。","tip":"receipt 是付款记录；recipe 是食谱。receipt 中的 p 不发音。"},
+  {"word":"charge","phonetic":"/tʃɑːrdʒ/","meaning":"n. 费用；收费款项","en":"There is a charge for an item I didn't receive.","zh":"有一件我没收到的商品却被收费了。","tip":"a charge for an item 指该商品对应的一笔费用；pay 是付款动作，意思不同。"},
+  {"word":"verify","phonetic":"/ˈverɪfaɪ/","meaning":"v. 核实；查证","en":"Could you verify the order against the receipt?","zh":"你能对照小票核实订单吗？","tip":"verify 强调用证据核对是否属实；confirm 更常指确认一个已知安排或结果。"},
+  {"word":"substitute","phonetic":"/ˈsʌbstɪtuːt/","meaning":"n. 替代品；替换商品","en":"The store didn't send a substitute for the oat milk.","zh":"商店没有送来燕麦奶的替代品。","tip":"a substitute for something 表示某物的替代品；这里的 for 不能换成 of。"},
+  {"word":"refund","phonetic":"/ˈriːfʌnd/","meaning":"n. 退款","en":"I requested a refund for the missing item.","zh":"我为未送达的商品申请了退款。","tip":"refund 是退回的钱；return 是退还商品。本期 refund 作名词，重音在首音节。"}
 ]
