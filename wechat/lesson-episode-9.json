@@ -1,0 +1,71 @@
+{
+  "title": "水槽漏水后，怎样说明问题和后续安排？",
+  "lead": "租客发现水槽下方滴水，联系物业。双方先控制水损，再确认漏点、评估橱柜情况，最后安排维修和留存记录。这是一段示例沟通，不是亲身经历。",
+  "dialogue": [
+    {
+      "en": "Tenant: Water is dripping under the kitchen sink. I've turned off the valve to contain the damage.",
+      "zh": "租客：厨房水槽下方在滴水。我已经关掉阀门，防止损失扩大。"
+    },
+    {
+      "en": "Manager: Thanks. Can you document the wet area with a few photos before the plumber arrives?",
+      "zh": "物业：谢谢。水管工到之前，你能拍几张照片记录潮湿区域吗？"
+    },
+    {
+      "en": "Tenant: Yes. Will the plumber be able to trace the leak today?",
+      "zh": "租客：可以。水管工今天能查到漏水源头吗？"
+    },
+    {
+      "en": "Manager: They'll inspect the connection and assess any damage to the cabinet.",
+      "zh": "物业：他们会检查连接处，并评估橱柜是否受损。"
+    },
+    {
+      "en": "Tenant: Once they find the cause, can they repair it today?",
+      "zh": "租客：找到原因后，今天能修好吗？"
+    },
+    {
+      "en": "Manager: If it's a loose connection, probably. If a part needs replacing, we'll let you know the next step.",
+      "zh": "物业：如果只是连接松了，很可能可以。如果需要更换部件，我们会告知下一步安排。"
+    }
+  ],
+  "notes": {
+    "trace": {
+      "usage": "trace the leak to a worn seal 中的 to 引出查到的源头；track the repair 则是跟进维修进度。",
+      "pitfall": "还未检查时说 try to trace the leak；不要把猜测说成已确认的原因。"
+    },
+    "contain": {
+      "usage": "contain the damage / contain the spread of water 指先控制范围，常用于事故的第一步。",
+      "pitfall": "contain 不等于 repair：关阀门能控制水损，但未必修复漏点。"
+    },
+    "assess": {
+      "usage": "assess the damage / assess whether repairs are needed 是检查后作判断；estimate the cost 专指估算费用。",
+      "pitfall": "说 assess the damage，不说 assess about the damage；后面直接接宾语。"
+    },
+    "repair": {
+      "usage": "repair a connection/appliance 是修好原物；replace a seal 是换上新密封圈。",
+      "pitfall": "原因未明时不要保证 can repair it today；可用 If it's a loose connection, probably 表达条件。"
+    },
+    "document": {
+      "usage": "document the damage with photos 说明记录什么、用什么方式；record 也可表示记录，但 document 更强调留下可供核对的资料。",
+      "pitfall": "作动词时说 document the damage，不说 document about the damage；发音重音在首音节。"
+    }
+  },
+  "practice": [
+    {
+      "question": "维修人员尚未到场，你想说“我先关了阀门，防止损失扩大”。用 contain 写一句英文。",
+      "answer": "I turned off the valve to contain the damage.",
+      "explanation": "contain the damage 只说明控制范围，不暗示漏点已经修好。"
+    },
+    {
+      "question": "选词填空：The plumber will ___ the leak to its source and ___ any damage to the cabinet.（trace / assess）",
+      "answer": "trace; assess",
+      "explanation": "trace 查源头；assess 判断受损程度。"
+    },
+    {
+      "question": "水管工还没检查，哪句更审慎？A. They will repair it today. B. If it's a loose connection, they may be able to repair it today.",
+      "answer": "B",
+      "explanation": "B 保留诊断条件，没有把未知的维修结果说成承诺。"
+    }
+  ],
+  "closing": "这段沟通按处理顺序展开：先 contain 损失并 document 现状，再 trace 原因、assess 影响，最后判断能否 repair。顺序说清楚，对方也更容易给出具体安排。",
+  "creation_note": "本期由 AI 辅助整理，示例情境为虚构；草稿待运营者人工审阅英语表达、维修情境与教学内容后再决定是否发布。"
+}

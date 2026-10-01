@@ -21,6 +21,7 @@
 
 | 期数 | 日期 | 单词 |
 |------|------|------|
+| [第 9 期：水槽漏水后的处理沟通](archive/2026-10-02.md) | 2026-10-02 | trace · contain · assess · repair · document |
 | [第 8 期：需求临时增加后的项目取舍](archive/2026-10-01.md) | 2026-10-01 | implement · prioritize · leverage · streamline · accommodate |
 | [第 7 期：临时改期的工作沟通](archive/2026-09-30.md) | 2026-09-30 | retrieve · notify · arrange · optional · postpone |
 | [第 6 期](archive/2026-09-29.md) | 2026-09-29 | compromise · elaborate · suspend · substantial · distinct |
