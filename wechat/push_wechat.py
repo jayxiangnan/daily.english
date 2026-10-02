@@ -163,6 +163,7 @@ def lesson_html(lesson):
 def build_html(words, date_cn, episode, online_url=None, lesson=None):
     """生成公众号兼容正文：纯内联样式，无 JS、无外链 CSS"""
     cards = []
+    notes_cards = []
     for i, w in enumerate(words, 1):
         notes = lesson.get("notes", {}).get(w["word"], {}) if lesson else {}
         notes_html = "".join(
@@ -174,6 +175,12 @@ def build_html(words, date_cn, episode, online_url=None, lesson=None):
             f'<p style="margin:14px 0 0;padding:12px 14px;background:#fdf6ec;border-radius:8px;'
             f'font-size:14px;color:#a3661a;line-height:1.7;">💡 {w["tip"]}</p>'
         ) if w.get("tip") else ""
+        if notes_html:
+            notes_cards.append(
+                f'<section style="margin:0 0 18px;padding-bottom:16px;border-bottom:1px solid #edf0f4;">'
+                f'<h3 style="margin:0;color:#2c3e50;font-size:17px;">{html.escape(w["word"])}</h3>'
+                f'{notes_html}</section>'
+            )
         cards.append(f"""
 <section style="margin:0 0 22px;padding:20px 18px;background:#ffffff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.06);">
   <section style="display:flex;align-items:center;margin-bottom:12px;">
@@ -187,7 +194,6 @@ def build_html(words, date_cn, episode, online_url=None, lesson=None):
     <p style="margin:0;font-size:13px;color:#9aa0a6;line-height:1.6;">{w['zh']}</p>
   </section>
   {tip_html}
-  {notes_html}
 </section>""")
 
     online_html = (
@@ -196,6 +202,11 @@ def build_html(words, date_cn, episode, online_url=None, lesson=None):
     ) if online_url else ""
 
     lead_html, dialogue_html, end_html = lesson_html(lesson)
+    notes_section = (
+        '<section style="margin:0 0 22px;padding:20px 18px;background:#fff;border-radius:12px;">'
+        '<h2 style="margin:0 0 16px;color:#2c3e50;font-size:19px;">用法辨析与易错点</h2>'
+        + ''.join(notes_cards) + '</section>'
+    ) if notes_cards else ""
     return f"""
 <section style="padding:18px 16px;background:#f3f5f9;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;">
   <section style="text-align:center;padding:26px 16px;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);border-radius:14px;margin-bottom:22px;">
@@ -203,9 +214,10 @@ def build_html(words, date_cn, episode, online_url=None, lesson=None):
     <p style="margin:10px 0 0;font-size:14px;color:rgba(255,255,255,0.9);">{date_cn} · 第 {episode} 期</p>
     <p style="margin:12px 0 0;font-size:13px;color:rgba(255,255,255,0.75);">生活 & 职场高频实用词汇</p>
   </section>
+  {''.join(cards)}
   {lead_html}
   {dialogue_html}
-  {''.join(cards)}
+  {notes_section}
   {end_html}
   {online_html}
   <p style="margin:26px 0 0;text-align:center;font-size:13px;color:#a0a0a0;line-height:1.8;">
