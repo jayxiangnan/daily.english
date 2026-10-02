@@ -256,7 +256,7 @@ def main():
     print("[1/3] access_token 获取成功")
 
     content = build_html(words, args.date, args.episode, args.online_url, lesson)
-    title = args.title or (f'{lesson["title"]}｜第 {args.episode} 期' if lesson else f"每日 5 词 · 第 {args.episode} 期（{args.date}）")
+    title = args.title or f"每日 5 词 · 第 {args.episode} 期（{args.date}）"
     thumb = args.thumb or cfg.get("thumb_media_id")
     if args.update_media_id and not args.thumb:
         existing = http(f"{API}/draft/get?access_token={token}", {"media_id": args.update_media_id})
