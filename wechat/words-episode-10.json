@@ -1,0 +1,37 @@
+[
+  {
+    "word": "attachment",
+    "phonetic": "/əˈtætʃmənt/",
+    "meaning": "n. 附件；随邮件发送的文件",
+    "en": "The attachment is last week's cost sheet.",
+    "zh": "附件是上周的成本表。"
+  },
+  {
+    "word": "outdated",
+    "phonetic": "/ˌaʊtˈdeɪtɪd/",
+    "meaning": "adj. 过时的；不是最新版本的",
+    "en": "The shipping estimate in this sheet is outdated.",
+    "zh": "这张表里的运费估算已经不是最新的。"
+  },
+  {
+    "word": "access",
+    "phonetic": "/ˈækses/",
+    "meaning": "n. 访问权限；使用权",
+    "en": "I don't have access to the latest sheet.",
+    "zh": "我没有查看最新表格的权限。"
+  },
+  {
+    "word": "revise",
+    "phonetic": "/rɪˈvaɪz/",
+    "meaning": "v. 修改；修订（内容）",
+    "en": "I'll revise the budget note using the latest total.",
+    "zh": "我会按最新总额修改预算说明。"
+  },
+  {
+    "word": "resend",
+    "phonetic": "/ˌriːˈsend/",
+    "meaning": "v. 重新发送",
+    "en": "Please resend the note with the correct attachment.",
+    "zh": "请把说明连同正确的附件重新发送。"
+  }
+]
