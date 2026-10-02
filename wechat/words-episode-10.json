@@ -4,34 +4,39 @@
     "phonetic": "/əˈtætʃmənt/",
     "meaning": "n. 附件；随邮件发送的文件",
     "en": "The attachment is last week's cost sheet.",
-    "zh": "附件是上周的成本表。"
+    "zh": "附件是上周的成本表。",
+    "tip": "看到邮件里的回形针图标，联想 attachment：随邮件附上的文件。"
   },
   {
     "word": "outdated",
     "phonetic": "/ˌaʊtˈdeɪtɪd/",
     "meaning": "adj. 过时的；不是最新版本的",
     "en": "The shipping estimate in this sheet is outdated.",
-    "zh": "这张表里的运费估算已经不是最新的。"
+    "zh": "这张表里的运费估算已经不是最新的。",
+    "tip": "把 out of date 连起来记成 outdated：日期和版本都已经“过时”。"
   },
   {
     "word": "access",
     "phonetic": "/ˈækses/",
     "meaning": "n. 访问权限；使用权",
     "en": "I don't have access to the latest sheet.",
-    "zh": "我没有查看最新表格的权限。"
+    "zh": "我没有查看最新表格的权限。",
+    "tip": "把 access 想成进入文件的“通行证”；有链接不等于有通行证。"
   },
   {
     "word": "revise",
     "phonetic": "/rɪˈvaɪz/",
     "meaning": "v. 修改；修订（内容）",
     "en": "I'll revise the budget note using the latest total.",
-    "zh": "我会按最新总额修改预算说明。"
+    "zh": "我会按最新总额修改预算说明。",
+    "tip": "把 revise 和 revision（修订版）一起记：先修改，才有新版本。"
   },
   {
     "word": "resend",
     "phonetic": "/ˌriːˈsend/",
     "meaning": "v. 重新发送",
     "en": "Please resend the note with the correct attachment.",
-    "zh": "请把说明连同正确的附件重新发送。"
+    "zh": "请把说明连同正确的附件重新发送。",
+    "tip": "re- 表示“再一次”；重新发送前，先检查这次附的是否是正确版本。"
   }
 ]
