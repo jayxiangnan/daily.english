@@ -148,10 +148,15 @@ def lesson_html(lesson):
         f'<br><span style="color:#718096;font-size:14px;">{esc(item["explanation"])}</span></p>'
         for i, item in enumerate(lesson["practice"], 1)
     )
+    creation_note = lesson.get("creation_note", "")
+    creation_note_html = (
+        f'<p style="margin:16px 0 0;color:#9aa0a6;font-size:12px;">{esc(creation_note)}</p>'
+        if creation_note else ""
+    )
     end = (f'<section style="margin:0 0 22px;padding:20px 18px;background:#fff;border-radius:12px;">'
            f'<h2 style="margin:0 0 14px;color:#2c3e50;font-size:19px;">用一分钟检验是否会用</h2>{practice}'
            f'<p style="margin:16px 0 0;line-height:1.8;color:#4a5568;">{esc(lesson["closing"])}</p>'
-           f'<p style="margin:16px 0 0;color:#9aa0a6;font-size:12px;">{esc(lesson["creation_note"])}</p></section>')
+           f'{creation_note_html}</section>')
     return lead, dialogue, end
 
 
