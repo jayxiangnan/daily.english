@@ -1,0 +1,26 @@
+{
+  "title": "会议室撞期：换地点，不改时间",
+  "lead": "一个八人会议的会议室被重复预约。行政同事先核对撞期时段，再排除容量不足的小会议室，找到可用的培训室并完成预订。以下是用于练习的虚构工作对话。",
+  "dialogue": [
+    {"en": "Anna: Our meeting is at ten, but the room bookings overlap for the first half hour.", "zh": "安娜：我们的会十点开始，但会议室预约在前半小时撞期了。"},
+    {"en": "Ben: The small room is free, but its capacity is only four. We have eight people.", "zh": "本：小会议室空着，但只能容纳四人。我们有八个人。"},
+    {"en": "Anna: Is the training room available at ten? It seats ten.", "zh": "安娜：培训室十点有空吗？那里能坐十人。"},
+    {"en": "Ben: Yes, it's available until noon. I'll reserve it now.", "zh": "本：有空，到中午都能用。我现在就预订。"},
+    {"en": "Anna: Great. Let's relocate the meeting to the training room and keep the ten o'clock start.", "zh": "安娜：太好了。我们把会议移到培训室，仍然十点开始。"},
+    {"en": "Ben: The reservation is confirmed. I'll send everyone the new room number.", "zh": "本：预订已确认。我会把新的房间号发给大家。"}
+  ],
+  "notes": {
+    "overlap": {"usage": "overlap 描述两个时段有共同部分；clash 更强调因此产生冲突。两项预约可以 overlap，而撞期是它在这里造成的后果。", "pitfall": "说 The bookings overlap 或 overlap with another booking；不要说 overlap to another booking。"},
+    "capacity": {"usage": "capacity 指房间最多能容纳多少人；attendance 指实际出席人数。容量四人、出席八人，房间就不合适。", "pitfall": "表达上限可说 a capacity of four 或 a room that seats four；不要把 capacity of four 误当成已确认有四人出席。"},
+    "available": {"usage": "available 指在指定时段可供使用；empty 或 vacant 只说明眼下没人。眼下空着的房间，十点仍可能已被预订。", "pitfall": "问具体时间用 available at ten，问一段时长可说 available until noon；不要只说 available 而省略关键时段。"},
+    "reserve": {"usage": "reserve 和 book 都可表示预订会议室；reserve 强调为你保留指定资源。确认 available 后还须完成 reserve，才算锁定房间。", "pitfall": "说 reserve the room for the meeting 或 reserve it from ten to eleven；不要说 reserve the room to the meeting。"},
+    "relocate": {"usage": "relocate the meeting 是改地点；reschedule the meeting 是改时间。此处十点不变，只需换房间。", "pitfall": "relocate 后直接接对象：relocate the meeting to the training room；不要说 relocate the meeting at the training room。"}
+  },
+  "practice": [
+    {"question": "两项预约只有十点至十点半重叠。用 overlap 写一句话。", "answer": "The two bookings overlap from ten to ten thirty.", "explanation": "from ... to ... 明确重叠的是哪一段，而非整场会议。"},
+    {"question": "小会议室能坐四人，实际有八人。用 capacity 和 available 解释为什么还要找别的房间。", "answer": "The small room is available, but its capacity is only four, and eight people are coming.", "explanation": "有空与够大是两个独立条件，不能只查空档。"},
+    {"question": "培训室十点有空，会议时间不变。用 reserve 和 relocate 写下一步。", "answer": "I'll reserve the training room and relocate the meeting there without changing the time.", "explanation": "先预订可用场地，再告知会议改地点；relocate 不表示改时间。"}
+  ],
+  "closing": "处理撞期时，先查 overlap 的具体时段，再比较 capacity 与实际人数；确认房间 available 后 reserve，最后用 relocate 明确只换地点。",
+  "creation_note": "本文由 AI 辅助整理，情境为教学示例；待运营者人工审阅英语表达与实际适用性后再决定是否发布。"
+}

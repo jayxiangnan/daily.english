@@ -1,0 +1,42 @@
+[
+  {
+    "word": "overlap",
+    "phonetic": "/ˌoʊvərˈlæp/",
+    "meaning": "v. （时间）重叠；部分同时发生",
+    "en": "The two room bookings overlap from ten to ten thirty.",
+    "zh": "两项会议室预约在十点到十点半之间重叠。",
+    "tip": "想象两段日程在日历上盖住了同一段时间：over + lap。"
+  },
+  {
+    "word": "capacity",
+    "phonetic": "/kəˈpæsəti/",
+    "meaning": "n. 容量；可容纳人数",
+    "en": "This room has a capacity of four, but eight people are coming.",
+    "zh": "这间会议室只能容纳四人，但会有八人参加。",
+    "tip": "看会议室时，把 capacity 当作上限，再与实际人数比较。"
+  },
+  {
+    "word": "available",
+    "phonetic": "/əˈveɪləbəl/",
+    "meaning": "adj. 可用的；有空的",
+    "en": "Is the training room available at ten?",
+    "zh": "培训室十点有空吗？",
+    "tip": "房间 available，是那个时间段可以使用；人 available，是那时有空。"
+  },
+  {
+    "word": "reserve",
+    "phonetic": "/rɪˈzɜːrv/",
+    "meaning": "v. 预订；为特定时间保留",
+    "en": "I'll reserve the training room for the meeting.",
+    "zh": "我会为这场会议预订培训室。",
+    "tip": "找到空房间只是第一步；reserve 后，它才为这场会议保留。"
+  },
+  {
+    "word": "relocate",
+    "phonetic": "/ˌriːloʊˈkeɪt/",
+    "meaning": "v. 将（活动等）迁到别处；搬迁",
+    "en": "We can relocate the meeting without changing its time.",
+    "zh": "我们可以更换会议地点，而不改变开会时间。",
+    "tip": "re- 加 locate（确定位置）：位置重新定，时间未必改变。"
+  }
+]
