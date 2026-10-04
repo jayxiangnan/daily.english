@@ -21,6 +21,7 @@
 
 | 期数 | 日期 | 单词 |
 |------|------|------|
+| [第 12 期：公交绕行后的换乘选择](archive/2026-10-05.md) | 2026-10-05 | commute · detour · route · transfer · fare |
 | [第 11 期：会议室撞期后换地点](archive/2026-10-04.md) | 2026-10-04 | overlap · capacity · available · reserve · relocate |
 | [第 10 期：评审前的文件版本与权限](archive/2026-10-03.md) | 2026-10-03 | attachment · outdated · access · revise · resend |
 | [第 9 期：买菜订单少货与退款](archive/2026-10-02.md) | 2026-10-02 | receipt · charge · verify · substitute · refund |

@@ -1,0 +1,71 @@
+{
+  "title": "公交临时绕行：上班路上怎样改走地铁",
+  "lead": "以下是虚构的早高峰对话。公交因桥梁封闭临时绕行；两名同事核对新路线、换乘位置和额外车费，再决定怎么按时到办公室。票价信息只属于这个练习情境。",
+  "dialogue": [
+    {
+      "en": "Mina: My usual commute is by bus, but the bridge is closed this morning.",
+      "zh": "米娜：我平时坐公交通勤，但今天早上那座桥封闭了。"
+    },
+    {
+      "en": "Leo: The transit app says the bus is taking a detour. What route will it use?",
+      "zh": "利奥：交通应用说公交要绕行。它会走哪条路线？"
+    },
+    {
+      "en": "Mina: It will go through East Street and arrive about twenty minutes later than usual.",
+      "zh": "米娜：它会经过东街，预计比平时晚到约二十分钟。"
+    },
+    {
+      "en": "Leo: The bus still stops at Central Station. Could you transfer to the subway there before the detour?",
+      "zh": "利奥：公交仍停靠中央站。你能在那里换乘地铁，避开后面的绕行路段吗？"
+    },
+    {
+      "en": "Mina: Yes. The app shows a separate subway fare, but that route should get me to the office before nine.",
+      "zh": "米娜：能。应用显示地铁票要另付，但走这条路线应该能让我九点前到办公室。"
+    },
+    {
+      "en": "Leo: Then transfer at Central. Let me know if your arrival estimate changes.",
+      "zh": "利奥：那就在中央站换乘。如果预计到达时间有变化，告诉我。"
+    }
+  ],
+  "notes": {
+    "commute": {
+      "usage": "commute 通常指规律性的上班或上学往返；trip 泛指一次出行。本例的 usual commute 是米娜平时的上班路程。",
+      "pitfall": "说 my commute is by bus 或 I commute by bus；不要用 commute 泛指一次偶发的旅行。"
+    },
+    "detour": {
+      "usage": "detour 是为避开封路等障碍而绕行；shortcut 是为了缩短路程而走的近路。这里绕行反而增加了时间。",
+      "pitfall": "说 take a detour around the closed bridge；around 表示绕开障碍，不要说 take a detour to the bridge 来表达同一个意思。"
+    },
+    "route": {
+      "usage": "route 指从起点到终点所走的路径；direction 更常指方向或导航指示。问公交具体经过哪里，用 What route will it use?",
+      "pitfall": "美式英语 route 可读 /ruːt/ 或 /raʊt/；本文音标采用 /ruːt/，两种读法都常见。"
+    },
+    "transfer": {
+      "usage": "transfer 是途中从一班车或一种交通工具换到另一班；switch 也可说换方式，但 transfer 更明确指换乘。",
+      "pitfall": "说 transfer from the bus to the subway at Central Station；from 和 to 分别标明原交通工具与目标交通工具。"
+    },
+    "fare": {
+      "usage": "fare 是公交、地铁、出租车等交通票价；fee 常指服务或手续费用。本例说的是单独支付的地铁票价。",
+      "pitfall": "fare 是可数名词：a subway fare / the fare。票价优惠规则因城市而异，不能由 transfer 一词推断免费换乘。"
+    }
+  },
+  "practice": [
+    {
+      "question": "公交绕开封闭的桥，预计晚到。用 detour 写一句英文说明原因。",
+      "answer": "The bus is taking a detour around the closed bridge, so it will arrive later than usual.",
+      "explanation": "around 交代绕开的障碍；so 连接绕行与晚到。"
+    },
+    {
+      "question": "你打算在中央站从公交换乘地铁。用 transfer 写一句完整的话。",
+      "answer": "I will transfer from the bus to the subway at Central Station.",
+      "explanation": "from ... to ... 标出换乘的两端，at 标出站点。"
+    },
+    {
+      "question": "交通应用显示这趟地铁要另付车费，但路线能让你九点前到。用 fare 和 route 表达取舍。",
+      "answer": "The app shows a separate subway fare, but this route should get me to the office before nine.",
+      "explanation": "fare 是票价，route 是整条到办公室的行驶路径；should 表示基于路线信息的预计。"
+    }
+  ],
+  "closing": "遇到临时绕行，先看 detour 影响哪一段 route，再判断能否 transfer；是否另付 fare 以当地票务信息为准。",
+  "creation_note": "本文由 AI 辅助整理，情境为虚构教学示例；草稿待运营者人工审阅英语表达、交通情境和票价描述后再决定是否发布。"
+}

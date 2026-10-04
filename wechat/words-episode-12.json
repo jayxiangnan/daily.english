@@ -1,0 +1,42 @@
+[
+  {
+    "word": "commute",
+    "phonetic": "/kəˈmjuːt/",
+    "meaning": "n. 通勤；上下班的日常路程",
+    "en": "My usual commute takes about thirty minutes by bus.",
+    "zh": "我平时坐公交上班大约需要三十分钟。",
+    "tip": "把 commute 记成每天重复的上班路程；偶尔去机场的一趟不叫日常 commute。"
+  },
+  {
+    "word": "detour",
+    "phonetic": "/ˈdiːtʊr/",
+    "meaning": "n. 绕行路线；绕路",
+    "en": "The bus is taking a detour around the closed bridge.",
+    "zh": "公交车正绕开封闭的桥行驶。",
+    "tip": "路被挡住后“绕一圈”才到目的地，就是 detour。"
+  },
+  {
+    "word": "route",
+    "phonetic": "/ruːt/",
+    "meaning": "n. 路线；行驶路径",
+    "en": "The new bus route goes through East Street.",
+    "zh": "新的公交路线经过东街。",
+    "tip": "route 是整条行驶路线；detour 是为避开障碍而临时绕走的一段。"
+  },
+  {
+    "word": "transfer",
+    "phonetic": "/trænsˈfɜːr/",
+    "meaning": "v. 换乘；转乘",
+    "en": "I can transfer from the bus to the subway at Central Station.",
+    "zh": "我可以在中央站从公交换乘地铁。",
+    "tip": "从一种交通工具转到另一种：transfer from A to B。"
+  },
+  {
+    "word": "fare",
+    "phonetic": "/fer/",
+    "meaning": "n. 车费；票价",
+    "en": "The app shows a separate subway fare for this trip.",
+    "zh": "应用显示这趟行程的地铁票价需要另付。",
+    "tip": "fare 是乘车要付的钱；fee 常指服务、手续或入场费用。"
+  }
+]
