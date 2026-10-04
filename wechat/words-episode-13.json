@@ -1,0 +1,42 @@
+[
+  {
+    "word": "outage",
+    "phonetic": "/ˈaʊtɪdʒ/",
+    "meaning": "n. （电力、网络等的）中断；停供",
+    "en": "A power outage cut off the office Wi-Fi during our call.",
+    "zh": "视频通话期间停电，办公室的 Wi-Fi 断了。",
+    "tip": "把 outage 与服务突然中断联系起来：power outage 是停电，internet outage 是网络中断。"
+  },
+  {
+    "word": "battery",
+    "phonetic": "/ˈbætəri/",
+    "meaning": "n. 电池；电量",
+    "en": "My laptop battery is at forty percent.",
+    "zh": "我的笔记本电脑还有百分之四十的电量。",
+    "tip": "谈剩余电量可说 the battery is at 40%，不必说“剩下四十块电池”。"
+  },
+  {
+    "word": "hotspot",
+    "phonetic": "/ˈhɑːtspɑːt/",
+    "meaning": "n. （手机等提供的）无线热点",
+    "en": "I can use my phone as a hotspot for the laptop.",
+    "zh": "我可以用手机给笔记本电脑开热点。",
+    "tip": "手机把移动数据分享给电脑时，手机就是 hotspot。"
+  },
+  {
+    "word": "reconnect",
+    "phonetic": "/ˌriːkəˈnekt/",
+    "meaning": "v. 重新连接；重新接入",
+    "en": "I will reconnect to the meeting through my phone hotspot.",
+    "zh": "我会通过手机热点重新接入会议。",
+    "tip": "re- 表示“再次”；先断开，才需要 reconnect。"
+  },
+  {
+    "word": "backup",
+    "phonetic": "/ˈbækʌp/",
+    "meaning": "n. 备用方案；后备事物",
+    "en": "Our backup is to dial in by phone if the video drops again.",
+    "zh": "如果视频再次中断，我们的备用方案是打电话接入。",
+    "tip": "backup 可指应急的第二种办法；back up 作动词短语时常表示备份数据。"
+  }
+]

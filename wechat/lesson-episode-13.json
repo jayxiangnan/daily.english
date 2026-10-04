@@ -1,0 +1,71 @@
+{
+  "title": "视频会议中途断网：先恢复连接，再备好电话接入",
+  "lead": "以下是虚构的工作对话。办公室短暂停电使 Wi-Fi 中断；参加者先确认电脑仍有电，再借手机热点重新入会，同时约定视频再次中断时的电话接入办法。",
+  "dialogue": [
+    {
+      "en": "Nora: Can you hear me? There was a power outage in the office, and the Wi-Fi stopped working.",
+      "zh": "诺拉：你能听见我吗？办公室停电了，Wi-Fi 也断了。"
+    },
+    {
+      "en": "Sam: Yes, I can hear you on the phone. How much battery does your laptop have left?",
+      "zh": "山姆：能，我现在通过电话听得到。你的笔记本电脑还有多少电？"
+    },
+    {
+      "en": "Nora: It is at forty percent. I can turn on my phone hotspot and reconnect to the meeting.",
+      "zh": "诺拉：还有百分之四十。我可以打开手机热点，重新接入会议。"
+    },
+    {
+      "en": "Sam: Good. I will pause the screen share until you are back.",
+      "zh": "山姆：好。等你回来，我再继续共享屏幕。"
+    },
+    {
+      "en": "Nora: I am back on video. If the connection drops again, our backup is to dial in by phone.",
+      "zh": "诺拉：我已重新接入视频。如果又断线，备用方案是打电话接入。"
+    },
+    {
+      "en": "Sam: Agreed. I will send the dial-in number in the chat now.",
+      "zh": "山姆：好。我现在把电话接入号码发到聊天里。"
+    }
+  ],
+  "notes": {
+    "outage": {
+      "usage": "outage 指电力、网络等服务中断；a weak signal 是信号弱，不等于服务完全中断。这里先发生停电，办公室 Wi-Fi 随之停止工作。",
+      "pitfall": "说 a power outage 或 an internet outage；不要把 outage 直接当动词说 The power outaged。"
+    },
+    "battery": {
+      "usage": "battery 可指实体电池，也可在口语中指设备剩余电量；charge 在这里也可指电量。问 How much battery does it have left? 是了解剩余电量。",
+      "pitfall": "说 My laptop battery is at forty percent 或 I have forty percent battery left；不要说 the battery has forty percents。"
+    },
+    "hotspot": {
+      "usage": "hotspot 是设备分享的联网入口；Wi-Fi 泛指无线连接方式。打开手机热点后，笔记本可借手机的移动数据上网。",
+      "pitfall": "说 turn on my phone hotspot 或 use my phone as a hotspot；手机热点通常消耗移动数据，不能假定无需网络或费用。"
+    },
+    "reconnect": {
+      "usage": "reconnect 强调断线后重新建立连接；join 可用于第一次加入会议，也可泛指加入。这里原本已在会上，所以 reconnect 更精确。",
+      "pitfall": "说 reconnect to the meeting / reconnect to Wi-Fi；不要说 reconnect the meeting 表示自己重新入会。"
+    },
+    "backup": {
+      "usage": "a backup 是备用的人、物或方案；a backup plan 明确指替代安排。这里主方案是热点视频，备用方案是电话接入。",
+      "pitfall": "作名词写 backup；表示“备份文件”这个动作通常写 back up，如 back up the files。"
+    }
+  },
+  "practice": [
+    {
+      "question": "停电使办公室 Wi-Fi 中断。用 outage 写一句话说明。",
+      "answer": "A power outage cut off the office Wi-Fi.",
+      "explanation": "power outage 交代停电，cut off 说明对 Wi-Fi 的影响。"
+    },
+    {
+      "question": "电脑还有 40% 电量，你打算用手机热点重新入会。用 battery、hotspot 和 reconnect 写一句话。",
+      "answer": "My laptop battery is at forty percent, so I will use my phone hotspot to reconnect to the meeting.",
+      "explanation": "先说设备还有电，再说明联网方式和重新接入的动作。"
+    },
+    {
+      "question": "如果视频再次中断，电话接入是备用方案。用 backup 写一句话。",
+      "answer": "Our backup is to dial in by phone if the video drops again.",
+      "explanation": "backup 指预先准备的替代办法；条件从句说明何时启用。"
+    }
+  ],
+  "closing": "中断时先确认 outage 的范围与设备 battery，再用 hotspot 尝试 reconnect；提前共享电话接入号码，backup 才能真正执行。",
+  "creation_note": "本文由 AI 辅助整理，情境为虚构教学示例；草稿待运营者人工审阅英语表达与技术细节后再决定是否发布。"
+}
