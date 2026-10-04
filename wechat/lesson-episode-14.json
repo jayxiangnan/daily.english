@@ -1,0 +1,71 @@
+{
+  "title": "图书续借失败：到期前把书还清楚",
+  "lead": "以下是虚构的图书馆情境。一本旅行指南明天到期；读者原想续借，但应用显示已有他人预约，因而决定今天归还，并在应用里确认借阅记录已结束。续借和归还规则应以当地馆方信息为准。",
+  "dialogue": [
+    {
+      "en": "Maya: I borrowed this travel guide last week, and it is due tomorrow.",
+      "zh": "玛雅：我上周借了这本旅行指南，明天就到期了。"
+    },
+    {
+      "en": "Jin: Can you renew it online? You said you needed another week.",
+      "zh": "金：你能在线续借吗？你说还需要用一周。"
+    },
+    {
+      "en": "Maya: I tried, but the library app will not let me renew it because someone else has placed a hold on it.",
+      "zh": "玛雅：我试过了，但有人预约了这本书，图书馆应用不允许我续借。"
+    },
+    {
+      "en": "Jin: Then return it today. There is no need to wait until the due date.",
+      "zh": "金：那就今天还吧，不必等到到期日。"
+    },
+    {
+      "en": "Maya: I will take it to the library this evening. If I keep it past tomorrow, it will be overdue.",
+      "zh": "玛雅：我今晚把书带去图书馆。如果过了明天还不归还，它就逾期了。"
+    },
+    {
+      "en": "Jin: Check the app after you return it, so you know the loan has been closed.",
+      "zh": "金：还书后查一下应用，确认这笔借阅记录已结束。"
+    }
+  ],
+  "notes": {
+    "borrow": {
+      "usage": "borrow 表示从别人那里借入，lend 表示把自己的东西借给别人。I borrowed a book from the library 的主语是借书的人。",
+      "pitfall": "说 borrow a book from the library；不要说 borrow a book to the library 来表达“从图书馆借书”。"
+    },
+    "due": {
+      "usage": "due 指应履行或归还的时间点；deadline 更常指完成任务的最后期限。图书场景中 The book is due tomorrow 很自然。",
+      "pitfall": "说 The book is due tomorrow 或 due on Tuesday；不要说 due in Tuesday。"
+    },
+    "renew": {
+      "usage": "renew 是按规则续借或续期；extend 只是一般地延长。馆方批准后才能说 I renewed the book；点击申请不代表成功。",
+      "pitfall": "说 renew the book 或 renew the loan；不要说 renew the book back。"
+    },
+    "overdue": {
+      "usage": "overdue 表示已超过应归还日期；due tomorrow 表示尚未到期。两词不能仅因“快到期”就互换。",
+      "pitfall": "说 The book is overdue 或 an overdue book；不要在到期日之前就断言它 is overdue。"
+    },
+    "return": {
+      "usage": "return 是归还给原处；give back 更口语化。图书馆归还场景里 return the book to the library 清楚明确。",
+      "pitfall": "return 已含“回去”的意思，说 return the book 即可；不要说 return back the book。"
+    }
+  },
+  "practice": [
+    {
+      "question": "你上周从图书馆借了一本书，明天到期。用 borrow 和 due 写一句话。",
+      "answer": "I borrowed a book from the library last week, and it is due tomorrow.",
+      "explanation": "borrow ... from 标明借入来源；be due 表示应归还的日期。"
+    },
+    {
+      "question": "应用拒绝续借，因为别人预约了这本书。用 renew 写出原因。",
+      "answer": "I cannot renew the book because someone else has placed a hold on it.",
+      "explanation": "renew 表示续借；placed a hold on it 说明该书已有预约。"
+    },
+    {
+      "question": "书明天到期，你今晚打算归还，避免逾期。用 return 和 overdue 写一句话。",
+      "answer": "I will return the book this evening so it does not become overdue.",
+      "explanation": "今天归还早于明天的到期时间；become overdue 表示之后可能进入逾期状态。"
+    }
+  ],
+  "closing": "读到 due date，先查能否 renew；若续借未获准，就按馆方规则及时 return。只有超过到期时间仍未归还，才称 overdue。",
+  "creation_note": "本文由 AI 辅助整理，情境为虚构教学示例；草稿待运营者人工审阅英语表达和图书馆规则描述后再决定是否发布。"
+}

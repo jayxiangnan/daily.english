@@ -1,0 +1,42 @@
+[
+  {
+    "word": "borrow",
+    "phonetic": "/ˈbɑːroʊ/",
+    "meaning": "v. 借入；借用",
+    "en": "I borrowed this travel guide from the library last week.",
+    "zh": "我上周从图书馆借了这本旅行指南。",
+    "tip": "borrow 是“向别人借来”；把书借给别人是 lend。"
+  },
+  {
+    "word": "due",
+    "phonetic": "/duː/",
+    "meaning": "adj. 到期的；应归还的",
+    "en": "The book is due tomorrow.",
+    "zh": "这本书明天到期，应在那时归还。",
+    "tip": "把 due 看作“约定的到期点”：书 due tomorrow，账单也可 be due on Friday。"
+  },
+  {
+    "word": "renew",
+    "phonetic": "/rɪˈnuː/",
+    "meaning": "v. 续借；续期",
+    "en": "I tried to renew the book online, but the app would not let me.",
+    "zh": "我试着在线续借这本书，但应用不允许。",
+    "tip": "re- 加 new：让借阅期限“重新延长”；续借能否成功仍要看规则。"
+  },
+  {
+    "word": "overdue",
+    "phonetic": "/ˌoʊvərˈduː/",
+    "meaning": "adj. 逾期的；过期未还的",
+    "en": "The book will be overdue if I keep it past its due date.",
+    "zh": "如果过了归还日期还留着这本书，它就会逾期。",
+    "tip": "over + due：超过到期点。明天才到期的书，今天还不是 overdue。"
+  },
+  {
+    "word": "return",
+    "phonetic": "/rɪˈtɜːrn/",
+    "meaning": "v. 归还；退还",
+    "en": "I will return the guide to the library this evening.",
+    "zh": "我今晚会把这本指南还给图书馆。",
+    "tip": "borrow 让物品暂时到手里；return 让它回到原处。"
+  }
+]
