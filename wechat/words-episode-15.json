@@ -1,0 +1,42 @@
+[
+  {
+    "word": "stain",
+    "phonetic": "/steɪn/",
+    "meaning": "n. 污渍；v. 弄脏",
+    "en": "The coffee left a stain on the sleeve of my cotton shirt.",
+    "zh": "咖啡在我棉衬衫的袖子上留下了污渍。",
+    "tip": "a stain 是留下的痕迹；stain the shirt 是把衬衫弄脏。"
+  },
+  {
+    "word": "blot",
+    "phonetic": "/blɑːt/",
+    "meaning": "v. 轻按吸去液体",
+    "en": "Blot the fresh spill gently with a clean paper towel.",
+    "zh": "用干净的纸巾轻轻按压，吸去刚洒上的液体。",
+    "tip": "想象纸巾一按一抬：blot 是吸走液体，不是来回擦。"
+  },
+  {
+    "word": "rinse",
+    "phonetic": "/rɪns/",
+    "meaning": "v. 用水冲洗",
+    "en": "Rinse the stained area from the back with cool water.",
+    "zh": "从污渍背面用凉水冲洗沾污的部位。",
+    "tip": "rinse 强调用水冲掉残留；wash 通常指更完整的清洗。"
+  },
+  {
+    "word": "soak",
+    "phonetic": "/soʊk/",
+    "meaning": "v. 浸泡",
+    "en": "If the care label allows it, soak the sleeve in cool water for ten minutes.",
+    "zh": "如果洗护标签允许，就把袖子放在凉水中浸泡十分钟。",
+    "tip": "soak 要让物品在液体里待一段时间；短暂冲水是 rinse。"
+  },
+  {
+    "word": "air-dry",
+    "phonetic": "/ˈer draɪ/",
+    "meaning": "v. 晾干；自然风干",
+    "en": "After washing the shirt, let it air-dry before checking the stain again.",
+    "zh": "洗完衬衫后先让它自然晾干，再检查污渍。",
+    "tip": "air-dry 靠空气晾干；衣物 care label 若写 tumble dry，指滚筒烘干。"
+  }
+]

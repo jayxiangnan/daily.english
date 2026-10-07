@@ -21,6 +21,7 @@
 
 | 期数 | 日期 | 单词 |
 |------|------|------|
+| [第 15 期：咖啡污渍的应急处理](archive/2026-10-08.md) | 2026-10-08 | stain · blot · rinse · soak · air-dry |
 | [第 14 期：图书续借失败与归还](archive/2026-10-07.md) | 2026-10-07 | borrow · due · renew · overdue · return |
 | [第 13 期：视频会议断网后的接入方案](archive/2026-10-06.md) | 2026-10-06 | outage · battery · hotspot · reconnect · backup |
 | [第 12 期：公交绕行后的换乘选择](archive/2026-10-05.md) | 2026-10-05 | commute · detour · route · transfer · fare |
