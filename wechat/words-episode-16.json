@@ -1,0 +1,42 @@
+[
+  {
+    "word": "parcel",
+    "phonetic": "/ˈpɑːr.səl/",
+    "meaning": "n. 包裹",
+    "en": "The parcel was marked as delivered, but it is not in our building lobby.",
+    "zh": "包裹显示已送达，但不在我们楼的大堂。",
+    "tip": "parcel 指一件寄送的包裹；package 也常用，parcel 在英式英语中尤为常见。"
+  },
+  {
+    "word": "tracking",
+    "phonetic": "/ˈtræk.ɪŋ/",
+    "meaning": "n. 物流追踪信息；追踪",
+    "en": "The tracking says the parcel arrived at 2:15 p.m.",
+    "zh": "物流追踪信息显示，包裹下午 2:15 已送达。",
+    "tip": "查看物流时常说 check the tracking；tracking number 是运单号。"
+  },
+  {
+    "word": "doorstep",
+    "phonetic": "/ˈdɔːr.step/",
+    "meaning": "n. 门阶；家门口",
+    "en": "The delivery photo shows a blue doorstep, but ours is gray.",
+    "zh": "送达照片里是蓝色的门阶，而我们家门口的是灰色的。",
+    "tip": "doorstep 是门外紧挨着门的地方；at the doorstep 表示在门口。"
+  },
+  {
+    "word": "recipient",
+    "phonetic": "/rɪˈsɪp.i.ənt/",
+    "meaning": "n. 收件人；接收者",
+    "en": "The recipient listed in the order details is my roommate, Maya.",
+    "zh": "订单详情中列出的收件人是我的室友玛雅。",
+    "tip": "recipient 是接收东西的人；寄件人是 sender。"
+  },
+  {
+    "word": "claim",
+    "phonetic": "/kleɪm/",
+    "meaning": "n. 索赔申请；v. 提出索赔",
+    "en": "If the courier cannot find the parcel, we can file a claim.",
+    "zh": "如果快递公司找不到包裹，我们可以提出索赔申请。",
+    "tip": "file a claim 是正式提出索赔；这里不是“声称包裹已丢”的意思。"
+  }
+]
