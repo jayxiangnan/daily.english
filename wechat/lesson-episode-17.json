@@ -1,71 +1,71 @@
 {
-  "title": "新人到了门口，工牌却刷不开：先接应，再准确交接",
-  "lead": "以下是虚构的新员工首日情境。莉娜的工牌已制作，但门禁权限尚未生效。团队先安排接应，并区分“工作位备好”和“账户可登录”这两种状态；入职介绍照常进行，未解决的门禁事项则保留在核对清单上。",
+  "title": "工牌到手却进不了门：区分身份、授权与应变方案",
+  "lead": "虚构的入职首日情境：莉娜带着新工牌到了办公室，门禁申请却尚未获批。带教同事先确认问题状态，再交给有权限的团队处理；十点的入职介绍改到访客可进入的会议室。这里练习的是用准确英语说明谁能做什么、什么仍在等待。",
   "dialogue": [
     {
-      "en": "Lena: I'm at reception. My badge has my name on it, but it won't open the office door.",
-      "zh": "莉娜：我在前台。工牌上有我的名字，但它刷不开办公室的门。"
+      "en": "Lena: I'm at reception. I have my ID badge, but it won't open the office door.",
+      "zh": "莉娜：我在前台。我拿到了工牌，但它打不开办公室的门。"
     },
     {
-      "en": "Mira: Thanks for telling me. Please wait there; I'll meet you and escort you to the meeting room.",
-      "zh": "米拉：谢谢你告诉我。请在那儿稍等，我来接你并陪你去会议室。"
+      "en": "Mira: I checked the request. Your authorization to enter the office is still pending; the badge itself has been issued.",
+      "zh": "米拉：我查了申请。你的办公室通行许可仍待批准；工牌本身已经发放了。"
     },
     {
-      "en": "Lena: Is my workstation ready, or should I wait there until my badge works?",
-      "zh": "莉娜：我的工作位准备好了吗？还是要等工牌能用了再过去？"
+      "en": "Lena: I see. Should we delay the ten o'clock orientation?",
+      "zh": "莉娜：明白。十点的入职介绍需要推迟吗？"
     },
     {
-      "en": "Mira: Your desk and computer are ready, but your account still needs to be activated. I've asked IT to check both issues.",
-      "zh": "米拉：桌子和电脑已经准备好了，但你的账户还需要开通。我已请 IT 核查这两个问题。"
+      "en": "Mira: No. I'll escalate the access issue to the building security team. Only they can approve a temporary visitor pass under our rules.",
+      "zh": "米拉：不用。我会把门禁问题上报给大楼安保团队。按照我们的规定，只有他们能批准临时访客证。"
     },
     {
-      "en": "Lena: Okay. Does the orientation still start at ten?",
-      "zh": "莉娜：好的。入职介绍还是十点开始吗？"
+      "en": "Lena: What if they cannot approve it before ten?",
+      "zh": "莉娜：如果十点前他们还不能批准呢？"
     },
     {
-      "en": "Mira: Yes. We'll start on time. I'll keep badge access and account activation open on the checklist until IT confirms they work.",
-      "zh": "米拉：是的，会准时开始。在 IT 确认门禁和账户都可用之前，我会把这两项留在清单上，标为未完成。"
+      "en": "Mira: Our contingency plan is to meet in the visitor-accessible room beside reception. We can start on time and keep the access request open until it is approved.",
+      "zh": "米拉：应变方案是在前台旁访客可进入的会议室见面。我们可以准时开始，门禁申请则保持待处理，直到获批。"
     }
   ],
   "notes": {
-    "badge": {
-      "usage": "badge 是实体身份牌；badge access 指工牌对应的门禁权限。工牌已制作，不代表门禁权限已开通。",
-      "pitfall": "说 My badge doesn't work 或 My badge won't open the door；不要用 My badge can't enter the office，因为进入办公室的是人。"
+    "authorization": {
+      "usage": "authorization 指正式许可；identification 仅证明身份。出示工牌可以帮助确认身份，但是否获准进入特定区域是另一件事。",
+      "pitfall": "要说 authorization to enter the office 或 authorization for access；不要把 identification 和 authorization 当成同义词。"
     },
-    "escort": {
-      "usage": "escort someone to the meeting room 表示陪同某人到会议室；show someone the way 只强调指路，不一定全程陪同。",
-      "pitfall": "escort 作动词时需要宾语：escort Lena to the room；不要说 escort to the room 来指“陪她过去”。"
+    "pending": {
+      "usage": "pending 表示申请还在等待决定；postponed 表示活动已被推迟。本例门禁申请 pending，但入职介绍没有 postponed。",
+      "pitfall": "说 The request is pending 或 The request is pending approval；不要说 pending for approval，pending 在这里不接 for。"
     },
-    "workstation": {
-      "usage": "workstation 可指工作位或工作电脑。说 the workstation is ready，只能说明设备或座位已就绪，不能推断账户也可登录。",
-      "pitfall": "它是可数名词：a workstation / her workstation；不要把 ready workstation 等同于 working account。"
+    "escalate": {
+      "usage": "escalate an issue to security 表示把问题交给有权限的团队进一步处理；report an issue 只说明报告了问题。",
+      "pitfall": "escalate the issue 不等于问题已经解决，也不必夸大为紧急事故；状态更新仍需说明处理结果。"
     },
-    "orientation": {
-      "usage": "orientation 是新人了解环境和流程的介绍活动；training 更侧重具体技能培训。",
-      "pitfall": "表示“参加入职介绍”，说 attend orientation；通常不说 attend an orientation，除非明确指一场单独活动。"
+    "temporary": {
+      "usage": "temporary 强调有效时间短；provisional 更强调安排尚待最终确认。临时访客证是否可用，取决于现场规定。",
+      "pitfall": "temporary pass 前通常需要冠词：a temporary visitor pass；不要因为它是临时的就推断可绕过审批。"
     },
-    "checklist": {
-      "usage": "checklist 用来记录各事项的完成状态；to-do list 更偏向待办安排。这里应把门禁和账户分成两项，便于追踪。",
-      "pitfall": "问题已转交 IT 不等于问题已解决。未确认可用前，不要在 checklist 上把事项标成 complete。"
+    "contingency": {
+      "usage": "contingency plan 是针对可能发生的阻碍预先准备的应变方案；ordinary plan 是常规计划。这里的应变是换到访客可进入的会议室。",
+      "pitfall": "说 a contingency plan for a delay 或 a plan in case access is delayed；不要说 a contingency plan of delay。"
     }
   },
   "practice": [
     {
-      "question": "新人在前台，工牌打不开门。用 badge 和 escort 写一句接应安排。",
-      "answer": "Her badge won't open the door, so I'll meet her at reception and escort her to the meeting room.",
-      "explanation": "先说明阻塞，再给出可执行的接应动作；不暗示门禁问题已经解决。"
+      "question": "工牌已发，但门禁许可仍待批准。用 authorization 和 pending 写一句准确的状态更新。",
+      "answer": "Her ID badge has been issued, but her authorization to enter the office is still pending.",
+      "explanation": "把“已发工牌”与“尚待许可”分开；pending 不等于已拒绝。"
     },
     {
-      "question": "桌位和电脑已经备好，账户尚未开通。用 workstation 写一句准确的状态更新。",
-      "answer": "Her workstation is ready, but her account still needs to be activated.",
-      "explanation": "把设备与账户状态分开，避免一句 ready 造成误解。"
+      "question": "需要安保团队处理门禁，而且临时访客证必须经其批准。用 escalate 和 temporary 写一句安排。",
+      "answer": "I'll escalate the access issue to security and ask whether they can approve a temporary visitor pass.",
+      "explanation": "escalate 表示转交处理；ask whether 避免预设访客证一定获批。"
     },
     {
-      "question": "十点照常进行新人介绍，门禁仍需 IT 确认。用 orientation 和 checklist 写一句交接说明。",
-      "answer": "Orientation will start at ten; keep badge access open on the checklist until IT confirms it works.",
-      "explanation": "照常进行的活动与未完成事项可以同时说明；确认前不要勾选完成。"
+      "question": "十点前许可可能仍未获批。用 contingency 写出不绕过门禁的应变方案。",
+      "answer": "Our contingency plan is to hold orientation in the visitor-accessible meeting room.",
+      "explanation": "方案解决的是活动地点问题，没有声称门禁权限已开通。"
     }
   ],
-  "closing": "这组词最值得练习的是状态分层：badge 已拿到，门禁未生效；workstation 已备好，账户未激活。安排 escort 让新人先进入办公区，orientation 继续进行，未解决的问题留在 checklist 上等待确认。",
-  "creation_note": "本文由 AI 辅助整理，情境为虚构教学示例；草稿待运营者人工审阅英语表达、门禁接应方式与本单位入职流程后再决定是否发布。"
+  "closing": "这五词串起一条清晰的处理链：authorization 仍 pending，于是 escalate 给有权限的团队；temporary pass 只有获批才能用；若十点前仍未解决，就执行 contingency plan，在访客可进入的地点开始介绍。",
+  "creation_note": "本文由 AI 辅助整理，情境为虚构教学示例；草稿待运营者人工审阅英语表达及实际门禁、访客和入职政策后再决定是否发布。"
 }

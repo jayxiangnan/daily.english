@@ -1,42 +1,42 @@
 [
   {
-    "word": "badge",
-    "phonetic": "/bædʒ/",
-    "meaning": "n. 身份证件；门禁工牌",
-    "en": "Lena's badge has her name on it, but it does not open the office door yet.",
-    "zh": "莉娜的工牌上有她的名字，但暂时还打不开办公室的门。",
-    "tip": "在办公场景中，ID badge 是身份工牌；说门禁有问题时可用 badge doesn't work at the door。"
+    "word": "authorization",
+    "phonetic": "/ˌɑː.θɚ.əˈzeɪ.ʃən/",
+    "meaning": "n. 授权；正式许可",
+    "en": "Lena has an ID badge, but she does not yet have authorization to enter the office.",
+    "zh": "莉娜已经领到工牌，但尚未获准进入办公室。",
+    "tip": "常用搭配：authorization to do something；实体工牌并不自动等于进入某区域的许可。"
   },
   {
-    "word": "escort",
-    "phonetic": "/esˈkɔːrt/",
-    "meaning": "v. 陪同；引领",
-    "en": "A team member will escort Lena from reception to the meeting room.",
-    "zh": "一位团队成员会陪同莉娜从前台走到会议室。",
-    "tip": "escort someone to a place 强调陪同前往；语气比普通的 show someone the way 更正式。"
+    "word": "pending",
+    "phonetic": "/ˈpen.dɪŋ/",
+    "meaning": "adj. 待处理的；待批准的",
+    "en": "Her access request is still pending, so the badge cannot open the door.",
+    "zh": "她的门禁申请仍待批准，因此工牌还打不开门。",
+    "tip": "be pending 表示尚待决定或处理；pending approval 可压缩表达“等待批准”。"
   },
   {
-    "word": "workstation",
-    "phonetic": "/ˈwɝːkˌsteɪ.ʃən/",
-    "meaning": "n. 工作位；工作站",
-    "en": "Her workstation is ready, but she still needs an account to sign in.",
-    "zh": "她的工作位已经准备好，但她还需要账户才能登录。",
-    "tip": "workstation 可指办公桌位及设备，也可指一台工作电脑；由上下文判断具体所指。"
+    "word": "escalate",
+    "phonetic": "/ˈes.kə.leɪt/",
+    "meaning": "v. 将问题上报处理；使升级",
+    "en": "Mira will escalate the access issue to the team responsible for building security.",
+    "zh": "米拉会把门禁问题上报给负责大楼安保的团队处理。",
+    "tip": "工作沟通里可说 escalate an issue to a team，强调交给有权限处理的人。"
   },
   {
-    "word": "orientation",
-    "phonetic": "/ˌɔːr.i.enˈteɪ.ʃən/",
-    "meaning": "n. 入职介绍；新人培训",
-    "en": "The orientation starts at ten, so the team can fix the access issue first.",
-    "zh": "入职介绍十点开始，团队可以先处理门禁问题。",
-    "tip": "new employee orientation 指帮助新人熟悉公司和流程的介绍活动；通常作不可数名词。"
+    "word": "temporary",
+    "phonetic": "/ˈtem.pə.rer.i/",
+    "meaning": "adj. 临时的；短期的",
+    "en": "A temporary visitor pass may be issued if security approves it.",
+    "zh": "如果安保人员批准，可能会签发临时访客证。",
+    "tip": "temporary 描述有效时间有限；说 temporary access 时仍须说明由谁批准、适用于哪里。"
   },
   {
-    "word": "checklist",
-    "phonetic": "/ˈtʃek.lɪst/",
-    "meaning": "n. 核对清单",
-    "en": "Leave badge access open on the checklist until it actually works.",
-    "zh": "在门禁真正可用之前，先不要把清单上的门禁事项标为完成。",
-    "tip": "checklist 是逐项核对的清单；on the checklist 是“列在清单上”。"
+    "word": "contingency",
+    "phonetic": "/kənˈtɪn.dʒən.si/",
+    "meaning": "n. 意外情况；应变安排",
+    "en": "Their contingency plan is to hold orientation in the visitor-accessible meeting room.",
+    "zh": "他们的应变方案是在访客可进入的会议室进行入职介绍。",
+    "tip": "常见搭配是 contingency plan，指为可能的阻碍提前准备的方案。"
   }
 ]
