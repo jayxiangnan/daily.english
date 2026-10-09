@@ -1,0 +1,42 @@
+[
+  {
+    "word": "badge",
+    "phonetic": "/bædʒ/",
+    "meaning": "n. 身份证件；门禁工牌",
+    "en": "Lena's badge has her name on it, but it does not open the office door yet.",
+    "zh": "莉娜的工牌上有她的名字，但暂时还打不开办公室的门。",
+    "tip": "在办公场景中，ID badge 是身份工牌；说门禁有问题时可用 badge doesn't work at the door。"
+  },
+  {
+    "word": "escort",
+    "phonetic": "/esˈkɔːrt/",
+    "meaning": "v. 陪同；引领",
+    "en": "A team member will escort Lena from reception to the meeting room.",
+    "zh": "一位团队成员会陪同莉娜从前台走到会议室。",
+    "tip": "escort someone to a place 强调陪同前往；语气比普通的 show someone the way 更正式。"
+  },
+  {
+    "word": "workstation",
+    "phonetic": "/ˈwɝːkˌsteɪ.ʃən/",
+    "meaning": "n. 工作位；工作站",
+    "en": "Her workstation is ready, but she still needs an account to sign in.",
+    "zh": "她的工作位已经准备好，但她还需要账户才能登录。",
+    "tip": "workstation 可指办公桌位及设备，也可指一台工作电脑；由上下文判断具体所指。"
+  },
+  {
+    "word": "orientation",
+    "phonetic": "/ˌɔːr.i.enˈteɪ.ʃən/",
+    "meaning": "n. 入职介绍；新人培训",
+    "en": "The orientation starts at ten, so the team can fix the access issue first.",
+    "zh": "入职介绍十点开始，团队可以先处理门禁问题。",
+    "tip": "new employee orientation 指帮助新人熟悉公司和流程的介绍活动；通常作不可数名词。"
+  },
+  {
+    "word": "checklist",
+    "phonetic": "/ˈtʃek.lɪst/",
+    "meaning": "n. 核对清单",
+    "en": "Leave badge access open on the checklist until it actually works.",
+    "zh": "在门禁真正可用之前，先不要把清单上的门禁事项标为完成。",
+    "tip": "checklist 是逐项核对的清单；on the checklist 是“列在清单上”。"
+  }
+]

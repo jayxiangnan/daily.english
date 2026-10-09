@@ -1,0 +1,71 @@
+{
+  "title": "新人到了门口，工牌却刷不开：先接应，再准确交接",
+  "lead": "以下是虚构的新员工首日情境。莉娜的工牌已制作，但门禁权限尚未生效。团队先安排接应，并区分“工作位备好”和“账户可登录”这两种状态；入职介绍照常进行，未解决的门禁事项则保留在核对清单上。",
+  "dialogue": [
+    {
+      "en": "Lena: I'm at reception. My badge has my name on it, but it won't open the office door.",
+      "zh": "莉娜：我在前台。工牌上有我的名字，但它刷不开办公室的门。"
+    },
+    {
+      "en": "Mira: Thanks for telling me. Please wait there; I'll meet you and escort you to the meeting room.",
+      "zh": "米拉：谢谢你告诉我。请在那儿稍等，我来接你并陪你去会议室。"
+    },
+    {
+      "en": "Lena: Is my workstation ready, or should I wait there until my badge works?",
+      "zh": "莉娜：我的工作位准备好了吗？还是要等工牌能用了再过去？"
+    },
+    {
+      "en": "Mira: Your desk and computer are ready, but your account still needs to be activated. I've asked IT to check both issues.",
+      "zh": "米拉：桌子和电脑已经准备好了，但你的账户还需要开通。我已请 IT 核查这两个问题。"
+    },
+    {
+      "en": "Lena: Okay. Does the orientation still start at ten?",
+      "zh": "莉娜：好的。入职介绍还是十点开始吗？"
+    },
+    {
+      "en": "Mira: Yes. We'll start on time. I'll keep badge access and account activation open on the checklist until IT confirms they work.",
+      "zh": "米拉：是的，会准时开始。在 IT 确认门禁和账户都可用之前，我会把这两项留在清单上，标为未完成。"
+    }
+  ],
+  "notes": {
+    "badge": {
+      "usage": "badge 是实体身份牌；badge access 指工牌对应的门禁权限。工牌已制作，不代表门禁权限已开通。",
+      "pitfall": "说 My badge doesn't work 或 My badge won't open the door；不要用 My badge can't enter the office，因为进入办公室的是人。"
+    },
+    "escort": {
+      "usage": "escort someone to the meeting room 表示陪同某人到会议室；show someone the way 只强调指路，不一定全程陪同。",
+      "pitfall": "escort 作动词时需要宾语：escort Lena to the room；不要说 escort to the room 来指“陪她过去”。"
+    },
+    "workstation": {
+      "usage": "workstation 可指工作位或工作电脑。说 the workstation is ready，只能说明设备或座位已就绪，不能推断账户也可登录。",
+      "pitfall": "它是可数名词：a workstation / her workstation；不要把 ready workstation 等同于 working account。"
+    },
+    "orientation": {
+      "usage": "orientation 是新人了解环境和流程的介绍活动；training 更侧重具体技能培训。",
+      "pitfall": "表示“参加入职介绍”，说 attend orientation；通常不说 attend an orientation，除非明确指一场单独活动。"
+    },
+    "checklist": {
+      "usage": "checklist 用来记录各事项的完成状态；to-do list 更偏向待办安排。这里应把门禁和账户分成两项，便于追踪。",
+      "pitfall": "问题已转交 IT 不等于问题已解决。未确认可用前，不要在 checklist 上把事项标成 complete。"
+    }
+  },
+  "practice": [
+    {
+      "question": "新人在前台，工牌打不开门。用 badge 和 escort 写一句接应安排。",
+      "answer": "Her badge won't open the door, so I'll meet her at reception and escort her to the meeting room.",
+      "explanation": "先说明阻塞，再给出可执行的接应动作；不暗示门禁问题已经解决。"
+    },
+    {
+      "question": "桌位和电脑已经备好，账户尚未开通。用 workstation 写一句准确的状态更新。",
+      "answer": "Her workstation is ready, but her account still needs to be activated.",
+      "explanation": "把设备与账户状态分开，避免一句 ready 造成误解。"
+    },
+    {
+      "question": "十点照常进行新人介绍，门禁仍需 IT 确认。用 orientation 和 checklist 写一句交接说明。",
+      "answer": "Orientation will start at ten; keep badge access open on the checklist until IT confirms it works.",
+      "explanation": "照常进行的活动与未完成事项可以同时说明；确认前不要勾选完成。"
+    }
+  ],
+  "closing": "这组词最值得练习的是状态分层：badge 已拿到，门禁未生效；workstation 已备好，账户未激活。安排 escort 让新人先进入办公区，orientation 继续进行，未解决的问题留在 checklist 上等待确认。",
+  "creation_note": "本文由 AI 辅助整理，情境为虚构教学示例；草稿待运营者人工审阅英语表达、门禁接应方式与本单位入职流程后再决定是否发布。"
+}
