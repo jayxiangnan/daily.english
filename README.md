@@ -21,6 +21,7 @@
 
 | 期数 | 日期 | 单词 |
 |------|------|------|
+| [第 18 期：退租押金扣款核对](archive/2026-10-11.md) | 2026-10-11 | inspection · inventory · deduction · itemize · dispute |
 | [第 17 期：入职门禁的授权与应变](archive/2026-10-10.md) | 2026-10-10 | authorization · pending · escalate · temporary · contingency |
 | [第 16 期：包裹显示送达却找不到](archive/2026-10-09.md) | 2026-10-09 | parcel · tracking · doorstep · recipient · claim |
 | [第 15 期：咖啡污渍的应急处理](archive/2026-10-08.md) | 2026-10-08 | stain · blot · rinse · soak · air-dry |

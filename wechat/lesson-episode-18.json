@@ -1,0 +1,26 @@
+{
+  "title": "退租结算多扣 80 美元：先核对记录，再提出异议",
+  "lead": "虚构的带家具租房退租情境：结算单把书桌划痕列为新损坏，并从押金扣去 80 美元。租客找出入住时的清单，发现同一位置已有划痕记录，于是先请求逐项说明费用，再根据回复决定是否正式提出异议。重点是把“报告怎么写”“旧记录有什么”“现在请求什么”说清楚。",
+  "dialogue": [
+    {"en": "Nora: The move-out inspection report calls the desk scratch new. The deposit statement shows an $80 deduction for it.", "zh": "诺拉：退租检查报告说书桌划痕是新出现的。押金结算单因此扣了 80 美元。"},
+    {"en": "Evan: Didn't the check-in inventory mention a scratch on that desk?", "zh": "埃文：入住时的物品清单不是提过那张书桌有划痕吗？"},
+    {"en": "Nora: Yes. It lists a scratch on the front edge, and the dated photo shows the same spot.", "zh": "诺拉：提过。清单记了桌子前沿的一道划痕，带日期的照片也拍到了同一位置。"},
+    {"en": "Evan: Ask them to itemize the $80 charge first. It may cover something besides the scratch.", "zh": "埃文：先请对方逐项列明这 80 美元的费用。它可能还包含划痕以外的项目。"},
+    {"en": "Nora: I'll attach the check-in inventory and photo, then ask which damage the deduction covers.", "zh": "诺拉：我会附上入住清单和照片，再问这笔扣款具体针对哪处损坏。"},
+    {"en": "Evan: If they confirm it's for the old scratch, you can dispute that deduction with the records. Check the lease and local process before sending a formal dispute.", "zh": "埃文：如果他们确认扣款是针对那道旧划痕，你可以凭记录对这笔扣款提出异议。正式提交前先核对租约和当地处理流程。"}
+  ],
+  "notes": {
+    "inspection": {"usage": "inspection 是对房屋状况的检查；report 是记录检查结果的文件。这里先核对报告所称的“new”，而非把报告当成最终事实。", "pitfall": "说 a move-out inspection 或 an inspection report；inspection report 记录判断，但不自动证明损坏发生在租期内。"},
+    "inventory": {"usage": "inventory 在租房语境可指家具、物品及状况清单；stock 更常指供销售或使用的库存。入住清单可以用来对照退租报告。", "pitfall": "若指一份清单，可说 the check-in inventory；不要把 inventory 在此译成“库存盘点”，遗漏其记录原有状况的作用。"},
+    "deduction": {"usage": "deduction 是从总额中扣掉的金额；fee 是收费项目。先弄清 fee 的依据，才能判断相应 deduction 是否合理。", "pitfall": "说 an $80 deduction from the deposit；不能把 deduction 当动词说 They deduction $80，应说 They deducted $80。"},
+    "itemize": {"usage": "itemize 要求把总额拆成具体项目；explain 只要求解释，未必会列出每项金额。请求 itemize 可帮助判断 80 美元是否只针对划痕。", "pitfall": "itemize 是及物动词：Could you itemize the charge? 不说 Could you itemize about the charge?"},
+    "dispute": {"usage": "dispute a deduction 是明确提出异议；ask about a deduction 只是询问。先核对明细和证据，再决定是否使用较正式的 dispute。", "pitfall": "提出异议不等于扣款已经撤销；不要写 I disputed it, so the deposit was refunded，除非确实收到退款确认。"}
+  },
+  "practice": [
+    {"question": "退租报告称划痕是新的，但入住清单已有记录。用 inspection 和 inventory 写一句对照。", "answer": "The move-out inspection report calls the scratch new, but the check-in inventory already lists it.", "explanation": "用 but 对照两份记录；尚未推断哪方必然正确。"},
+    {"question": "结算单扣了 80 美元，但没有明细。用 deduction 和 itemize 写一句礼貌请求。", "answer": "Could you itemize the $80 deduction from my deposit and explain what it covers?", "explanation": "itemize 后直接接扣款；what it covers 要求说明费用针对什么。"},
+    {"question": "对方确认扣款只针对入住时已有的划痕。用 dispute 写一句下一步。", "answer": "I'll dispute the deduction and attach the check-in inventory and dated photo.", "explanation": "异议针对具体扣款，并附对应记录；句子没有预设处理结果。"}
+  ],
+  "closing": "处理顺序可复用：读 inspection report，查 check-in inventory，定位 deduction，要求对方 itemize，再根据明细与记录决定是否 dispute。具体押金规则和期限以租约及所在地规定为准。",
+  "creation_note": "本文由 AI 辅助整理，情境为虚构教学示例；草稿待运营者人工审阅英语表达、租约与所在地押金处理规则后再决定是否发布。"
+}

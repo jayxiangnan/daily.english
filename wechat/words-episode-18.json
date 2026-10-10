@@ -1,0 +1,42 @@
+[
+  {
+    "word": "inspection",
+    "phonetic": "/ɪnˈspek.ʃən/",
+    "meaning": "n. 检查；查验",
+    "en": "The move-out inspection report says the desk has a new scratch.",
+    "zh": "退租检查报告称书桌上有一道新划痕。",
+    "tip": "move-out inspection 指退租时的房屋检查；报告中的说法仍需与入住记录核对。"
+  },
+  {
+    "word": "inventory",
+    "phonetic": "/ˈɪn.vən.tɔːr.i/",
+    "meaning": "n. 物品清单；存货",
+    "en": "The check-in inventory already lists a scratch on the desk.",
+    "zh": "入住时的物品清单已经记载了书桌上的一道划痕。",
+    "tip": "这里的 inventory 是出租房附带家具及其状况的清单，不是商店的库存。"
+  },
+  {
+    "word": "deduction",
+    "phonetic": "/dɪˈdʌk.ʃən/",
+    "meaning": "n. 扣除额；扣减",
+    "en": "The statement shows an $80 deduction from the security deposit for desk damage.",
+    "zh": "结算单显示因书桌损坏从押金中扣除了 80 美元。",
+    "tip": "a deduction from the deposit 指从押金扣除的金额；别误解为“推论”这个另一常见词义。"
+  },
+  {
+    "word": "itemize",
+    "phonetic": "/ˈaɪ.t̬ə.maɪz/",
+    "meaning": "v. 逐项列明",
+    "en": "Could you itemize the $80 charge and explain what it covers?",
+    "zh": "能否逐项列明这笔 80 美元的费用，并解释它包含哪些项目？",
+    "tip": "itemize 后接费用或项目；itemized statement 是逐项列明费用的结算单。"
+  },
+  {
+    "word": "dispute",
+    "phonetic": "/dɪˈspjuːt/",
+    "meaning": "v. 对……提出异议；质疑",
+    "en": "I will dispute the deduction if the charge is for the scratch recorded at check-in.",
+    "zh": "如果这笔扣款针对的是入住时已有记录的划痕，我会对扣款提出异议。",
+    "tip": "dispute a charge 是对费用提出异议，语气比 ask about a charge 更明确，但不等于已经获得退款。"
+  }
+]
