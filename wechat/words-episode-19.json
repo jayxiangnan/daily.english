@@ -1,0 +1,42 @@
+[
+  {
+    "word": "discrepancy",
+    "phonetic": "/dɪˈskrep.ən.si/",
+    "meaning": "n. （本应一致的数字或记录之间的）差异",
+    "en": "There is a discrepancy between the quote for 28 lunches and the 24 confirmed sign-ups.",
+    "zh": "报价单上的 28 份午餐与已确认的 24 人报名之间存在差异。",
+    "tip": "a discrepancy between A and B：两份本应吻合的记录对不上；这里不能直接断定报价单有误。"
+  },
+  {
+    "word": "provisional",
+    "phonetic": "/prəˈvɪʒ.ən.əl/",
+    "meaning": "adj. 暂定的；有待确认的",
+    "en": "The other four sign-ups are provisional, so they are not in the confirmed total yet.",
+    "zh": "另外四份报名仍属暂定，因此尚未计入已确认人数。",
+    "tip": "provisional count 是当前可调整的数字；它不等于 final count（最终人数）。"
+  },
+  {
+    "word": "specify",
+    "phonetic": "/ˈspes.ə.faɪ/",
+    "meaning": "v. 明确说明；具体注明",
+    "en": "Please specify the time by which attendees must confirm their lunch.",
+    "zh": "请明确说明参加者必须在几点前确认午餐。",
+    "tip": "specify a time / specify whether ... 比只说“尽快确认”更便于执行。"
+  },
+  {
+    "word": "reconcile",
+    "phonetic": "/ˈrek.ən.saɪl/",
+    "meaning": "v. 核对并解释（记录或数字间的差异）",
+    "en": "We will reconcile the sign-up sheet with the vendor quote after the cutoff.",
+    "zh": "截止时间后，我们会将报名表与供应商报价单逐一核对。",
+    "tip": "reconcile A with B 是比对两组数字并解释差异，不是简单地把其中一个数字改成另一个。"
+  },
+  {
+    "word": "finalize",
+    "phonetic": "/ˈfaɪ.nəl.aɪz/",
+    "meaning": "v. 最终确定",
+    "en": "Once the count is checked, we can finalize the lunch order at 26 meals.",
+    "zh": "核对人数后，我们可以把午餐订单最终确定为 26 份。",
+    "tip": "finalize the order 表示确定并提交可执行版本；讨论中的数字仍是 provisional。"
+  }
+]
