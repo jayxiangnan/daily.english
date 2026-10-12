@@ -1,0 +1,71 @@
+{
+  "title": "小组展示前，图表的“62%”到底指谁？",
+  "lead": "虚构的课堂小组展示：一张从博客找到的图表写着“62% 的学生更喜欢线上答疑”。组员找到原始调查报告后发现，数字只针对 200 名受访者。今晚交稿前，他们要改正结论范围、用自己的话表述结果，并让听众查得到来源。本期重点是让表达和证据保持一致。",
+  "dialogue": [
+    {
+      "en": "Nina: Our slide says 62% of students prefer online office hours. Where did that number come from?",
+      "zh": "妮娜：我们的幻灯片写着 62% 的学生更喜欢线上答疑。这个数字从哪里来的？"
+    },
+    {
+      "en": "Owen: I found the chart on a blog, but it has no source link. Let's find a more credible source before we present it.",
+      "zh": "欧文：我是在一篇博客里看到这张图的，但它没有附来源链接。展示前我们先找可核查的来源。"
+    },
+    {
+      "en": "Nina: Here's the original survey report. It says 62% of 200 respondents, not 62% of all students.",
+      "zh": "妮娜：找到原始调查报告了。报告说的是 200 名受访者中的 62%，不是所有学生中的 62%。"
+    },
+    {
+      "en": "Owen: I'll paraphrase that finding accurately and make our own simple chart from the reported figures.",
+      "zh": "欧文：我会准确改述这一结果，并根据报告中的数字重新做一张简明图表。"
+    },
+    {
+      "en": "Nina: Please attribute the figures to the original report and put a citation below the chart.",
+      "zh": "妮娜：请注明数字出自原始报告，并在图表下方加上可查找的引用出处。"
+    },
+    {
+      "en": "Owen: Done. The slide now says '62% of the 200 respondents.' The source is clear, and we are not presenting someone else's work as our own—that helps us avoid plagiarism.",
+      "zh": "欧文：改好了。现在写的是“200 名受访者中的 62%”。来源也标清了，没有把别人的成果当作自己的，这有助于避免抄袭。"
+    }
+  ],
+  "notes": {
+    "credible": {
+      "usage": "credible 表示有理由相信或信任；popular 只说明传播广。此处原始报告给出调查对象，比无来源链接的转述更便于核查，但仍要看调查方法。",
+      "pitfall": "不要把“可信来源”直接写成“可推广到所有学生”。来源可信与样本能否代表总体是两个问题。"
+    },
+    "paraphrase": {
+      "usage": "paraphrase 是保留原意、换自己的话说明；quote 是保留原文并标明引语。改述时“200 名受访者”这个限定不能删。",
+      "pitfall": "只把 prefer 换成 like，却仍说 all students，不是准确改述；数字和适用范围都要保留。"
+    },
+    "attribute": {
+      "usage": "attribute the figures to the report 表示说明数字的来源；cite 更强调给出可查找的出处。两者常一起完成。",
+      "pitfall": "作动词时重音在第二音节 /əˈtrɪb.juːt/；名词“特征”读 /ˈæt.rɪ.bjuːt/。"
+    },
+    "citation": {
+      "usage": "citation 是具体的来源标注；source 是来源本身。图表下的标注应足以让读者找到原始报告，并按课程要求采用相应格式。",
+      "pitfall": "只写“来源：网络”不是有用的 citation；也不要把博客转载页误写成数据的原始来源。"
+    },
+    "plagiarism": {
+      "usage": "plagiarism 指把他人的观点或作品当作自己的；copying 是一般的复制动作，语义范围更宽。独立作图也需要说明数据来源。",
+      "pitfall": "标注来源不能修正被夸大的统计结论；避免抄袭和准确呈现调查范围要同时做到。"
+    }
+  },
+  "practice": [
+    {
+      "question": "报告写的是“200 名受访者中的 62%”，幻灯片却写“62% 的所有学生”。用 paraphrase 改写幻灯片句子。",
+      "answer": "The survey found that 62% of its 200 respondents preferred online office hours.",
+      "explanation": "保留比例和样本范围；不把受访者扩大成全体学生。"
+    },
+    {
+      "question": "图表来自一篇未标来源的博客。用 credible 和 attribute 写一句下一步安排。",
+      "answer": "Let's find a credible original report and attribute the figures to it.",
+      "explanation": "先找可核查的原始资料，再说明数字归属。"
+    },
+    {
+      "question": "组员重新画了图，但图下注明“来源：网络”。用 citation 和 plagiarism 指出问题。",
+      "answer": "Add a citation that identifies the original report; a vague label does not give clear credit and may leave a plagiarism concern.",
+      "explanation": "重新作图不等于数据由自己产生；来源标注要能追溯。"
+    }
+  ],
+  "closing": "交稿前做三步检查：数字对应哪一组人？表述是否保留了报告的限定？图表下的 citation 能否让同学找到原始报告？引用规则以课程要求为准。",
+  "creation_note": "本文由 AI 辅助整理，人物、调查与数字均为虚构教学示例；草稿待运营者人工审阅英语表达、引注方式与课程适用性后再决定是否发布。"
+}

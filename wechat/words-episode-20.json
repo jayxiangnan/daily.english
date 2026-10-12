@@ -1,0 +1,42 @@
+[
+  {
+    "word": "credible",
+    "phonetic": "/ˈkred.ə.bəl/",
+    "meaning": "adj. 可信的；有可信依据的",
+    "en": "The original survey report is more credible than an unsourced blog summary because it explains who was surveyed.",
+    "zh": "原始调查报告说明了调查对象，因此比没有标明来源的博客摘要更可信。",
+    "tip": "credible source 强调证据与来源可核查；页面看起来正规，不等于结论可信。"
+  },
+  {
+    "word": "paraphrase",
+    "phonetic": "/ˈper.ə.freɪz/",
+    "meaning": "v. 用自己的话准确改述；n. 改述",
+    "en": "Paraphrase the finding as '62% of the 200 respondents,' not '62% of all students.'",
+    "zh": "请将结果改述为“200 名受访者中的 62%”，不要写成“所有学生中的 62%”。",
+    "tip": "paraphrase 保留原意和限定范围；仅换几个同义词却改变调查对象，不算准确改述。"
+  },
+  {
+    "word": "attribute",
+    "phonetic": "/əˈtrɪb.juːt/",
+    "meaning": "v. 将言论、数据或作品注明归属；归因于",
+    "en": "Attribute the survey figure to the original report, not to the blog that repeated it.",
+    "zh": "应将调查数字注明来自原始报告，而不是转载该数字的博客。",
+    "tip": "attribute A to B 可表示“注明 A 出自 B”；名词 attribute（特征）的重音位置不同。"
+  },
+  {
+    "word": "citation",
+    "phonetic": "/saɪˈteɪ.ʃən/",
+    "meaning": "n. 引文出处；文献引用标注",
+    "en": "Add a citation below the slide so the audience can find the survey report.",
+    "zh": "在幻灯片下方加上引用出处，让听众能找到那份调查报告。",
+    "tip": "citation 是指向具体来源的标注；仅写“网上资料”无法让读者核查。"
+  },
+  {
+    "word": "plagiarism",
+    "phonetic": "/ˈpleɪ.dʒɚ.ɪ.zəm/",
+    "meaning": "n. 抄袭；把他人观点或作品冒充为己有",
+    "en": "Clear source credit helps the team avoid plagiarism, but the figures must also be represented accurately.",
+    "zh": "清楚注明来源有助于小组避免抄袭，但数据也必须被准确呈现。",
+    "tip": "plagiarism 通常作不可数名词；不要写成 a plagiarism，具体行为可说 an act of plagiarism。"
+  }
+]
