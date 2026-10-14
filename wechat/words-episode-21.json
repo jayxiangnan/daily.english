@@ -1,0 +1,42 @@
+[
+  {
+    "word": "prerequisite",
+    "phonetic": "/ˌpriːˈrek.wə.zɪt/",
+    "meaning": "n. 先修条件；前提",
+    "en": "The basic spreadsheet course is a prerequisite for the advanced workshop.",
+    "zh": "基础电子表格课程是参加进阶工作坊的先修条件。",
+    "tip": "pre- 有“在前”之意；prerequisite 是必须先满足的条件，不只是有帮助的准备。"
+  },
+  {
+    "word": "eligible",
+    "phonetic": "/ˈel.ə.dʒə.bəl/",
+    "meaning": "adj. 符合条件的；有资格的",
+    "en": "Because Mara completed the basic course, she is eligible for the advanced workshop.",
+    "zh": "玛拉已完成基础课程，因此符合参加进阶工作坊的条件。",
+    "tip": "eligible for + 项目；eligible to + 动词。符合条件不等于已经获得名额。"
+  },
+  {
+    "word": "waitlist",
+    "phonetic": "/ˈweɪtˌlɪst/",
+    "meaning": "n. 候补名单；v. 将……列入候补名单",
+    "en": "The workshop is full, so Mara joins the waitlist instead of assuming she has a seat.",
+    "zh": "工作坊已满员，因此玛拉加入候补名单，没有把候补当作已经拿到名额。",
+    "tip": "on the waitlist 表示在候补名单上；是否递补成功要看后续通知和规则。"
+  },
+  {
+    "word": "enroll",
+    "phonetic": "/ɪnˈroʊl/",
+    "meaning": "v. 注册参加；正式报名",
+    "en": "When a seat opens, Mara follows the email link to enroll before the stated deadline.",
+    "zh": "有名额空出后，玛拉按邮件中的链接在指定截止时间前正式报名。",
+    "tip": "美式拼写 enroll，英式常作 enrol；enroll in a course 指正式参加课程。"
+  },
+  {
+    "word": "withdraw",
+    "phonetic": "/wɪðˈdrɑː/",
+    "meaning": "v. 退出；撤回（报名或申请）",
+    "en": "After confirming her place in the advanced workshop, Mara withdraws from the backup session.",
+    "zh": "确认进阶工作坊的名额后，玛拉退出原先作为备选的场次。",
+    "tip": "withdraw from + 课程或活动；先确认新名额，再退出备选，避免两边都落空。"
+  }
+]

@@ -21,6 +21,7 @@
 
 | 期数 | 日期 | 单词 |
 |------|------|------|
+| [第 21 期：进阶工作坊的候补与正式报名](archive/2026-10-15.md) | 2026-10-15 | prerequisite · eligible · waitlist · enroll · withdraw |
 | [第 20 期：小组展示中的来源核查与标注](archive/2026-10-14.md) | 2026-10-14 | credible · paraphrase · attribute · citation · plagiarism |
 | [第 19 期：活动午餐订单人数核对](archive/2026-10-13.md) | 2026-10-13 | discrepancy · provisional · specify · reconcile · finalize |
 | [第 18 期：退租押金扣款核对](archive/2026-10-12.md) | 2026-10-12 | inspection · inventory · deduction · itemize · dispute |
