@@ -1,0 +1,42 @@
+[
+  {
+    "word": "duplicate",
+    "phonetic": "/ˈduː.plə.kət/",
+    "meaning": "adj. 重复的；n. 副本",
+    "en": "One duplicate row made the registration count look higher than it was.",
+    "zh": "一条重复记录让报名人数看起来比实际多。",
+    "tip": "这里用 duplicate 作形容词，修饰 row；作动词“复制”时读 /ˈduː.plə.keɪt/。"
+  },
+  {
+    "word": "filter",
+    "phonetic": "/ˈfɪl.tɚ/",
+    "meaning": "v. 筛选；n. 筛选条件",
+    "en": "Nina filters the sheet by status to see which registrations are active.",
+    "zh": "妮娜按状态筛选表格，查看哪些报名仍有效。",
+    "tip": "filter by status 表示按状态筛选；筛选会改变可见行，不等于删除原始记录。"
+  },
+  {
+    "word": "exclude",
+    "phonetic": "/ɪksˈkluːd/",
+    "meaning": "v. 不计入；排除",
+    "en": "She excludes three canceled registrations from the final count.",
+    "zh": "她在最终人数中排除了三条已取消的报名。",
+    "tip": "exclude A from B 表示把 A 排除在 B 之外；说清排除标准，数字才可复核。"
+  },
+  {
+    "word": "subtotal",
+    "phonetic": "/ˈsʌbˌtoʊ.t̬əl/",
+    "meaning": "n. 小计；分项合计",
+    "en": "The morning subtotal is 15, and the afternoon subtotal is 12.",
+    "zh": "上午场小计为 15 人，下午场小计为 12 人。",
+    "tip": "subtotal 是一个分组的小计；两个场次的小计相加才得到本例的总人数。"
+  },
+  {
+    "word": "validate",
+    "phonetic": "/ˈvæl.ə.deɪt/",
+    "meaning": "v. 核实；验证（数据是否正确）",
+    "en": "Nina validates the total against the list of confirmation emails.",
+    "zh": "妮娜用确认邮件清单核实总人数。",
+    "tip": "validate a figure against a source 表示借助来源验证数字；只重算同一张表不足以发现源数据错误。"
+  }
+]
