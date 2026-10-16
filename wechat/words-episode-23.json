@@ -1,0 +1,42 @@
+[
+  {
+    "word": "dimension",
+    "phonetic": "/ˌdɪˈmen.ʃən/",
+    "meaning": "n. 尺寸；（长、宽、高等）量度",
+    "en": "Maya checks the bag’s dimensions against the measurements in her booking.",
+    "zh": "玛雅把包的长宽高与订单中的尺寸要求核对。",
+    "tip": "表示物品的长宽高常用复数 dimensions；一个方向上的量度才说 a dimension。"
+  },
+  {
+    "word": "allowance",
+    "phonetic": "/əˈlaʊ.əns/",
+    "meaning": "n. 允许的限额；额度",
+    "en": "Her booking shows an eight-kilogram carry-on weight allowance.",
+    "zh": "她的订单显示随身行李重量限额为八千克。",
+    "tip": "carry-on allowance 指随身行李额度；具体件数、重量和尺寸仍要以该订单的规则为准。"
+  },
+  {
+    "word": "weigh",
+    "phonetic": "/weɪ/",
+    "meaning": "v. 称重；重达",
+    "en": "She weighs the packed bag at home and gets 9.2 kilograms.",
+    "zh": "她在家给装好的包称重，读数是 9.2 千克。",
+    "tip": "weigh the bag 是“给包称重”；the bag weighs 9.2 kilograms 是“包重 9.2 千克”。"
+  },
+  {
+    "word": "exceed",
+    "phonetic": "/ɪkˈsiːd/",
+    "meaning": "v. 超过（数量或限额）",
+    "en": "The bag exceeds the stated weight limit by 1.2 kilograms.",
+    "zh": "这个包比标明的重量上限超出 1.2 千克。",
+    "tip": "exceed the limit by 1.2 kilograms 中 by 引出超出的差额；不是包的总重量。"
+  },
+  {
+    "word": "repack",
+    "phonetic": "/ˌriːˈpæk/",
+    "meaning": "v. 重新收拾；重新装包",
+    "en": "Maya leaves a 1.4-kilogram book at home and repacks the bag.",
+    "zh": "玛雅把一本重 1.4 千克的书留在家里，然后重新整理行李。",
+    "tip": "repack 是重新装好，不保证自动符合限额；重新装包后还应再称一次。"
+  }
+]

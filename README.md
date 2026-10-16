@@ -21,6 +21,8 @@
 
 | 期数 | 日期 | 单词 |
 |------|------|------|
+| [第 23 期：出发前核对随身行李](archive/2026-10-17.md) | 2026-10-17 | dimension · allowance · weigh · exceed · repack |
+| [第 23 期：出发前核对随身行李](archive/2026-10-17.md) | 2026-10-17 | dimension · allowance · weigh · exceed · repack |
 | [第 22 期：报名表人数核对](archive/2026-10-16.md) | 2026-10-16 | duplicate · filter · exclude · subtotal · validate |
 | [第 21 期：进阶工作坊的候补与正式报名](archive/2026-10-15.md) | 2026-10-15 | prerequisite · eligible · waitlist · enroll · withdraw |
 | [第 20 期：小组展示中的来源核查与标注](archive/2026-10-14.md) | 2026-10-14 | credible · paraphrase · attribute · citation · plagiarism |
