@@ -224,9 +224,9 @@ def build_html(words, date_cn, episode, online_url=None, lesson=None):
     <p style="margin:10px 0 0;font-size:14px;color:rgba(255,255,255,0.9);">{date_cn} · 第 {episode} 期</p>
     <p style="margin:12px 0 0;font-size:13px;color:rgba(255,255,255,0.75);">生活 & 职场高频实用词汇</p>
   </section>
+  {''.join(cards)}
   {lead_html}
   {dialogue_html}
-  {''.join(cards)}
   {notes_section}
   {end_html}
   {online_html}
