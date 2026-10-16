@@ -1,6 +1,6 @@
 {
   "title": "行李尺寸合适，为什么还要重新装包？",
-  "lead": "以下是虚构的出行示例：玛雅的订单列出随身行李的尺寸要求和 8 千克重量上限。她先量了包的长宽高，尺寸符合；装好后称重却是 9.2 千克。取出一本重 1.4 千克的书并重新装包后，读数为 7.8 千克。尺寸合适与重量合适要分别检查；实际出行请以自己的订单及承运方规则为准。",
+  "lead": "尺寸合适的随身包，装好后却重 9.2 千克，超过订单示例中的 8 千克上限。玛雅取出一本重 1.4 千克的书，重新装包并复称，读数降为 7.8 千克。人物与数字均为虚构教学示例；实际出行须分别核对自己订单的尺寸与重量规则。",
   "dialogue": [
     {
       "en": "Maya: I measured the bag. Its dimensions fit the carry-on rules shown in my booking.",
@@ -61,11 +61,13 @@
       "explanation": "9.2 − 1.4 = 7.8；重新整理后复称，避免只凭估算。"
     },
     {
-      "question": "同伴说：“包的 dimensions 符合要求，就不用看 allowance 了。”用英语纠正这个判断。",
-      "answer": "The dimensions fit, but we still need to check the weight allowance.",
-      "explanation": "尺寸与重量是两个检查项；一个合格不能推出另一个合格。"
+      "question": "换一个情境：快递箱的长宽高符合寄件要求，但箱重 6 千克、重量上限 5 千克。用 dimensions 和 exceed 写出判断。",
+      "answer": "The box’s dimensions meet the size rules, but its weight exceeds the five-kilogram limit by one kilogram.",
+      "explanation": "在寄件情境中迁移用法：尺寸合格，重量仍可能超标；6 − 5 = 1。"
     }
   ],
+  "takeaway_en": "Could you confirm both the size and weight limits for my carry-on bag?",
+  "takeaway_zh": "能否帮我确认随身行李的尺寸和重量上限？",
   "closing": "出发前分两步：用 dimensions 核对长宽高，用 weigh 得到实际重量并与 allowance 比较；若 exceed 限额，调整物品后 repack，再复称。",
   "creation_note": "本文由 AI 辅助整理，人物、订单和重量均为虚构教学示例；草稿待运营者人工审阅英语表达、计算、练习答案及实际行李规则后再决定是否发布。"
 }

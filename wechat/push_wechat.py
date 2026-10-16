@@ -142,11 +142,19 @@ def lesson_html(lesson):
     )
     dialogue = (f'<section style="margin:0 0 22px;padding:20px 18px;background:#fff;border-radius:12px;">'
                 f'<h2 style="margin:0 0 16px;color:#2c3e50;font-size:19px;">情境对话</h2>{lines}</section>')
-    practice = "".join(
-        f'<p style="margin:0 0 12px;line-height:1.7;"><strong>{i}. {esc(item["question"])}</strong>'
-        f'<br><span style="color:#667eea;">答案：{esc(item["answer"])}</span>'
+    questions = "".join(
+        f'<p style="margin:0 0 12px;line-height:1.7;"><strong>{i}. {esc(item["question"])}</strong></p>'
+        for i, item in enumerate(lesson["practice"], 1)
+    )
+    answers = "".join(
+        f'<p style="margin:0 0 12px;line-height:1.7;"><strong>{i}. {esc(item["answer"])}</strong>'
         f'<br><span style="color:#718096;font-size:14px;">{esc(item["explanation"])}</span></p>'
         for i, item in enumerate(lesson["practice"], 1)
+    )
+    takeaway = (
+        f'<p style="margin:16px 0;line-height:1.8;color:#4a5568;"><strong>带走一句：</strong> '
+        f'{esc(lesson["takeaway_en"])}<br>{esc(lesson["takeaway_zh"])}</p>'
+        if lesson.get("takeaway_en") and lesson.get("takeaway_zh") else ""
     )
     creation_note = lesson.get("creation_note", "")
     creation_note_html = (
@@ -154,7 +162,9 @@ def lesson_html(lesson):
         if creation_note else ""
     )
     end = (f'<section style="margin:0 0 22px;padding:20px 18px;background:#fff;border-radius:12px;">'
-           f'<h2 style="margin:0 0 14px;color:#2c3e50;font-size:19px;">用一分钟检验是否会用</h2>{practice}'
+           f'<h2 style="margin:0 0 14px;color:#2c3e50;font-size:19px;">先试着自己作答</h2>{questions}'
+           f'<h3 style="margin:16px 0 12px;color:#2c3e50;font-size:17px;">参考答案与理由</h3>{answers}'
+           f'{takeaway}'
            f'<p style="margin:16px 0 0;line-height:1.8;color:#4a5568;">{esc(lesson["closing"])}</p>'
            f'{creation_note_html}</section>')
     return lead, dialogue, end
@@ -214,9 +224,9 @@ def build_html(words, date_cn, episode, online_url=None, lesson=None):
     <p style="margin:10px 0 0;font-size:14px;color:rgba(255,255,255,0.9);">{date_cn} · 第 {episode} 期</p>
     <p style="margin:12px 0 0;font-size:13px;color:rgba(255,255,255,0.75);">生活 & 职场高频实用词汇</p>
   </section>
-  {''.join(cards)}
   {lead_html}
   {dialogue_html}
+  {''.join(cards)}
   {notes_section}
   {end_html}
   {online_html}
