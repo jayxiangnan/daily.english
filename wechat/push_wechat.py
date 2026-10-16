@@ -236,7 +236,7 @@ def main():
     ap.add_argument("--lesson", default=None, help="情境、用法和练习 JSON；不传则沿用旧版五词格式")
     ap.add_argument("--update-media-id", default=None, help="更新已有草稿，避免重复建稿；不用于群发")
     ap.add_argument("--title", default=None)
-    ap.add_argument("--digest", default="每天 5 个生活与职场高频实用词汇")
+    ap.add_argument("--digest", default=None)
     ap.add_argument("--date", required=True, help="中文日期，如 2026年9月24日")
     ap.add_argument("--episode", required=True, help="期数")
     ap.add_argument("--online-url", default=None)
@@ -260,7 +260,8 @@ def main():
     print("[1/3] access_token 获取成功")
 
     content = build_html(words, args.date, args.episode, args.online_url, lesson)
-    title = args.title or f"每日 5 词 · 第 {args.episode} 期（{args.date}）"
+    title = args.title or (lesson or {}).get("wechat_title") or f"每日 5 词 · 第 {args.episode} 期（{args.date}）"
+    digest = args.digest or (lesson or {}).get("wechat_digest") or "每天 5 个生活与职场高频实用词汇"
     thumb = args.thumb or cfg.get("thumb_media_id")
     if args.update_media_id and not args.thumb:
         existing = http(f"{API}/draft/get?access_token={token}", {"media_id": args.update_media_id})
@@ -289,7 +290,7 @@ def main():
         "articles": [{
             "title": title,
             "author": args.author,
-            "digest": args.digest,
+            "digest": digest,
             "content": content,
             "content_source_url": args.online_url or "",
             "thumb_media_id": thumb,
