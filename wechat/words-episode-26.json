@@ -1,0 +1,42 @@
+[
+  {
+    "word": "spam",
+    "phonetic": "/spæm/",
+    "meaning": "n. 垃圾邮件；此处指被归入垃圾邮件的邮件",
+    "en": "Lena found the earlier reset email in her spam folder.",
+    "zh": "莉娜在垃圾邮件文件夹里找到了先前的密码重置邮件。",
+    "tip": "check your spam folder 表示检查垃圾邮件文件夹；spam 作此义通常不可数。"
+  },
+  {
+    "word": "request",
+    "phonetic": "/rɪˈkwest/",
+    "meaning": "v. 请求；正式提出要求",
+    "en": "Lena requested a new password reset email through the portal.",
+    "zh": "莉娜通过网站请求了一封新的密码重置邮件。",
+    "tip": "request a new email 中 request 直接接所请求的东西；名词可说 make a request for a new email。"
+  },
+  {
+    "word": "link",
+    "phonetic": "/lɪŋk/",
+    "meaning": "n. 网页链接；点击后可打开页面的入口",
+    "en": "The new email contained a link to the password reset page.",
+    "zh": "新邮件里有一个通往密码重置页面的链接。",
+    "tip": "a link to a page 表示通往某页面的链接；click a link 是点击链接。"
+  },
+  {
+    "word": "expire",
+    "phonetic": "/ɪkˈspaɪr/",
+    "meaning": "v. 到期；过了有效期而不能再用",
+    "en": "The link in yesterday's email had expired, so Lena could not use it.",
+    "zh": "昨天那封邮件里的链接已经过期，莉娜无法再使用它。",
+    "tip": "a link expires 表示链接到期失效；has expired 表示到现在已经失效。"
+  },
+  {
+    "word": "reset",
+    "phonetic": "/ˌriːˈset/",
+    "meaning": "v. 重新设置；此处指重设密码",
+    "en": "Lena used the new link to reset her password and sign in.",
+    "zh": "莉娜用新链接重设密码并登录。",
+    "tip": "reset a password 是重设密码；动词过去式仍是 reset。"
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "title": "密码重置邮件没到，旧链接又失效了怎么办？",
+  "wechat_title": "每日 5 词 · 第 26 期（2026年10月20日）",
+  "wechat_digest": "密码重置邮件没到，旧链接又失效了怎么办？",
+  "lead": "示例情境：莉娜进不了课程网站，收件箱里也没有新的密码重置邮件。她请客服一起查找，发现昨天的邮件被分进垃圾邮件文件夹，但其中的链接已失效。人物、网站和处理过程均为教学设定。",
+  "dialogue": [
+    {
+      "en": "Lena: I can't sign in to the course portal, and the password reset email isn't in my inbox.",
+      "zh": "莉娜：我登录不了课程网站，收件箱里也没有密码重置邮件。"
+    },
+    {
+      "en": "Agent: Could you check your spam folder and make sure you used the email address linked to your account?",
+      "zh": "客服：请检查垃圾邮件文件夹，并确认你用的是与账户绑定的邮箱，好吗？"
+    },
+    {
+      "en": "Lena: The address is correct. I found yesterday's email in spam, but its link has expired.",
+      "zh": "莉娜：邮箱地址没错。我在垃圾邮件文件夹里找到了昨天的邮件，但里面的链接已经失效。"
+    },
+    {
+      "en": "Agent: Then request a new reset email through the portal. Use the link in that new email, rather than yesterday's link.",
+      "zh": "客服：那就通过网站请求一封新的重置邮件。请用新邮件里的链接，别再用昨天那条。"
+    },
+    {
+      "en": "Lena: I've requested it. The new link has arrived, and I can open the reset page.",
+      "zh": "莉娜：我已经请求了。新链接到了，我能打开密码重置页面。"
+    },
+    {
+      "en": "Lena: I reset my password and signed in successfully. Thanks for helping me find the problem.",
+      "zh": "莉娜：我重设了密码，已经成功登录。谢谢你帮我找到问题。"
+    }
+  ],
+  "notes": {
+    "spam": {
+      "usage": "spam 指不想收到的邮件；scam 指骗局。真正的重置邮件也可能被误分进 spam 文件夹，因此位置不能证明邮件真假。",
+      "pitfall": "说 check my spam folder，不说 check my spams；点击重置链接前还要核对发件来源和网站。"
+    },
+    "request": {
+      "usage": "request 比 ask 更正式，适合网站按钮或客服流程；对朋友说 ask for help 更自然。这里是通过网站提出新邮件请求。",
+      "pitfall": "动词直接接宾语：request a new email；不要写 request for a new email，除非 request 作名词。"
+    },
+    "link": {
+      "usage": "link 是可点击的入口；URL 是具体的网页地址字符串。邮件中可以点击 link，地址栏会显示 URL。",
+      "pitfall": "说 a link to the reset page；不要把 link 和发来的整封 email 当成同一件事。"
+    },
+    "expire": {
+      "usage": "expire 表示有效期结束；stop working 只说不能用了，不说明原因。昨天的链接已经过期，所以用 expired。",
+      "pitfall": "此处用不及物表达 the link expired / has expired；不要说 I expired the link。"
+    },
+    "reset": {
+      "usage": "reset a password 是重新设定密码；restart a device 是重新启动设备。莉娜需要改密码，不是重启电脑。",
+      "pitfall": "过去式仍是 reset：I reset my password yesterday；不要写 resetted。"
+    }
+  },
+  "practice": [
+    {
+      "question": "你找到了昨天的邮件，但链接已经失效。用 spam、link 和 expire 向客服说明。",
+      "answer": "I found yesterday's email in my spam folder, but the link has expired.",
+      "explanation": "spam folder 指邮件所在位置；has expired 说明链接现在不能再用。"
+    },
+    {
+      "question": "用 request 和 reset 写两句：你准备申请新邮件，并在收到后重设密码。",
+      "answer": "I'll request a new reset email. When it arrives, I'll use its link to reset my password.",
+      "explanation": "request 直接接 a new reset email；reset 接 my password。"
+    },
+    {
+      "question": "换个情境：报名确认邮件中的链接过期了。选用本期两个合适的词，写一句英文请求新链接。",
+      "answer": "The link in my registration email has expired. Could I request a new one?",
+      "explanation": "link 指可点击入口，expired 说明其失效原因；request a new one 表示请求新链接。"
+    }
+  ],
+  "takeaway_en": "I found the email, but its link has expired. Could I request a new one?",
+  "takeaway_zh": "我找到邮件了，但里面的链接已经失效。我能申请一条新链接吗？",
+  "closing": "收不到重置邮件时，先核对邮箱地址并检查 spam 文件夹；若找到的 link 已 expire，再 request 新邮件，并用新链接 reset 密码。"
+}

@@ -21,6 +21,7 @@
 
 | 期数 | 日期 | 单词 |
 |------|------|------|
+| [第 26 期：密码重置链接失效后的处理](archive/2026-10-20.md) | 2026-10-20 | spam · request · link · expire · reset |
 | [第 24 期：听错交稿时间后的澄清与跟进](archive/2026-10-18.md) | 2026-10-18 | mishear · clarify · assume · recap · follow-up |
 | [第 23 期：出发前核对随身行李](archive/2026-10-17.md) | 2026-10-17 | dimension · allowance · weigh · exceed · repack |
 | [第 22 期：报名表人数核对](archive/2026-10-16.md) | 2026-10-16 | duplicate · filter · exclude · subtotal · validate |
