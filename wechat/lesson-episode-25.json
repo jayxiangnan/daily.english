@@ -1,0 +1,74 @@
+{
+  "title": "电费账单写了 260 度，电表照片只算出 210 度，怎么核对？",
+  "wechat_title": "每日 5 词 · 第 25 期（2026年10月21日）",
+  "wechat_digest": "电费账单写了 260 度，电表照片只算出 210 度，怎么核对？",
+  "lead": "示例情境：玛雅已支付电费账单，却发现账单以估算期末读数 1,460 千瓦时计算；她在同一个账单周期结束当天拍下的电表读数是 1,410，期初读数均为 1,200。她联系客服核对，并询问多收费用如何处理。人物、数字和公司处理方式均为教学设定，实际以账单和服务商规则为准。",
+  "dialogue": [
+    {
+      "en": "Maya: My paid bill shows 260 kWh of usage, but I think that is too high.",
+      "zh": "玛雅：我已付的账单显示用了 260 千瓦时，但我觉得这个数字偏高。"
+    },
+    {
+      "en": "Agent: The bill used an estimated closing meter reading of 1,460 kWh. Do you have a reading from the end of that billing period?",
+      "zh": "客服：账单采用的期末电表读数是估算的 1,460 千瓦时。你有该账单周期结束当天的读数吗？"
+    },
+    {
+      "en": "Maya: Yes. My dated photo shows 1,410 kWh. The opening reading was 1,200, so my actual usage was 210 kWh, not 260.",
+      "zh": "玛雅：有。带日期的照片显示 1,410 千瓦时。期初读数是 1,200，所以实际用量是 210 千瓦时，不是 260。"
+    },
+    {
+      "en": "Agent: Please send the photo. I will compare it with the reading and dates on your bill.",
+      "zh": "客服：请发来照片。我会把它与账单上的读数和日期核对。"
+    },
+    {
+      "en": "Maya: I have sent it. If the photo matches, could you make a billing adjustment and explain how the overcharge will be handled?",
+      "zh": "玛雅：我已经发了。如果照片吻合，你能调整账单，并说明多收费用会怎样处理吗？"
+    },
+    {
+      "en": "Agent: The dates and reading match. We will correct the usage to 210 kWh and apply a credit for the overcharge to your account.",
+      "zh": "客服：日期和读数一致。我们会把用量更正为 210 千瓦时，并将多收的费用作为抵扣金额记入你的账户。"
+    }
+  ],
+  "notes": {
+    "meter": {
+      "usage": "meter 是测量设备；reading 是设备显示的数值。说“拍下电表”，用 a photo of the meter。",
+      "pitfall": "不要把 meter 当成这里的用电量单位；用电量单位是 kWh（kilowatt-hours）。"
+    },
+    "reading": {
+      "usage": "reading 是某一时点的累计数字；usage 是两个相应读数之差。1,410 是 reading，210 kWh 才是本期 usage。",
+      "pitfall": "比较读数前要核对同一电表及同一账单周期的日期；不能随意拿今天的读数去替代更早的期末读数。"
+    },
+    "usage": {
+      "usage": "usage 指一段时间内用了多少；use 作动词可说 use 210 kWh of electricity。账单栏位常写 electricity usage。",
+      "pitfall": "不要把期末读数 1,410 kWh 直接说成 this period’s usage；须减去期初的 1,200。"
+    },
+    "adjustment": {
+      "usage": "adjustment 是对账单金额或记录作更正；refund 指把钱退还给付款人。这里先核对并更正账单，未直接承诺退款。",
+      "pitfall": "可说 request a billing adjustment；不要说 adjust me a bill。若用动词，可说 adjust the bill。"
+    },
+    "credit": {
+      "usage": "credit 是记入账户、可用于抵扣的金额；refund 通常指退回已付的钱。示例公司选择把多收费用记入账户。",
+      "pitfall": "credit for the overcharge 是金额，不能说 a credit of 50 kWh；50 kWh 是用电量差额，金额要按实际费率计算。"
+    }
+  },
+  "practice": [
+    {
+      "question": "本例期初读数 1,200，照片中的期末读数 1,410，账单估算期末读数 1,460。分别算出实际 usage、账单 usage 和差额，并用一句英文说明。",
+      "answer": "The actual usage was 210 kWh, while the bill showed 260 kWh—a difference of 50 kWh.",
+      "explanation": "1,410−1,200＝210；1,460−1,200＝260；260−210＝50。差额是电量，不是抵扣金额。"
+    },
+    {
+      "question": "用 adjustment 和 credit 向客服询问：如果读数核实无误，能否更正账单并把多收费用记入账户？",
+      "answer": "If the reading is confirmed, could you make a billing adjustment and apply a credit for the overcharge to my account?",
+      "explanation": "make a billing adjustment 表示更正账单；apply a credit to my account 表示将金额记入账户。"
+    },
+    {
+      "question": "换成水费场景：你有账单周期结束当天的水表照片。选用 meter、reading、usage 中合适的词，写一句话请客服核对账单。",
+      "answer": "I have a photo of the water meter from the last day of the billing period. Could you check the reading and recalculate my usage?",
+      "explanation": "meter 是水表，reading 是照片中的读数，usage 是据期初期末读数算出的用量；新情境仍要核对日期。"
+    }
+  ],
+  "takeaway_en": "Could you check the meter reading and adjust my bill if the usage is incorrect?",
+  "takeaway_zh": "你能核对电表读数吗？如果用量有误，请更正我的账单。",
+  "closing": "遇到账单用量异常，先找同一周期的起止 reading，核算 usage；提供 meter 照片请求 adjustment。已付款时，再问清多收费用会退还还是作为 credit 记入账户。"
+}

@@ -21,8 +21,10 @@
 
 | 期数 | 日期 | 单词 |
 |------|------|------|
-| [第 26 期：密码重置链接失效后的处理](archive/2026-10-20.md) | 2026-10-20 | spam · request · link · expire · reset |
-| [第 24 期：听错交稿时间后的澄清与跟进](archive/2026-10-18.md) | 2026-10-18 | mishear · clarify · assume · recap · follow-up |
+| [第 27 期：打印机卡纸后核对打印件](archive/2026-10-23.md) | 2026-10-23 | jam · tray · remove · resume · copy |
+| [第 26 期：密码重置链接失效后的处理](archive/2026-10-22.md) | 2026-10-22 | spam · request · link · expire · reset |
+| [第 25 期：核对估算电费账单](archive/2026-10-21.md) | 2026-10-21 | meter · reading · usage · adjustment · credit |
+| [第 24 期：听错交稿时间后的澄清与跟进](archive/2026-10-20.md) | 2026-10-20 | mishear · clarify · assume · recap · follow-up |
 | [第 23 期：出发前核对随身行李](archive/2026-10-17.md) | 2026-10-17 | dimension · allowance · weigh · exceed · repack |
 | [第 22 期：报名表人数核对](archive/2026-10-16.md) | 2026-10-16 | duplicate · filter · exclude · subtotal · validate |
 | [第 21 期：进阶工作坊的候补与正式报名](archive/2026-10-15.md) | 2026-10-15 | prerequisite · eligible · waitlist · enroll · withdraw |

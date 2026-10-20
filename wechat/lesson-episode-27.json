@@ -1,0 +1,74 @@
+{
+  "title": "打印机卡纸，交件前怎样确认三份材料都齐了？",
+  "wechat_title": "每日 5 词 · 第 27 期（2026年10月23日）",
+  "wechat_digest": "打印机卡纸，交件前怎样确认三份材料都齐了？",
+  "lead": "示例情境：玛雅要交三份完整表格，打印机卡纸时只有一份已经印好。她根据屏幕提示找到卡纸位置，按这台设备的说明取出纸张，恢复任务后再数成品。人物、设备提示和“三份”的数量均为教学设定；实际操作以设备说明为准。",
+  "dialogue": [
+    {
+      "en": "Maya: The printer has a paper jam. I need three copies of the form, but only one is complete.",
+      "zh": "玛雅：打印机卡纸了。我需要三份表格，但目前只有一份完整的。"
+    },
+    {
+      "en": "Jon: The screen says the jam is in Tray 2. Let’s check this printer’s guide before pulling anything out.",
+      "zh": "乔恩：屏幕说 2 号纸盒卡纸。先查这台打印机的说明，再动手取纸。"
+    },
+    {
+      "en": "Maya: The guide says to pull out Tray 2 and remove the stuck sheet slowly. I’ve done that, and I can’t see any scraps.",
+      "zh": "玛雅：说明让我们拉出 2 号纸盒，慢慢取出卡住的纸。我照做了，也没看到残留纸片。"
+    },
+    {
+      "en": "Jon: The jam message is gone, but the print job is still paused. Tap “Resume” and count the finished copies before sending another job.",
+      "zh": "乔恩：卡纸提示消失了，但打印任务仍处于暂停状态。点“继续”，先数清成品，再决定是否重发任务。"
+    },
+    {
+      "en": "Maya: Two more complete copies came out. With the first one, that makes three.",
+      "zh": "玛雅：又印出了两份完整的。加上先前那份，正好三份。"
+    },
+    {
+      "en": "Jon: Great. You have three complete copies, so there’s no need to print the form again.",
+      "zh": "乔恩：好，三份完整的材料都齐了，不用再打印一次。"
+    }
+  ],
+  "notes": {
+    "jam": {
+      "usage": "paper jam 指纸张卡在机器里；out of paper 指纸用完了。屏幕明确提示卡纸时用 jam。",
+      "pitfall": "说 The printer has a paper jam 或 The paper is jammed；不要说 The printer is a jam。"
+    },
+    "tray": {
+      "usage": "tray 是放纸的纸盒；output slot 是成品出来的出口。屏幕标出 Tray 2 时，别把它说成出纸口。",
+      "pitfall": "编号作设备位置时可说 in Tray 2；不要把 tray 误写成 try。"
+    },
+    "remove": {
+      "usage": "remove 是把现有物体移走；replace 是换上另一件。这里先取出卡纸，不是换一张纸。",
+      "pitfall": "remove 要带宾语：remove the stuck sheet from the tray；不要只说 remove from the tray。"
+    },
+    "resume": {
+      "usage": "resume 是暂停后接着做；restart 是从头重来。任务仍在队列中时，先看设备提示再决定是否继续。",
+      "pitfall": "说 resume printing 或 resume the print job；不说 resume to print。"
+    },
+    "copy": {
+      "usage": "copy 指整份文件的副本；page 指其中一页。若表格有两页，三份 copies 就是三套完整表格。",
+      "pitfall": "数量超过一时用 copies：three copies of the form，不是 three copy。"
+    }
+  },
+  "practice": [
+    {
+      "question": "打印机屏幕提示 2 号纸盒卡纸。用 jam 和 tray 写一句英文说明问题。",
+      "answer": "The printer has a paper jam in Tray 2.",
+      "explanation": "a paper jam 说明故障，in Tray 2 指明位置。"
+    },
+    {
+      "question": "卡纸取出后，任务仍暂停。用 remove 和 resume 写两句英文说明先后动作。",
+      "answer": "I removed the stuck sheet from the tray. Then I resumed the print job.",
+      "explanation": "remove 后接取出的东西；resume 表示暂停后继续原任务。"
+    },
+    {
+      "question": "换个情境：复印机中途停下，桌上已有两套完整讲义，目标是四套。写一句英文说明还需多少份，并用 copy。",
+      "answer": "We need two more complete copies of the handout.",
+      "explanation": "四套减去已有两套，还需两套；copy 指整套讲义，复数为 copies。"
+    }
+  ],
+  "takeaway_en": "The printer has a paper jam in Tray 2. Can we remove the stuck sheet and resume the print job?",
+  "takeaway_zh": "打印机的 2 号纸盒卡纸了。我们能取出卡住的纸，然后继续打印任务吗？",
+  "closing": "遇到卡纸，先看提示定位 jam 所在的 tray；按设备说明 remove 卡住的纸，再决定是否 resume 任务。最后数清完整的 copies，避免少交或重复打印。"
+}

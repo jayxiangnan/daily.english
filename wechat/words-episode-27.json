@@ -1,0 +1,42 @@
+[
+  {
+    "word": "jam",
+    "phonetic": "/dʒæm/",
+    "meaning": "n. 卡住；此处指打印机卡纸",
+    "en": "The printer stopped because of a paper jam.",
+    "zh": "打印机因为卡纸停了下来。",
+    "tip": "a paper jam 是“卡纸”；也可说 The paper is jammed.（纸卡住了）。"
+  },
+  {
+    "word": "tray",
+    "phonetic": "/treɪ/",
+    "meaning": "n. 托盘；此处指打印机的纸盒",
+    "en": "The screen showed a paper jam in Tray 2.",
+    "zh": "屏幕显示 2 号纸盒卡纸。",
+    "tip": "paper tray 是进纸盒；编号可说 Tray 2。"
+  },
+  {
+    "word": "remove",
+    "phonetic": "/rɪˈmuːv/",
+    "meaning": "v. 移走；此处指取出卡住的纸",
+    "en": "Maya followed the device guide and removed the stuck sheet from the tray.",
+    "zh": "玛雅按照设备说明，从纸盒中取出了卡住的那张纸。",
+    "tip": "remove something from somewhere：remove the sheet from the tray。"
+  },
+  {
+    "word": "resume",
+    "phonetic": "/rɪˈzuːm/",
+    "meaning": "v. 继续；中断后重新开始",
+    "en": "Once the jam was cleared, Maya resumed the print job.",
+    "zh": "卡纸故障排除后，玛雅继续执行打印任务。",
+    "tip": "resume printing / resume a print job 表示中断后继续打印。"
+  },
+  {
+    "word": "copy",
+    "phonetic": "/ˈkɑː.pi/",
+    "meaning": "n. 副本；此处指一整份打印材料",
+    "en": "Maya counted three complete copies of the form.",
+    "zh": "玛雅数了数，表格共有三份完整的打印件。",
+    "tip": "a copy of the form；数量要说 three copies of the form。"
+  }
+]

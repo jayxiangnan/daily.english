@@ -1,0 +1,42 @@
+[
+  {
+    "word": "meter",
+    "phonetic": "/ˈmiː.t̬ɚ/",
+    "meaning": "n. （电、气、水的）计量表",
+    "en": "Maya took a photo of the electricity meter on the last day of the billing period.",
+    "zh": "玛雅在账单周期的最后一天拍下了电表。",
+    "tip": "electricity meter 指电表；read the meter 表示查看并记录表上的数字。"
+  },
+  {
+    "word": "reading",
+    "phonetic": "/ˈriː.dɪŋ/",
+    "meaning": "n. 仪表读数",
+    "en": "The photo shows a meter reading of 1,410 kWh.",
+    "zh": "照片显示电表读数为 1,410 千瓦时。",
+    "tip": "a meter reading 是某一时点的累计读数；take a reading 表示记录读数。"
+  },
+  {
+    "word": "usage",
+    "phonetic": "/ˈjuː.sɪdʒ/",
+    "meaning": "n. 使用量；此处指用电量",
+    "en": "Her actual electricity usage for the period was 210 kWh.",
+    "zh": "她这个账单周期的实际用电量是 210 千瓦时。",
+    "tip": "electricity usage 指一段时间内的用电量；这里用期末读数减去期初读数。"
+  },
+  {
+    "word": "adjustment",
+    "phonetic": "/əˈdʒʌst.mənt/",
+    "meaning": "n. （账单金额的）调整",
+    "en": "Maya asked for a billing adjustment based on the photographed reading.",
+    "zh": "玛雅要求根据拍下的读数调整账单。",
+    "tip": "a billing adjustment 是账单金额或记录的更正；request an adjustment 是常用说法。"
+  },
+  {
+    "word": "credit",
+    "phonetic": "/ˈkred.ɪt/",
+    "meaning": "n. 记入账户、可抵扣后续费用的金额",
+    "en": "After checking the photo, the company added a credit for the overcharge to her account.",
+    "zh": "核对照片后，公司把多收的费用作为抵扣金额记入她的账户。",
+    "tip": "apply a credit to an account 表示把抵扣金额记入账户；credit 在这里是金额，不是电量。"
+  }
+]
