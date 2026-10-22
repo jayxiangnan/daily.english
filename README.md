@@ -15,6 +15,8 @@
 | `wechat/lesson-episode-N.json` | 情境对话、用法辨析、易错点与练习（第 7 期起） |
 | `outputs/words-episode-N.html` | 每期在线页面，带语音朗读 |
 | `wechat/push_wechat.py` | 微信公众号推送脚本（建草稿 / 群发 / 自动生成封面） |
+| `wechat/history-YYYY-MM-DD.json` | 每日英文历史的双语正文、练习和来源数据，独立于每日五词期数 |
+| `wechat/history_article.py` | 生成历史文章归档与页面；可单独同步公众号草稿 |
 | `wechat/brand-copy.md` | 品牌文案：简介、自动回复、底部引导语 |
 
 ## 往期
@@ -48,6 +50,14 @@
 | [第 3 期](archive/2026-09-26.md) | 2026-09-26 | coordinate · estimate · routine · resolve · flexible |
 | [第 2 期](archive/2026-09-25.md) | 2026-09-25 | synergy · revenue · nominate · obstacle · genuine |
 | [第 1 期](archive/2026-09-24.md) | 2026-09-24 | threshold · incentive · stringent · pragmatic · circumvent |
+
+## 每日英文历史
+
+每日英文历史是独立文章，不占用或改写“每日 5 词”的期数。英文正文逐段配有完整中文翻译，另附重点表达、阅读理解与史料链接。
+
+| 日期 | 文章 | 在线页面 |
+|------|------|----------|
+| 2026-10-22 | [九楼的那扇门：三角衬衫厂火灾](archive/history-2026-10-22.md) | [阅读页面](outputs/history-2026-10-22.html) |
 
 ## 关于自动化
 
