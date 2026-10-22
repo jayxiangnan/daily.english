@@ -30,6 +30,32 @@ class HistorySecondaryTests(unittest.TestCase):
         self.assertIn("An English paragraph.", article["content"])
         self.assertIn("一段中文翻译。", article["content"])
 
+    def test_english_story_precedes_complete_chinese_translation(self):
+        data = {
+            "date": "2026-10-24",
+            "title_en": "A Historical Choice",
+            "title_zh": "一个历史抉择",
+            "lead": "导语",
+            "paragraphs": [
+                {"en": "First English paragraph.", "zh": "第一段中文译文。"},
+                {"en": "Second English paragraph.", "zh": "第二段中文译文。"},
+            ],
+            "expressions": [],
+            "questions": [],
+            "sources": [
+                {"label": "Source 1", "url": "https://example.org/one"},
+                {"label": "Source 2", "url": "https://example.org/two"},
+            ],
+        }
+        for rendered in (
+            history_article.article_markdown(data),
+            history_article.article_html(data),
+            history_article.article_html(data, wechat=True),
+        ):
+            self.assertLess(rendered.index("First English paragraph."), rendered.index("Second English paragraph."))
+            self.assertLess(rendered.index("Second English paragraph."), rendered.index("第一段中文译文。"))
+            self.assertLess(rendered.index("第一段中文译文。"), rendered.index("第二段中文译文。"))
+
 
 if __name__ == "__main__":
     unittest.main()

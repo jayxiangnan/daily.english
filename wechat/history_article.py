@@ -27,34 +27,50 @@ def article_html(data, wechat=False):
     zh_title = e(data["title_zh"])
     parts = [
         '<article style="font-family:-apple-system,BlinkMacSystemFont,\'PingFang SC\',sans-serif;'
-        'max-width:760px;margin:auto;padding:24px 18px;color:#263445;line-height:1.8;">',
-        f'<header style="border-bottom:2px solid #667eea;padding-bottom:14px;margin-bottom:24px;">'
-        f'<p style="color:#667eea;margin:0;">每日英文历史 · {date}</p>'
-        f'<h1 style="font-size:28px;line-height:1.35;margin:9px 0;">{title}</h1>'
-        f'<p style="font-size:18px;margin:0;color:#58677a;">{zh_title}</p></header>',
-        f'<p style="color:#596779;">{e(data["lead"])}</p>',
+        'max-width:760px;margin:auto;padding:18px 16px;color:#2c3e50;line-height:1.8;background:#f3f5f9;">',
+        '<header style="padding:28px 22px;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);'
+        'border-radius:14px;margin-bottom:22px;color:#fff;">'
+        f'<p style="margin:0 0 10px;font-size:13px;color:#ecedff;">每日英文历史 · {date}</p>'
+        f'<h1 style="font-size:27px;line-height:1.35;margin:0 0 10px;color:#fff;">{title}</h1>'
+        f'<p style="font-size:16px;line-height:1.6;margin:0;color:#f1ecff;">{zh_title}</p></header>',
+        '<section style="margin:0 0 22px;padding:18px 20px;background:#fff;border-radius:12px;">'
+        f'<p style="font-size:15px;color:#526070;margin:0;">{e(data["lead"])}</p></section>',
+        '<section style="margin:0 0 22px;padding:22px 20px;background:#fff;border-radius:12px;'
+        'box-shadow:0 2px 12px rgba(0,0,0,0.05);">',
+        '<h2 style="font-size:20px;color:#394f8a;margin:0 0 18px;">English Story</h2>',
     ]
-    for p in data["paragraphs"]:
+    for i, p in enumerate(data["paragraphs"], 1):
         parts.append(
-            '<section style="margin:0 0 23px;">'
-            f'<p lang="en" style="font-size:17px;line-height:1.85;margin:0 0 9px;">{e(p["en"])}</p>'
-            f'<p lang="zh-CN" style="font-size:15px;line-height:1.85;color:#526070;margin:0;">{e(p["zh"])}</p>'
-            '</section>'
+            f'<p lang="en" style="font-size:17px;line-height:1.85;margin:0 0 18px;">'
+            f'<span style="font-size:12px;color:#667eea;font-weight:bold;margin-right:9px;">{i:02d}</span>'
+            f'{e(p["en"])}</p>'
         )
-    parts.append('<h2 style="font-size:20px;color:#334d78;">重点表达 · Key expressions</h2><ul>')
+    parts.append('</section><section style="margin:0 0 22px;padding:22px 20px;background:#fff;border-radius:12px;'
+                 'box-shadow:0 2px 12px rgba(0,0,0,0.05);">'
+                 '<h2 style="font-size:20px;color:#394f8a;margin:0 0 18px;">中文译文</h2>')
+    for i, p in enumerate(data["paragraphs"], 1):
+        parts.append(
+            f'<p lang="zh-CN" style="font-size:16px;line-height:1.9;color:#46576b;margin:0 0 18px;">'
+            f'<span style="font-size:12px;color:#667eea;font-weight:bold;margin-right:9px;">{i:02d}</span>'
+            f'{e(p["zh"])}</p>'
+        )
+    parts.append('</section><section style="margin:0 0 22px;padding:22px 20px;background:#fff;border-radius:12px;">'
+                 '<h2 style="font-size:20px;color:#394f8a;margin:0 0 14px;">重点表达 · Key expressions</h2><ul>')
     parts.extend(f'<li><strong>{e(x["en"])}</strong> — {e(x["zh"])}</li>' for x in data["expressions"])
-    parts.append('</ul><h2 style="font-size:20px;color:#334d78;">阅读理解 · Reading check</h2><ol>')
+    parts.append('</ul></section><section style="margin:0 0 22px;padding:22px 20px;background:#fff;border-radius:12px;">'
+                 '<h2 style="font-size:20px;color:#394f8a;margin:0 0 14px;">阅读理解 · Reading check</h2><ol>')
     parts.extend(f'<li>{e(x["q"])}</li>' for x in data["questions"])
-    parts.append('</ol><h3 style="font-size:18px;">参考答案 · Answers</h3><ol>')
+    parts.append('</ol><h3 style="font-size:18px;color:#2c3e50;">参考答案 · Answers</h3><ol>')
     parts.extend(f'<li>{e(x["a"])}</li>' for x in data["questions"])
-    parts.append('</ol><h2 style="font-size:20px;color:#334d78;">资料来源 · Sources</h2><ul>')
+    parts.append('</ol></section><section style="padding:22px 20px;background:#fff;border-radius:12px;">'
+                 '<h2 style="font-size:20px;color:#394f8a;margin:0 0 14px;">资料来源 · Sources</h2><ul>')
     parts.extend(
         f'<li><a href="{e(x["url"], quote=True)}">{e(x["label"])}</a>'
         + (f'<br><span>{e(x["url"])}</span>' if wechat else '')
         + '</li>'
         for x in data["sources"]
     )
-    parts.append('</ul></article>')
+    parts.append('</ul></section></article>')
     body = "\n".join(parts)
     if wechat:
         return body
@@ -74,9 +90,14 @@ def article_markdown(data):
         '',
         data["lead"],
         '',
+        '## English Story',
+        '',
     ]
-    for p in data["paragraphs"]:
-        lines += [p["en"], '', p["zh"], '']
+    for i, p in enumerate(data["paragraphs"], 1):
+        lines += [f'**{i:02d}** {p["en"]}', '']
+    lines += ['## 中文译文', '']
+    for i, p in enumerate(data["paragraphs"], 1):
+        lines += [f'**{i:02d}** {p["zh"]}', '']
     lines += ['## 重点表达 · Key expressions', '']
     lines += [f'- **{x["en"]}**：{x["zh"]}' for x in data["expressions"]]
     lines += ['', '## 阅读理解 · Reading check', '']
@@ -128,14 +149,27 @@ def matching_drafts(token, data):
 def new_cover(token, data):
     from PIL import Image, ImageDraw, ImageFont
 
-    image = Image.new("RGB", (900, 383), "#334d78")
+    image = Image.new("RGB", (900, 383))
     draw = ImageDraw.Draw(image)
+    for x in range(900):
+        ratio = x / 899
+        draw.line((x, 0, x, 383), fill=(
+            round(72 + 40 * ratio),
+            round(88 - 20 * ratio),
+            round(155 + 12 * ratio),
+        ))
     font_path = "/System/Library/Fonts/PingFang.ttc"
-    heading = ImageFont.truetype(font_path, 64)
-    subtitle = ImageFont.truetype(font_path, 31)
-    draw.text((66, 84), "每日英文历史", font=heading, fill="white")
-    draw.text((70, 207), data["title_zh"], font=subtitle, fill="#e4ebff")
-    draw.text((70, 281), data["date"], font=subtitle, fill="#e4ebff")
+    heading = ImageFont.truetype(font_path, 34)
+    size = 44
+    while True:
+        subtitle = ImageFont.truetype(font_path, size)
+        if draw.textbbox((0, 0), data["title_zh"], font=subtitle)[2] <= 760 or size <= 26:
+            break
+        size -= 2
+    meta = ImageFont.truetype(font_path, 24)
+    draw.text((66, 60), "英文历史阅读  /  HISTORY", font=heading, fill="#f2f2ff")
+    draw.text((66, 143), data["title_zh"], font=subtitle, fill="white")
+    draw.text((70, 285), data["date"], font=meta, fill="#e4ebff")
     path = ROOT / "wechat" / f'cover-history-{data["date"]}.png'
     image.save(path)
     response = check_response(upload_image(token, str(path)), "material/add_material")
@@ -150,7 +184,7 @@ def secondary_article(data, thumb_media_id):
         raise ValueError("WeChat body exceeds 20,000 characters")
     return {
         "target_date": data["date"],
-        "title": f'每日英文历史｜{data["title_zh"]}（{data["date"]}）',
+        "title": f'英文历史｜{data["title_zh"]}（{data["date"]}）',
         "author": "词汇拾光",
         "digest": data["lead"],
         "content": content,
@@ -184,8 +218,10 @@ def sync_draft(data):
 
     if not matches:
         raise RuntimeError("不再单独新建历史草稿；请先准备同日单词头条，再创建双篇草稿")
-    old = matches[0][2] if matches else {}
-    thumb = old.get("thumb_media_id") or new_cover(token, data)
+    old = matches[0][2]
+    target_title = f'英文历史｜{data["title_zh"]}（{data["date"]}）'
+    thumb = old.get("thumb_media_id") if old.get("title") == target_title else None
+    thumb = thumb or new_cover(token, data)
     if not thumb:
         raise RuntimeError("Missing cover thumb_media_id")
     article = secondary_article(data, thumb)
