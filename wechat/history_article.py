@@ -137,7 +137,7 @@ def matching_drafts(token, data):
         for item in items:
             for index, article in enumerate(item.get("content", {}).get("news_item", [])):
                 title = article.get("title", "")
-                same_history_date = "每日英文历史" in title and data["date"] in title
+                same_history_date = "英文历史" in title and data["date"] in title
                 same_title = data["title_en"] in title or data["title_zh"] in title
                 if same_history_date or same_title:
                     matches.append((item["media_id"], index, article))
