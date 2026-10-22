@@ -1,11 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-微信公众号每日单词推送脚本
-- 默认只创建草稿（安全，可预览）
-- 加 --publish 参数才会真正群发推送给关注者（不可撤销，请谨慎）
-"""
-import json, sys, os, ssl, time, urllib.request, urllib.parse, argparse, html
+"""微信公众号每日单词草稿脚本，可选历史次条组成双篇草稿。"""
+import json, sys, os, ssl, time, urllib.request, urllib.parse, argparse, html, re
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 CONFIG = os.path.join(BASE, "config.json")
@@ -53,6 +49,52 @@ def get_token(appid, secret):
     if "access_token" not in r:
         raise RuntimeError(f"获取 access_token 失败: {r}")
     return r["access_token"]
+
+
+def draft_articles(main_article, history_article=None):
+    """Keep the vocabulary article first in a combined draft."""
+    return [main_article, history_article] if history_article else [main_article]
+
+
+def date_cn_to_iso(date_cn):
+    match = re.fullmatch(r"(\d{4})年(\d{1,2})月(\d{1,2})日", date_cn)
+    if not match:
+        raise ValueError("双篇草稿的日期需采用 YYYY年M月D日")
+    year, month, day = map(int, match.groups())
+    return f"{year:04d}-{month:02d}-{day:02d}"
+
+
+def check_existing_pair(existing_articles, main_article, history_article, target_date=None):
+    """Never turn a one-article draft into a duplicate combined draft."""
+    if len(existing_articles) != 2:
+        raise ValueError("现有草稿不是两篇多图文；请在公众号后台处理，不能另建重复草稿")
+    old_history_title = existing_articles[1].get("title", "")
+    same_history = old_history_title == history_article["title"]
+    same_date_history = bool(target_date and
+                             old_history_title.startswith("每日英文历史｜") and
+                             target_date in old_history_title)
+    if existing_articles[0].get("title") != main_article["title"] or not (same_history or same_date_history):
+        raise ValueError("现有草稿的头条或次条标题不匹配，停止更新")
+
+
+def find_existing_main_drafts(token, title):
+    """Check the whole draft box before adding a combined draft."""
+    matches = []
+    offset = 0
+    while True:
+        response = http(f"{API}/draft/batchget?access_token={token}", {
+            "offset": offset, "count": 20, "no_content": 1,
+        })
+        if response.get("errcode") not in (None, 0):
+            raise RuntimeError(f"草稿列表读取失败: {response.get('errcode')}")
+        items = response.get("item", [])
+        for item in items:
+            articles = item.get("content", {}).get("news_item", [])
+            if any(article.get("title") == title for article in articles):
+                matches.append(item["media_id"])
+        offset += len(items)
+        if not items or offset >= response.get("total_count", offset):
+            return matches
 
 
 def make_cover(word_list, episode, date_cn, out_path):
@@ -234,6 +276,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--words", required=True, help="单词数据 JSON 文件路径")
     ap.add_argument("--lesson", default=None, help="情境、用法和练习 JSON；不传则沿用旧版五词格式")
+    ap.add_argument("--secondary-article", default=None, help="历史次条的完整公众号 article JSON")
     ap.add_argument("--update-media-id", default=None, help="更新已有草稿，避免重复建稿；不用于群发")
     ap.add_argument("--title", default=None)
     ap.add_argument("--digest", default=None)
@@ -253,6 +296,29 @@ def main():
     if args.lesson:
         with open(args.lesson, encoding="utf-8") as f:
             lesson = json.load(f)
+    history_article = None
+    history_target_date = None
+    if args.secondary_article:
+        if not args.lesson or not args.auto_cover or args.publish:
+            ap.error("双篇草稿必须传 --lesson 和 --auto-cover，且不能传 --publish")
+        with open(args.secondary_article, encoding="utf-8") as f:
+            history_article = json.load(f)
+        history_target_date = history_article.get("target_date")
+        if history_target_date != date_cn_to_iso(args.date):
+            ap.error("历史次条与每日单词的目标日期不一致")
+        for field in ("title", "digest", "content", "thumb_media_id"):
+            if not history_article.get(field):
+                ap.error(f"历史次条缺少 {field}")
+        history_article = {
+            "title": history_article["title"],
+            "author": history_article.get("author", args.author),
+            "digest": history_article["digest"],
+            "content": history_article["content"],
+            "content_source_url": history_article.get("content_source_url", ""),
+            "thumb_media_id": history_article["thumb_media_id"],
+            "need_open_comment": 0,
+            "only_fans_can_comment": 0,
+        }
     if args.update_media_id and args.publish:
         ap.error("更新草稿时不能传 --publish")
 
@@ -263,13 +329,17 @@ def main():
     title = args.title or (lesson or {}).get("wechat_title") or f"每日 5 词 · 第 {args.episode} 期（{args.date}）"
     digest = args.digest or (lesson or {}).get("wechat_digest") or "每天 5 个生活与职场高频实用词汇"
     thumb = args.thumb or cfg.get("thumb_media_id")
-    if args.update_media_id and not args.thumb:
+    existing_articles = None
+    if args.update_media_id:
         existing = http(f"{API}/draft/get?access_token={token}", {"media_id": args.update_media_id})
-        old_articles = existing.get("news_item") or existing.get("articles") or []
-        old_title = old_articles[0].get("title", "") if old_articles else ""
+        existing_articles = existing.get("news_item") or existing.get("articles") or []
+        old_title = existing_articles[0].get("title", "") if existing_articles else ""
         if f"第 {args.episode} 期" not in old_title and f"第{args.episode}期" not in old_title:
             raise RuntimeError("目标草稿期数不匹配，停止更新")
-        thumb = old_articles[0].get("thumb_media_id") or thumb
+        if history_article:
+            check_existing_pair(existing_articles, {"title": title}, history_article, history_target_date)
+        if not args.thumb:
+            thumb = existing_articles[0].get("thumb_media_id") or thumb
     if not thumb:
         raise RuntimeError("缺少封面 thumb_media_id")
     if args.auto_cover:
@@ -286,34 +356,46 @@ def main():
         except Exception as e:
             print(f"      封面生成失败({type(e).__name__}: {e})，回退原封面")
 
-    article = {
-        "articles": [{
-            "title": title,
-            "author": args.author,
-            "digest": digest,
-            "content": content,
-            "content_source_url": args.online_url or "",
-            "thumb_media_id": thumb,
-            "need_open_comment": 0,
-            "only_fans_can_comment": 0,
-        }]
+    main_article = {
+        "title": title,
+        "author": args.author,
+        "digest": digest,
+        "content": content,
+        "content_source_url": args.online_url or "",
+        "thumb_media_id": thumb,
+        "need_open_comment": 0,
+        "only_fans_can_comment": 0,
     }
+    article = {"articles": draft_articles(main_article, history_article)}
 
     if args.update_media_id:
+        if history_article:
+            r = http(f"{API}/draft/update?access_token={token}", {
+                "media_id": args.update_media_id,
+                "index": 1,
+                "articles": history_article,
+            })
+            if r.get("errcode") != 0:
+                print("次条更新失败；原草稿已保留:", json.dumps(r, ensure_ascii=False))
+                sys.exit(1)
         r = http(f"{API}/draft/update?access_token={token}", {
             "media_id": args.update_media_id,
             "index": 0,
-            "articles": article["articles"][0],
+            "articles": main_article,
         })
         if r.get("errcode") != 0:
             if r.get("errcode") == 53407:
                 print("该草稿正在定时发布，微信不允许修改；请先在公众号后台处理定时状态。")
-            print("更新草稿失败:", json.dumps(r, ensure_ascii=False))
+            print("头条更新失败；如已更新次条，请人工检查同一草稿:", json.dumps(r, ensure_ascii=False))
             sys.exit(1)
         print(f"[2/3] 草稿更新成功 media_id={args.update_media_id}")
         print("[3/3] 仅更新草稿，未群发。")
         return
 
+    if history_article:
+        matches = find_existing_main_drafts(token, title)
+        if matches:
+            raise RuntimeError(f"已有同一期头条草稿（{len(matches)} 份），停止新建双篇草稿；请核对并处理原稿")
     r = http(f"{API}/draft/add?access_token={token}", article)
     if "media_id" not in r:
         print("创建草稿失败:", json.dumps(r, ensure_ascii=False))
@@ -323,7 +405,8 @@ def main():
 
     if not args.publish:
         print("\n[3/3] 未加 --publish，仅创建草稿。请到公众号后台「素材管理 → 草稿箱」预览确认后再发布。")
-        print(f"      确认无误后重跑本命令并加 --publish 即可群发。")
+        if history_article:
+            print("      双篇草稿仅供人工审阅；此命令不支持双篇自动发布。")
         return
 
     r2 = http(f"{API}/freepublish/submit?access_token={token}", {"media_id": media_id})

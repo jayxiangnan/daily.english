@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render a bilingual history article and safely create or update its WeChat draft."""
+"""Render a bilingual history article and prepare its WeChat secondary card."""
 
 import argparse
 import html
@@ -144,6 +144,37 @@ def new_cover(token, data):
     return response["media_id"]
 
 
+def secondary_article(data, thumb_media_id):
+    content = article_html(data, wechat=True)
+    if len(content) >= 20000:
+        raise ValueError("WeChat body exceeds 20,000 characters")
+    return {
+        "target_date": data["date"],
+        "title": f'每日英文历史｜{data["title_zh"]}（{data["date"]}）',
+        "author": "词汇拾光",
+        "digest": data["lead"],
+        "content": content,
+        "content_source_url": "",
+        "thumb_media_id": thumb_media_id,
+        "need_open_comment": 0,
+        "only_fans_can_comment": 0,
+    }
+
+
+def export_secondary(data, path):
+    """Upload a cover and save the secondary card without creating a draft."""
+    path = Path(path)
+    previous = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    thumb = previous.get("thumb_media_id")
+    if not thumb:
+        cfg = load_cfg()
+        token = get_token(cfg["appid"], cfg["appsecret"])
+        thumb = new_cover(token, data)
+    article = secondary_article(data, thumb)
+    path.write_text(json.dumps(article, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return path
+
+
 def sync_draft(data):
     cfg = load_cfg()
     token = get_token(cfg["appid"], cfg["appsecret"])
@@ -151,51 +182,36 @@ def sync_draft(data):
     if len(matches) > 1:
         raise RuntimeError(f"Found {len(matches)} matching drafts; no draft was changed")
 
-    content = article_html(data, wechat=True)
-    if len(content) >= 20000:
-        raise ValueError("WeChat body exceeds 20,000 characters")
-    title = f'每日英文历史｜{data["title_zh"]}（{data["date"]}）'
+    if not matches:
+        raise RuntimeError("不再单独新建历史草稿；请先准备同日单词头条，再创建双篇草稿")
     old = matches[0][2] if matches else {}
     thumb = old.get("thumb_media_id") or new_cover(token, data)
     if not thumb:
         raise RuntimeError("Missing cover thumb_media_id")
-    article = {
-        "title": title,
-        "author": "词汇拾光",
-        "digest": data["lead"],
-        "content": content,
-        "content_source_url": "",
-        "thumb_media_id": thumb,
-        "need_open_comment": 0,
-        "only_fans_can_comment": 0,
-    }
-    if matches:
-        media_id, index, _ = matches[0]
-        response = http(f"{API}/draft/update?access_token={token}",
-                        {"media_id": media_id, "index": index, "articles": article})
-        if response.get("errcode") == 53407:
-            return f"scheduled draft retained, media_id={media_id}"
-        check_response(response, "draft/update")
-        return f"draft updated, media_id={media_id}"
-    response = check_response(
-        http(f"{API}/draft/add?access_token={token}", {"articles": [article]}),
-        "draft/add",
-    )
-    if "media_id" not in response:
-        raise RuntimeError(f"draft/add returned no media_id: {response}")
-    return f'draft created, media_id={response["media_id"]}'
+    article = secondary_article(data, thumb)
+    media_id, index, _ = matches[0]
+    response = http(f"{API}/draft/update?access_token={token}",
+                    {"media_id": media_id, "index": index, "articles": article})
+    if response.get("errcode") == 53407:
+        return f"scheduled draft retained, media_id={media_id}"
+    check_response(response, "draft/update")
+    return f"draft updated, media_id={media_id}"
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("data", help="History article JSON")
-    parser.add_argument("--sync-draft", action="store_true", help="Create or update a draft only")
+    outputs = parser.add_mutually_exclusive_group()
+    outputs.add_argument("--sync-draft", action="store_true", help="Update an existing legacy history draft only")
+    outputs.add_argument("--export-secondary", metavar="PATH", help="Write a secondary card JSON for a combined draft")
     args = parser.parse_args()
     data = checked_data(args.data)
     md, page = render(data)
     print(f"Rendered {md} and {page}")
     if args.sync_draft:
         print(sync_draft(data))
+    if args.export_secondary:
+        print(f"Secondary card written to {export_secondary(data, args.export_secondary)}")
 
 
 if __name__ == "__main__":
