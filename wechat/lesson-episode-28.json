@@ -1,0 +1,78 @@
+{
+  "title": "视频会议里有人听到回声，怎样找到声音回传的原因？",
+  "wechat_title": "每日 5 词 · 第 28 期（2026年10月24日）",
+  "wechat_digest": "视频会议里有人听到回声，怎样找到声音回传的原因？",
+  "lead": "示例情境：利奥在视频会议里听到自己的声音重复传回。妮娜检查自己的声音输入和输出设置，先短暂静音验证，再换用带麦克风的耳麦。人物、设备和排查过程均为教学设定；实际通话问题也可能有其他原因。",
+  "dialogue": [
+    {
+      "en": "Leo: I can hear an echo of my own voice whenever I speak. Is it coming from your laptop?",
+      "zh": "利奥：我每次说话都能听到自己的声音传回来。会不会是你的笔记本电脑造成的？"
+    },
+    {
+      "en": "Nina: Let me check. The call audio is playing through my laptop speakers, and its built-in microphone is on.",
+      "zh": "妮娜：我查一下。通话声音正在用电脑扬声器外放，内置麦克风也开着。"
+    },
+    {
+      "en": "Leo: Your microphone may be picking up the sound from the speakers. Could you mute it for a moment to test that?",
+      "zh": "利奥：你的麦克风可能收进了扬声器的声音。能先暂时静音，检验一下吗？"
+    },
+    {
+      "en": "Nina: I've muted my microphone. Has the echo stopped?",
+      "zh": "妮娜：我已把麦克风静音。回声停了吗？"
+    },
+    {
+      "en": "Leo: Yes, but I can't hear you now. Try your headset for both sound and speech, then unmute.",
+      "zh": "利奥：停了，但现在我也听不到你了。试着把耳麦同时用于听和说，然后解除静音。"
+    },
+    {
+      "en": "Nina: I've selected the headset for both input and output and unmuted. Can you hear me without the echo?",
+      "zh": "妮娜：我已把耳麦设为输入和输出设备，并解除静音。现在听得到我说话，而且没有回声吗？"
+    },
+    {
+      "en": "Leo: Yes, your voice is clear now. I don't hear the echo anymore.",
+      "zh": "利奥：听得到，现在你的声音很清楚，我也听不到回声了。"
+    }
+  ],
+  "notes": {
+    "echo": {
+      "usage": "echo 是重复传回的声音；feedback 常指麦克风与扬声器形成的刺耳啸叫。这里利奥听到自己的话重复出现，用 echo。",
+      "pitfall": "说 hear an echo 或 hear my voice echo；不要把 echo 当成“声音太小”来用。"
+    },
+    "speaker": {
+      "usage": "speaker 可指扬声器，也可指发言者。laptop speakers 和 guest speaker 的语境能区分这两个意思。",
+      "pitfall": "说 play through the speakers；不要用 speaker 指代收音的麦克风。"
+    },
+    "microphone": {
+      "usage": "microphone 是完整写法，mic 是常见的非正式缩写。设备设置里常把 microphone 标为 input（输入）。",
+      "pitfall": "说 the microphone picked up the sound；pick up 后要交代收进了什么声音。"
+    },
+    "mute": {
+      "usage": "mute the microphone 是暂时关掉输入；turn down the volume 是调低输出音量。静音后利奥听不到妮娜，所以还需进一步处理。",
+      "pitfall": "mute 是及物动词：mute your microphone；恢复输入可说 unmute yourself 或 unmute your microphone。"
+    },
+    "headset": {
+      "usage": "headset 通常是带麦克风的耳机；headphones 主要指听声音的耳机，不一定带麦克风。妮娜需要能听也能说，因此选 headset。",
+      "pitfall": "说 a headset 或 my headset；不要把单个设备写成 a headsets。"
+    }
+  },
+  "practice": [
+    {
+      "question": "同事说能听到自己的声音重复传回。用 echo 写一句英文描述。",
+      "answer": "I can hear an echo of my own voice.",
+      "explanation": "an echo of my own voice 准确说明重复传回的是自己的声音。"
+    },
+    {
+      "question": "为了测试回声是否来自你的设备，你暂时关闭麦克风。用 mute 和 microphone 说出操作。",
+      "answer": "I'll mute my microphone for a moment to test it.",
+      "explanation": "mute 后直接接 my microphone；for a moment 表示只做短暂测试。"
+    },
+    {
+      "question": "换个情境：线上面试时，对方仍听到回声。你决定不用电脑外放，改用带麦克风的耳麦，并把它同时设为输入和输出设备。用 speaker 和 headset 写一句英文说明。",
+      "answer": "I'll stop using the laptop speakers and select my headset for both input and output.",
+      "explanation": "speakers 是外放输出；headset 同时承担这次通话的输入和输出。"
+    }
+  ],
+  "takeaway_en": "I can hear an echo. Could you mute your microphone for a moment and check your audio settings?",
+  "takeaway_zh": "我听到了回声。你能暂时把麦克风静音，并检查一下声音设置吗？",
+  "closing": "先说清听到了什么 echo，再查 speaker 与 microphone 的输入输出关系；mute 可作短暂测试。若需继续发言，选好 headset 的输入和输出后再解除静音，并请对方确认声音是否正常。"
+}

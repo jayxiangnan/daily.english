@@ -1,0 +1,42 @@
+[
+  {
+    "word": "echo",
+    "phonetic": "/ˈek.oʊ/",
+    "meaning": "n. 回声；此处指通话中听见自己的声音重复传回",
+    "en": "Leo heard an echo of his own voice during the call.",
+    "zh": "通话时，利奥听到自己的声音重复传了回来。",
+    "tip": "hear an echo of your own voice：听到自己的声音传回来。"
+  },
+  {
+    "word": "speaker",
+    "phonetic": "/ˈspiː.kɚ/",
+    "meaning": "n. 扬声器；此处指笔记本电脑的外放设备",
+    "en": "The call audio was playing through Nina's laptop speakers.",
+    "zh": "通话声音正从妮娜笔记本电脑的扬声器外放。",
+    "tip": "play through the speakers：通过扬声器播放；设备通常说 speakers。"
+  },
+  {
+    "word": "microphone",
+    "phonetic": "/ˈmaɪ.krə.foʊn/",
+    "meaning": "n. 麦克风；此处指将声音送入通话的设备",
+    "en": "Her built-in microphone picked up the sound from the speakers.",
+    "zh": "她电脑内置的麦克风收进了扬声器发出的声音。",
+    "tip": "a built-in microphone：内置麦克风；pick up sound：收进声音。"
+  },
+  {
+    "word": "mute",
+    "phonetic": "/mjuːt/",
+    "meaning": "v. 将声音关闭；此处指暂时关闭麦克风的声音输入",
+    "en": "Nina muted her microphone to check whether the echo would stop.",
+    "zh": "妮娜暂时关闭了麦克风，以检查回声是否会消失。",
+    "tip": "mute your microphone：将麦克风静音；需要发言时再 unmute。"
+  },
+  {
+    "word": "headset",
+    "phonetic": "/ˈhed.set/",
+    "meaning": "n. 耳麦；此处指带麦克风的耳机",
+    "en": "Nina selected her headset for both the microphone and the audio output.",
+    "zh": "妮娜把耳麦同时设为麦克风和声音输出设备。",
+    "tip": "use a headset for the call：通话时使用耳麦。"
+  }
+]
