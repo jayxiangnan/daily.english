@@ -1,5 +1,7 @@
 import importlib.util
+import json
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 from unittest import mock
@@ -13,6 +15,16 @@ spec.loader.exec_module(history_article)
 
 
 class HistorySecondaryTests(unittest.TestCase):
+    def test_retitle_generates_matching_cover(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "card.json"
+            path.write_text(json.dumps({"title": "英文历史｜旧标题（2026-10-24）", "thumb_media_id": "old-cover"}))
+            data = {"date": "2026-10-24", "title_zh": "河西走廊", "title_en": "Hexi", "lead": "导语", "paragraphs": [{"en": "English.", "zh": "中文。"}], "expressions": [], "questions": [], "sources": [{"label": "One", "url": "https://example.org/1"}, {"label": "Two", "url": "https://example.org/2"}]}
+            with mock.patch.object(history_article, "load_cfg", return_value={"appid": "id", "appsecret": "secret"}), mock.patch.object(history_article, "get_token", return_value="token"), mock.patch.object(history_article, "new_cover", return_value="new-cover") as cover:
+                history_article.export_secondary(data, path)
+            cover.assert_called_once_with("token", data)
+            self.assertEqual(json.loads(path.read_text())["thumb_media_id"], "new-cover")
+
     def test_existing_history_draft_matches_date_after_retitle(self):
         data = {
             "date": "2026-10-22",

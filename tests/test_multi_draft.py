@@ -47,6 +47,11 @@ class MultiDraftTests(unittest.TestCase):
         new_history = {"title": "每日英文历史｜新标题（2026-10-24）"}
         push_wechat.check_existing_pair([self.main, old_history], self.main, new_history, "2026-10-24")
 
+    def test_allows_current_history_title_replacement_on_same_date(self):
+        old_history = {"title": "英文历史｜柏林空运（2026-10-24）"}
+        new_history = {"title": "英文历史｜河西走廊（2026-10-24）"}
+        push_wechat.check_existing_pair([self.main, old_history], self.main, new_history, "2026-10-24")
+
     def test_finds_existing_main_before_creating_pair(self):
         with mock.patch.object(push_wechat, "http", return_value={"total_count": 1, "item": [{"media_id": "old", "content": {"news_item": [self.main]}}]}):
             self.assertEqual(push_wechat.find_existing_main_drafts("token", self.main["title"]), ["old"])

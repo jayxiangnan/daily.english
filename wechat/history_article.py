@@ -25,15 +25,17 @@ def article_html(data, wechat=False):
     date = e(data["date"])
     title = e(data["title_en"])
     zh_title = e(data["title_zh"])
+    series_label = e(data.get("series_label", "每日英文历史"))
     parts = [
         '<article style="font-family:-apple-system,BlinkMacSystemFont,\'PingFang SC\',sans-serif;'
         'max-width:760px;margin:auto;padding:18px 16px;color:#2c3e50;line-height:1.8;background:#f3f5f9;">',
         '<header style="padding:28px 22px;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);'
         'border-radius:14px;margin-bottom:22px;color:#fff;">'
-        f'<p style="margin:0 0 10px;font-size:13px;color:#ecedff;">每日英文历史 · {date}</p>'
+        f'<p style="margin:0 0 10px;font-size:13px;color:#ecedff;letter-spacing:1px;">{series_label} · {date}</p>'
         f'<h1 style="font-size:27px;line-height:1.35;margin:0 0 10px;color:#fff;">{title}</h1>'
         f'<p style="font-size:16px;line-height:1.6;margin:0;color:#f1ecff;">{zh_title}</p></header>',
-        '<section style="margin:0 0 22px;padding:18px 20px;background:#fff;border-radius:12px;">'
+        '<section style="margin:0 0 22px;padding:18px 20px;background:#fff;border-radius:12px;'
+        'border-left:3px solid #7664b0;">'
         f'<p style="font-size:15px;color:#526070;margin:0;">{e(data["lead"])}</p></section>',
         '<section style="margin:0 0 22px;padding:22px 20px;background:#fff;border-radius:12px;'
         'box-shadow:0 2px 12px rgba(0,0,0,0.05);">',
@@ -86,7 +88,7 @@ def article_markdown(data):
     lines = [
         f'# {data["title_en"]}｜{data["title_zh"]}',
         '',
-        f'每日英文历史 · {data["date"]}',
+        f'{data.get("series_label", "每日英文历史")} · {data["date"]}',
         '',
         data["lead"],
         '',
@@ -199,7 +201,8 @@ def export_secondary(data, path):
     """Upload a cover and save the secondary card without creating a draft."""
     path = Path(path)
     previous = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
-    thumb = previous.get("thumb_media_id")
+    expected_title = f'英文历史｜{data["title_zh"]}（{data["date"]}）'
+    thumb = previous.get("thumb_media_id") if previous.get("title") == expected_title else None
     if not thumb:
         cfg = load_cfg()
         token = get_token(cfg["appid"], cfg["appsecret"])

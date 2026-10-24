@@ -71,8 +71,8 @@ def check_existing_pair(existing_articles, main_article, history_article, target
     old_history_title = existing_articles[1].get("title", "")
     same_history = old_history_title == history_article["title"]
     same_date_history = bool(target_date and
-                             old_history_title.startswith("每日英文历史｜") and
-                             target_date in old_history_title)
+                             old_history_title.startswith(("每日英文历史｜", "英文历史｜")) and
+                             old_history_title.endswith(f"（{target_date}）"))
     if existing_articles[0].get("title") != main_article["title"] or not (same_history or same_date_history):
         raise ValueError("现有草稿的头条或次条标题不匹配，停止更新")
 
