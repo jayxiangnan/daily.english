@@ -24,6 +24,7 @@
 
 | 期数 | 日期 | 单词 |
 |------|------|------|
+| [第 29 期：新毛衣分开洗](archive/2026-10-25.md) | 2026-10-25 | label · fabric · shrink · separate · gentle |
 | [第 28 期：视频会议回声排查](archive/2026-10-24.md) | 2026-10-24 | echo · speaker · microphone · mute · headset |
 | [第 27 期：打印机卡纸后核对打印件](archive/2026-10-23.md) | 2026-10-23 | jam · tray · remove · resume · copy |
 | [第 26 期：密码重置链接失效后的处理](archive/2026-10-22.md) | 2026-10-22 | spam · request · link · expire · reset |

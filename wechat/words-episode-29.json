@@ -1,0 +1,42 @@
+[
+  {
+    "word": "label",
+    "phonetic": "/ˈleɪ.bəl/",
+    "meaning": "n. 标签；此处指衣服上的洗护说明标签",
+    "en": "Maya checked the care label before washing her new sweater.",
+    "zh": "洗新毛衣前，玛雅查看了洗护标签。",
+    "tip": "check the care label：查看洗护标签；说明写在 on the label。"
+  },
+  {
+    "word": "fabric",
+    "phonetic": "/ˈfæb.rɪk/",
+    "meaning": "n. 布料；此处指毛衣所用的羊毛混纺面料",
+    "en": "The label said the sweater was made from a wool-blend fabric.",
+    "zh": "标签上写着这件毛衣用了羊毛混纺面料。",
+    "tip": "a wool-blend fabric：羊毛混纺面料；谈具体面料也可说 this fabric。"
+  },
+  {
+    "word": "shrink",
+    "phonetic": "/ʃrɪŋk/",
+    "meaning": "v. 缩水；此处指衣物洗后尺寸变小",
+    "en": "Maya worried that warm water might make the sweater shrink.",
+    "zh": "玛雅担心温水可能让毛衣缩水。",
+    "tip": "make a sweater shrink：使毛衣缩水；过去式 shrank，过去分词 shrunk。"
+  },
+  {
+    "word": "separate",
+    "phonetic": "/ˈsep.ə.reɪt/",
+    "meaning": "v. 分开；此处指把深色毛衣与白色衣物分开洗",
+    "en": "She separated the dark sweater from the white shirts.",
+    "zh": "她把深色毛衣与白衬衫分开了。",
+    "tip": "separate A from B：把 A 与 B 分开。"
+  },
+  {
+    "word": "gentle",
+    "phonetic": "/ˈdʒen.t̬əl/",
+    "meaning": "adj. 轻柔的；此处形容洗衣机的轻柔洗涤程序",
+    "en": "She chose a gentle cycle with cold water, as the label instructed.",
+    "zh": "她按标签说明选择了冷水轻柔洗涤程序。",
+    "tip": "a gentle cycle：轻柔洗涤程序；choose/use the gentle cycle。"
+  }
+]
