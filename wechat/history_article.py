@@ -28,7 +28,7 @@ def article_html(data, wechat=False):
     series_label = e(data.get("series_label", "每日英文历史"))
     parts = [
         '<article style="font-family:-apple-system,BlinkMacSystemFont,\'PingFang SC\',sans-serif;'
-        'max-width:760px;margin:auto;padding:18px 16px;color:#2c3e50;line-height:1.8;background:#f3f5f9;">',
+        'max-width:700px;margin:auto;padding:18px 16px;color:#2c3e50;line-height:1.8;background:#f3f5f9;">',
         '<header style="padding:28px 22px;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);'
         'border-radius:14px;margin-bottom:22px;color:#fff;">'
         f'<p style="margin:0 0 10px;font-size:13px;color:#ecedff;letter-spacing:1px;">{series_label} · {date}</p>'
@@ -68,7 +68,7 @@ def article_html(data, wechat=False):
                  '<h2 style="font-size:20px;color:#394f8a;margin:0 0 14px;">资料来源 · Sources</h2><ul>')
     parts.extend(
         f'<li><a href="{e(x["url"], quote=True)}">{e(x["label"])}</a>'
-        + (f'<br><span>{e(x["url"])}</span>' if wechat else '')
+        + f'<br><span style="font-size:12px;overflow-wrap:anywhere;">{e(x["url"])}</span>'
         + '</li>'
         for x in data["sources"]
     )
@@ -107,7 +107,7 @@ def article_markdown(data):
     lines += ['', '### 参考答案 · Answers', '']
     lines += [f'{i}. {x["a"]}' for i, x in enumerate(data["questions"], 1)]
     lines += ['', '## 资料来源 · Sources', '']
-    lines += [f'- [{x["label"]}]({x["url"]})' for x in data["sources"]]
+    lines += [f'- [{x["label"]}]({x["url"]}) — {x["url"]}' for x in data["sources"]]
     return "\n".join(lines) + "\n"
 
 
