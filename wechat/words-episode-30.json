@@ -1,0 +1,42 @@
+[
+  {
+    "word": "announcement",
+    "phonetic": "/əˈnaʊns.mənt/",
+    "meaning": "n. 通知；此处指机场广播发布的登机口变更通知",
+    "en": "An announcement said our flight had moved to Gate 18.",
+    "zh": "一则广播通知说我们的航班改到 18 号登机口。",
+    "tip": "an announcement about a gate change：一则关于登机口变更的通知。"
+  },
+  {
+    "word": "gate",
+    "phonetic": "/ɡeɪt/",
+    "meaning": "n. 登机口；此处指乘客登上该航班的机场位置",
+    "en": "The new gate for Flight CX204 is Gate 18.",
+    "zh": "CX204 航班的新登机口是 18 号。",
+    "tip": "at Gate 18：在 18 号登机口；机场编号前通常直接用 Gate。"
+  },
+  {
+    "word": "screen",
+    "phonetic": "/skriːn/",
+    "meaning": "n. 屏幕；此处指显示航班信息的机场电子屏",
+    "en": "The airport screen shows Gate 18 and a boarding time of 2:20 p.m.",
+    "zh": "机场电子屏显示 18 号登机口，登机时间是下午 2:20。",
+    "tip": "check the flight information screen：查看航班信息屏；信息显示在 on the screen。"
+  },
+  {
+    "word": "board",
+    "phonetic": "/bɔːrd/",
+    "meaning": "v. 登上；此处指乘客登上飞机",
+    "en": "We can board the plane at Gate 18 when boarding begins.",
+    "zh": "开始登机后，我们可以在 18 号登机口登上飞机。",
+    "tip": "board the plane：登机；board 后直接接交通工具，不加 on。"
+  },
+  {
+    "word": "depart",
+    "phonetic": "/dɪˈpɑːrt/",
+    "meaning": "v. 出发；此处指航班按计划从机场离开",
+    "en": "The flight is scheduled to depart at 3:00 p.m., after boarding begins.",
+    "zh": "这趟航班计划下午 3:00 出发，在开始登机之后。",
+    "tip": "depart at 3:00 p.m.：下午 3:00 出发；depart from an airport：从某机场出发。"
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "title": "广播说换了登机口，怎样核对后赶上航班？",
+  "wechat_title": "每日 5 词 · 第 30 期（2026年10月26日）",
+  "wechat_digest": "广播说换了登机口，怎样核对后赶上航班？",
+  "lead": "示例情境：林和阿杰在机场等候虚构的 CX204 航班。原登机口是 12 号；广播提示改到 18 号。他们要核对航班号、登机口和时间，再前往正确位置。人物、航班号、时间及机场流程均为教学设定；实际出行以航空公司和机场的最新通知为准。",
+  "dialogue": [
+    {
+      "en": "Lin: Our boarding passes say Gate 12, but I just heard an announcement about a gate change.",
+      "zh": "林：我们的登机牌写着 12 号登机口，可我刚听到广播说登机口变了。"
+    },
+    {
+      "en": "Jay: I heard Gate 18, but let us check the flight information screen before we move.",
+      "zh": "阿杰：我听到的是 18 号，不过我们先看航班信息屏，再动身。"
+    },
+    {
+      "en": "Lin: The screen shows Flight CX204 at Gate 18. It says boarding begins at 2:20 p.m.",
+      "zh": "林：屏幕显示 CX204 航班在 18 号登机口，下午 2:20 开始登机。"
+    },
+    {
+      "en": "Jay: That is our flight number. It is scheduled to depart at 3:00 p.m., so 2:20 is the boarding time, not the departure time.",
+      "zh": "阿杰：航班号对上了。它计划下午 3:00 出发，所以 2:20 是登机时间，不是出发时间。"
+    },
+    {
+      "en": "Lin: Let us go to Gate 18 now. We can check the screen there again in case anything changes.",
+      "zh": "林：现在去 18 号登机口吧。到了再看一次屏幕，以防信息变化。"
+    },
+    {
+      "en": "Jay: The gate screen still shows CX204, and boarding has begun. We can board the plane here.",
+      "zh": "阿杰：登机口屏幕仍显示 CX204，已经开始登机了。我们可以在这里上飞机。"
+    }
+  ],
+  "notes": {
+    "announcement": {
+      "usage": "announcement 是正式发布的消息，可通过广播或其他方式传达；reminder 侧重提醒已知事项。这里是新发布的登机口变更。",
+      "pitfall": "说 an announcement about a gate change；可数用法中单数前要有 an。"
+    },
+    "gate": {
+      "usage": "gate 是登机口；terminal 是航站楼。先找对航站楼，再按航班信息找具体 gate。",
+      "pitfall": "说 at Gate 18；不要把 Gate 18 说成 Terminal 18。"
+    },
+    "screen": {
+      "usage": "screen 是显示信息的屏幕；sign 可以是固定标牌。航班号、登机口和时间出现在电子屏上。",
+      "pitfall": "说 on the screen，不说 in the screen。"
+    },
+    "board": {
+      "usage": "board 指乘客登上飞机；depart 指飞机出发。先开始登机，之后飞机才出发。",
+      "pitfall": "说 board the plane；board 作动词时后面不加 on。"
+    },
+    "depart": {
+      "usage": "depart 指航班出发；arrive 指抵达目的地。屏幕上的 departure time 不能当作登机开始时间。",
+      "pitfall": "说 The flight departs at 3:00 p.m.；depart 是不及物动词，这里不说 departs the airport。"
+    }
+  },
+  "practice": [
+    {
+      "question": "登机牌写 12 号，广播说改到 18 号。用 announcement 和 gate 写一句你听到的信息。",
+      "answer": "The announcement says our flight has moved to Gate 18.",
+      "explanation": "announcement 交代信息来源；move to Gate 18 说明新登机口。"
+    },
+    {
+      "question": "屏幕显示下午 2:20 开始登机，下午 3:00 出发。用 board 和 depart 写一句英文，区分两件事。",
+      "answer": "We can board at 2:20 p.m., and the flight is scheduled to depart at 3:00 p.m.",
+      "explanation": "board 是乘客上飞机；depart 是航班出发，两个时间不要颠倒。"
+    },
+    {
+      "question": "换个情境：火车广播说改到 6 号站台，你没听清车次。用 screen 改写“先核对屏幕上的车次，再去 6 号站台”。",
+      "answer": "Let us check the train number on the screen before we go to Platform 6.",
+      "explanation": "on the screen 表示屏幕上；先核对车次，避免只凭站台号走错。"
+    }
+  ],
+  "takeaway_en": "Let us check the flight number, gate, and boarding time on the screen before we move.",
+  "takeaway_zh": "动身前，我们先核对屏幕上的航班号、登机口和登机时间。",
+  "closing": "听到 announcement 后，先在 screen 上核对航班号和 gate；board 的时间是上飞机的时间，depart 的时间是航班出发的时间。"
+}

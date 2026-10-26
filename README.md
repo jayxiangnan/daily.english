@@ -24,6 +24,7 @@
 
 | 期数 | 日期 | 单词 |
 |------|------|------|
+| [第 30 期：登机口变更后的信息核对](archive/2026-10-26.md) | 2026-10-26 | announcement · gate · screen · board · depart |
 | [第 29 期：新毛衣分开洗](archive/2026-10-25.md) | 2026-10-25 | label · fabric · shrink · separate · gentle |
 | [第 28 期：视频会议回声排查](archive/2026-10-24.md) | 2026-10-24 | echo · speaker · microphone · mute · headset |
 | [第 27 期：打印机卡纸后核对打印件](archive/2026-10-23.md) | 2026-10-23 | jam · tray · remove · resume · copy |
@@ -60,6 +61,7 @@
 
 | 日期 | 文章 | 在线页面 |
 |------|------|----------|
+| 2026-10-26 | [三角城的城墙与种子：一座聚落的两种时间](archive/history-2026-10-26.md) | [阅读页面](outputs/history-2026-10-26.html) |
 | 2026-10-25 | [丝路之前，海藏遗址的种子如何讲述生计变化？](archive/history-2026-10-25.md) | [阅读页面](outputs/history-2026-10-25.html) |
 | 2026-10-24 | [丝路之前：河西走廊是怎样形成的？](archive/history-2026-10-24.md) | [阅读页面](outputs/history-2026-10-24.html) |
 | 2026-10-22 | [河西走廊如何成为通往中亚的要道](archive/history-2026-10-22.md) | [阅读页面](outputs/history-2026-10-22.html) |
