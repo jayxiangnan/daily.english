@@ -1,0 +1,42 @@
+[
+  {
+    "word": "noise",
+    "phonetic": "/nɔɪz/",
+    "meaning": "n. 噪声；此处指客房外令人难以入睡的走廊声响",
+    "en": "The noise in the hallway kept me awake last night.",
+    "zh": "昨晚走廊里的噪声让我一直没睡着。",
+    "tip": "the noise in the hallway：走廊里的噪声；make a noise：发出声响。"
+  },
+  {
+    "word": "disturb",
+    "phonetic": "/dɪˈstɝːb/",
+    "meaning": "v. 打扰；此处指声音打断客人的睡眠",
+    "en": "People talking near the elevator disturbed my sleep.",
+    "zh": "有人在电梯旁说话，打扰了我的睡眠。",
+    "tip": "disturb someone’s sleep：打扰某人的睡眠。"
+  },
+  {
+    "word": "report",
+    "phonetic": "/rɪˈpɔːrt/",
+    "meaning": "v. 报告；此处指把客房问题告知酒店前台",
+    "en": "I reported the hallway noise to the front desk.",
+    "zh": "我把走廊噪声的问题告诉了前台。",
+    "tip": "report a problem to the front desk：向前台反映问题。"
+  },
+  {
+    "word": "offer",
+    "phonetic": "/ˈɑː.fɚ/",
+    "meaning": "v. 提供；此处指前台提出一个可选房间",
+    "en": "The receptionist offered me another room away from the elevator.",
+    "zh": "前台接待员给我提供了另一间远离电梯的房间。",
+    "tip": "offer someone another room：给某人提供另一间房；也可说 offer to help。"
+  },
+  {
+    "word": "switch",
+    "phonetic": "/swɪtʃ/",
+    "meaning": "v. 更换；此处指从一间客房换到另一间",
+    "en": "I decided to switch to Room 612 after checking where it was.",
+    "zh": "确认 612 号房的位置后，我决定换过去。",
+    "tip": "switch to Room 612：换到 612 号房；switch from A to B：从 A 换到 B。"
+  }
+]
