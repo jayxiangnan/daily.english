@@ -1,0 +1,42 @@
+[
+  {
+    "word": "format",
+    "phonetic": "/ˈfɔːr.mæt/",
+    "meaning": "n. 格式；此处指老师要求的 PDF 文件格式",
+    "en": "The assignment must be in PDF format.",
+    "zh": "这份作业必须是 PDF 格式。",
+    "tip": "in PDF format：以 PDF 格式；file format：文件格式。"
+  },
+  {
+    "word": "convert",
+    "phonetic": "/kənˈvɝːt/",
+    "meaning": "v. 转换；此处指把 Word 文件转成 PDF",
+    "en": "I converted my Word document into a PDF.",
+    "zh": "我把 Word 文档转换成了 PDF。",
+    "tip": "convert A into B：把 A 转换成 B。"
+  },
+  {
+    "word": "preview",
+    "phonetic": "/ˈpriː.vjuː/",
+    "meaning": "v. 预览；此处指提交前查看转换后的 PDF 页面",
+    "en": "Preview the PDF to make sure every page is complete.",
+    "zh": "预览 PDF，确认每一页都完整。",
+    "tip": "preview the PDF before submitting it：提交前预览 PDF。"
+  },
+  {
+    "word": "upload",
+    "phonetic": "/ʌpˈloʊd/",
+    "meaning": "v. 上传；此处指把 PDF 文件传到课程平台",
+    "en": "Please upload the PDF to the course portal.",
+    "zh": "请把 PDF 上传到课程平台。",
+    "tip": "upload a file to a portal：把文件上传到平台。"
+  },
+  {
+    "word": "submit",
+    "phonetic": "/səbˈmɪt/",
+    "meaning": "v. 提交；此处指正式交出已上传的作业供老师查看",
+    "en": "After uploading the file, click Submit to hand in the assignment.",
+    "zh": "上传文件后，点击“提交”正式交作业。",
+    "tip": "submit an assignment：提交作业；submit it through the portal：通过平台提交。"
+  }
+]

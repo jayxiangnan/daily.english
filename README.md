@@ -24,6 +24,7 @@
 
 | 期数 | 日期 | 单词 |
 |------|------|------|
+| [第 32 期：Word 作业转 PDF 后提交](archive/2026-10-28.md) | 2026-10-28 | format · convert · preview · upload · submit |
 | [第 31 期：酒店夜间噪声与换房](archive/2026-10-27.md) | 2026-10-27 | noise · disturb · report · offer · switch |
 | [第 30 期：登机口变更后的信息核对](archive/2026-10-26.md) | 2026-10-26 | announcement · gate · screen · board · depart |
 | [第 29 期：新毛衣分开洗](archive/2026-10-25.md) | 2026-10-25 | label · fabric · shrink · separate · gentle |
