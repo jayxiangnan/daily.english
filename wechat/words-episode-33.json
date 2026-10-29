@@ -1,0 +1,42 @@
+[
+  {
+    "word": "address",
+    "phonetic": "/ˈæd.res/",
+    "meaning": "n. 地址；此处指外卖送达的地点",
+    "en": "The address on my order is wrong.",
+    "zh": "订单上的地址填错了。",
+    "tip": "delivery address：配送地址；at the correct address：在正确地址。"
+  },
+  {
+    "word": "correct",
+    "phonetic": "/kəˈrekt/",
+    "meaning": "adj. 正确的；此处指核对后的送餐地址",
+    "en": "The correct address is 18 Pine Street.",
+    "zh": "正确地址是松树街 18 号。",
+    "tip": "the correct address：正确地址；Is this correct?：这样对吗？"
+  },
+  {
+    "word": "contact",
+    "phonetic": "/ˈkɑːn.tækt/",
+    "meaning": "v. 联系；此处指联系配送员说明地址错误",
+    "en": "Please contact the driver before they leave.",
+    "zh": "请在配送员离开前联系对方。",
+    "tip": "contact someone directly：直接联系某人。"
+  },
+  {
+    "word": "driver",
+    "phonetic": "/ˈdraɪ.vɚ/",
+    "meaning": "n. 司机；此处指负责送餐的配送员",
+    "en": "The delivery driver checked the new address.",
+    "zh": "配送员核对了新地址。",
+    "tip": "delivery driver：配送员；taxi driver：出租车司机。"
+  },
+  {
+    "word": "deliver",
+    "phonetic": "/dɪˈlɪv.ɚ/",
+    "meaning": "v. 递送；此处指把餐送到确认的地址",
+    "en": "Can you deliver the meal to 18 Pine Street?",
+    "zh": "你能把餐送到松树街 18 号吗？",
+    "tip": "deliver something to an address：把某物送到某地址。"
+  }
+]

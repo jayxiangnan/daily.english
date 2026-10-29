@@ -1,0 +1,82 @@
+{
+  "title": "外卖地址填错了，怎样在送达前说清楚？",
+  "wechat_title": "每日 5 词 · 第 33 期（2026年10月29日）",
+  "wechat_digest": "外卖地址填错了，怎样在送达前说清楚？",
+  "lead": "示例情境：梅发现外卖订单显示松树街 81 号，实际应送到 18 号。配送员尚未出发；她先核对地址，再联系配送员确认能否改送。人物、街道、订单状态和配送结果均为教学设定，实际改址规则以所用平台为准。",
+  "dialogue": [
+    {
+      "en": "Mei: The address on my order says 81 Pine Street, but I live at 18 Pine Street.",
+      "zh": "梅：订单地址写的是松树街 81 号，可我住在 18 号。"
+    },
+    {
+      "en": "Bo: Check your order details. Is 18 Pine Street the correct address?",
+      "zh": "博：核对一下订单详情。松树街 18 号是正确地址吗？"
+    },
+    {
+      "en": "Mei: Yes. The order says the delivery driver has not left yet. I should contact them now.",
+      "zh": "梅：对。订单显示配送员还没出发。我得现在联系对方。"
+    },
+    {
+      "en": "Mei: Hi, I entered the wrong address. The correct address is 18 Pine Street. Can you deliver the meal there?",
+      "zh": "梅：你好，我填错地址了。正确地址是松树街 18 号。你能把餐送到那里吗？"
+    },
+    {
+      "en": "Driver: I have not left the restaurant. I can deliver it to 18 Pine Street. Is that the complete address?",
+      "zh": "配送员：我还没离开餐厅。我可以送到松树街 18 号。这是完整地址吗？"
+    },
+    {
+      "en": "Mei: Yes, 18 Pine Street, apartment 2. Please confirm that you have the new address.",
+      "zh": "梅：是的，松树街 18 号，2 号公寓。请确认你记下了新地址。"
+    },
+    {
+      "en": "Driver: Confirmed: 18 Pine Street, apartment 2. I will deliver the meal there.",
+      "zh": "配送员：确认了，松树街 18 号，2 号公寓。我会送到那里。"
+    },
+    {
+      "en": "Mei: Thanks. The driver has the full address now, so I will watch the order for updates.",
+      "zh": "梅：谢谢。配送员现在有完整地址了，我会留意订单动态。"
+    }
+  ],
+  "notes": {
+    "address": {
+      "usage": "address 是具体送达地点；location 可指更宽泛的位置。需要送餐时给完整 address。",
+      "pitfall": "说 deliver it to this address；不要用 at 代替递送动作中的 to。"
+    },
+    "correct": {
+      "usage": "correct 强调与事实相符；new 只表示新提供的信息，不保证准确。",
+      "pitfall": "the correct address 中 correct 放在名词前；不要说 the address correct。"
+    },
+    "contact": {
+      "usage": "contact 是取得联系；inform 是告知信息。先 contact 配送员，接通后再说明地址。",
+      "pitfall": "contact the driver 后直接接人，不说 contact with the driver。"
+    },
+    "driver": {
+      "usage": "driver 指开车的人；delivery driver 明确是负责配送的人，不等于 restaurant staff。",
+      "pitfall": "说 the delivery driver；若不知道对方性别，用 they 指代即可。"
+    },
+    "deliver": {
+      "usage": "deliver 强调送达收件人或地点；send 只强调发出，不保证送达。",
+      "pitfall": "说 deliver the meal to 18 Pine Street；不要说 deliver the meal at 18 Pine Street。"
+    }
+  },
+  "practice": [
+    {
+      "question": "订单地址写成 81 号，实际是 18 号。用 address 和 correct 写一句英文向配送员说明。",
+      "answer": "The address on my order is wrong. The correct address is 18 Pine Street.",
+      "explanation": "先说明旧地址有误，再给出核对后的准确地址。"
+    },
+    {
+      "question": "配送员还没出发。用 contact 和 driver 说出你要采取的动作。",
+      "answer": "I will contact the delivery driver now.",
+      "explanation": "contact 后直接接联系对象；delivery driver 明确身份。"
+    },
+    {
+      "question": "新情境：给同事寄文件，快递员需要完整办公地址。用 deliver 改写 “Send it to our office.”，并加入示例地址 20 Oak Road。",
+      "answer": "Please deliver it to our office at 20 Oak Road.",
+      "explanation": "deliver it to 表达送达目的地；at 20 Oak Road 补充办公室地址。"
+    }
+  ],
+  "takeaway_en": "The address on my order is wrong. Can you deliver it to the correct address?",
+  "takeaway_zh": "我订单上的地址填错了。你能送到正确地址吗？",
+  "closing": "发现地址有误，先核对完整地址，再及时联系配送员并请对方复述确认。"
+}
