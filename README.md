@@ -24,6 +24,7 @@
 
 | 期数 | 日期 | 单词 |
 |------|------|------|
+| [第 34 期：水果沙拉缺橙子后的食材替换](archive/2026-10-30.md) | 2026-10-30 | recipe · ingredient · missing · replace · mix |
 | [第 33 期：外卖地址填错后联系配送员](archive/2026-10-29.md) | 2026-10-29 | address · correct · contact · driver · deliver |
 | [第 32 期：Word 作业转 PDF 后提交](archive/2026-10-28.md) | 2026-10-28 | format · convert · preview · upload · submit |
 | [第 31 期：酒店夜间噪声与换房](archive/2026-10-27.md) | 2026-10-27 | noise · disturb · report · offer · switch |

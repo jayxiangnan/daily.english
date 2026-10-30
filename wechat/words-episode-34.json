@@ -1,0 +1,42 @@
+[
+  {
+    "word": "recipe",
+    "phonetic": "/ˈres.ə.pi/",
+    "meaning": "n. 食谱；此处指水果沙拉的做法",
+    "en": "The recipe calls for one orange.",
+    "zh": "食谱要求用一个橙子。",
+    "tip": "follow a recipe：照着食谱做。"
+  },
+  {
+    "word": "ingredient",
+    "phonetic": "/ɪnˈɡriː.di.ənt/",
+    "meaning": "n. 食材；此处指食谱所需的一种水果",
+    "en": "An orange is one ingredient in this fruit salad.",
+    "zh": "橙子是这道水果沙拉的一种食材。",
+    "tip": "a list of ingredients：食材清单。"
+  },
+  {
+    "word": "missing",
+    "phonetic": "/ˈmɪs.ɪŋ/",
+    "meaning": "adj. 缺少的；此处指手边没有的橙子",
+    "en": "The orange is missing, so we need another fruit.",
+    "zh": "没有橙子了，所以我们需要另一种水果。",
+    "tip": "be missing from the kitchen：厨房里缺少。"
+  },
+  {
+    "word": "replace",
+    "phonetic": "/rɪˈpleɪs/",
+    "meaning": "v. 替换；此处指用梨代替橙子",
+    "en": "We can replace the orange with a pear.",
+    "zh": "我们可以用一个梨代替橙子。",
+    "tip": "replace A with B：用 B 替换 A。"
+  },
+  {
+    "word": "mix",
+    "phonetic": "/mɪks/",
+    "meaning": "v. 混合；此处指把切好的水果拌在一起",
+    "en": "Mix the chopped fruit in a bowl.",
+    "zh": "把切好的水果放在碗里拌匀。",
+    "tip": "mix the fruit together：把水果拌在一起。"
+  }
+]

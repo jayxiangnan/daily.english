@@ -1,0 +1,78 @@
+{
+  "title": "做水果沙拉时没有橙子，怎样确认替换后继续做？",
+  "wechat_title": "每日 5 词 · 第 34 期（2026年10月30日）",
+  "wechat_digest": "做水果沙拉时没有橙子，怎样确认替换后继续做？",
+  "lead": "示例情境：安和丽按一份水果沙拉食谱准备食材，发现家里没有橙子。她们先核对食谱，再依据这份示例食谱允许的替换说明，用一个梨代替一个橙子，最后把水果拌好。人物、材料和替换规则均为教学设定。",
+  "dialogue": [
+    {
+      "en": "Ann: The recipe calls for one apple and one orange. Do we have both?",
+      "zh": "安：食谱要求一个苹果和一个橙子。两样都有吗？"
+    },
+    {
+      "en": "Li: We have the apple, but the orange is missing.",
+      "zh": "丽：苹果有，但没有橙子。"
+    },
+    {
+      "en": "Ann: Let me check the ingredient list and the note below it.",
+      "zh": "安：我核对一下食材清单和下面的说明。"
+    },
+    {
+      "en": "Ann: This recipe says we can replace the orange with one pear. Do we have a pear?",
+      "zh": "安：这份食谱说可以用一个梨代替橙子。我们有梨吗？"
+    },
+    {
+      "en": "Li: Yes, one pear. So we will use one apple and one pear, with no orange.",
+      "zh": "丽：有，一个梨。那我们就用一个苹果和一个梨，不用橙子。"
+    },
+    {
+      "en": "Ann: Great. Let us wash and chop them, then mix the fruit in a bowl.",
+      "zh": "安：好。我们把它们洗净、切好，再放进碗里拌匀。"
+    },
+    {
+      "en": "Li: Done. We followed the recipe’s replacement note, and the fruit salad is ready.",
+      "zh": "丽：好了。我们按食谱的替换说明做了，水果沙拉也做好了。"
+    }
+  ],
+  "notes": {
+    "recipe": {
+      "usage": "recipe 包含材料和步骤；menu 是可点的菜品清单。",
+      "pitfall": "说 a recipe for fruit salad；不要说 a recipe of fruit salad。"
+    },
+    "ingredient": {
+      "usage": "ingredient 是一道菜的组成食材；dish 指做好的菜。",
+      "pitfall": "列出多个食材时用 ingredients，注意复数 -s。"
+    },
+    "missing": {
+      "usage": "missing 强调原本需要却没有；empty 说的是容器或空间空着。",
+      "pitfall": "说 The orange is missing；不要说 The orange is missed 来表达缺食材。"
+    },
+    "replace": {
+      "usage": "replace 指把原来的东西换掉；add 是额外加入。",
+      "pitfall": "replace the orange with a pear 中，with 后面是新用的梨。"
+    },
+    "mix": {
+      "usage": "mix 强调让材料混在一起；chop 是把材料切成小块。",
+      "pitfall": "说 mix the fruit in a bowl；不要用 mix up 表示普通拌匀，mix up 常有弄混之意。"
+    }
+  },
+  "practice": [
+    {
+      "question": "食谱写着需要橙子，但家里没有。用 recipe 和 missing 写一句英文。",
+      "answer": "The recipe calls for an orange, but the orange is missing.",
+      "explanation": "calls for 表示食谱需要；is missing 表示所需食材不在手边。"
+    },
+    {
+      "question": "示例食谱允许用一个梨代替一个橙子。用 replace 写出这个选择。",
+      "answer": "We can replace the orange with a pear.",
+      "explanation": "replace A with B 中，A 是被换掉的橙子，B 是新用的梨。"
+    },
+    {
+      "question": "新情境：另一份示例水果沙拉食谱缺了草莓，说明可用蓝莓代替。用 ingredient、replace 和 mix 说出下一步。",
+      "answer": "The strawberry ingredient is missing, so we can replace it with blueberries and mix the fruit.",
+      "explanation": "先交代缺少的食材，再说替换及拌匀；该替换仅适用于题目中的示例食谱。"
+    }
+  ],
+  "takeaway_en": "The orange is missing. Can we replace it with a pear?",
+  "takeaway_zh": "没有橙子了。我们能用梨代替吗？",
+  "closing": "照食谱做菜遇到缺食材时，先看材料和替换说明，再说清楚用什么替换什么。"
+}
