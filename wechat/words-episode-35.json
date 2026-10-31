@@ -1,0 +1,42 @@
+[
+  {
+    "word": "ticket",
+    "phonetic": "/ˈtɪk.ɪt/",
+    "meaning": "n. 车票；此处指已买的火车票",
+    "en": "My train ticket shows the wrong date.",
+    "zh": "我的火车票上日期不对。",
+    "tip": "a train ticket：一张火车票。"
+  },
+  {
+    "word": "date",
+    "phonetic": "/deɪt/",
+    "meaning": "n. 日期；此处指车票上的乘车日",
+    "en": "Please check the date on your ticket.",
+    "zh": "请核对车票上的日期。",
+    "tip": "the date on a ticket：票面日期。"
+  },
+  {
+    "word": "change",
+    "phonetic": "/tʃeɪndʒ/",
+    "meaning": "v. 更改；此处指更改车票日期",
+    "en": "Can I change my ticket to November 2?",
+    "zh": "我能把车票改到11月2日吗？",
+    "tip": "change a ticket to a different date：把车票改到另一个日期。"
+  },
+  {
+    "word": "fee",
+    "phonetic": "/fiː/",
+    "meaning": "n. 手续费；此处指示例改签或取消所收费用",
+    "en": "The change fee is five dollars in this example.",
+    "zh": "在这个示例中，改签手续费是五美元。",
+    "tip": "a change fee：改签手续费。"
+  },
+  {
+    "word": "cancel",
+    "phonetic": "/ˈkæn.səl/",
+    "meaning": "v. 取消；此处指取消原车票",
+    "en": "If I cancel this ticket, the example service charges ten dollars.",
+    "zh": "如果我取消这张票，示例服务会收取十美元。",
+    "tip": "cancel a ticket：取消一张票。"
+  }
+]

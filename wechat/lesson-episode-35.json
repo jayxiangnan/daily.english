@@ -1,0 +1,82 @@
+{
+  "title": "火车票买错日期，怎样比较改签和取消？",
+  "wechat_title": "每日 5 词 · 第 35 期（2026年10月31日）",
+  "wechat_digest": "火车票买错日期，怎样比较改签和取消？",
+  "lead": "示例情境：林要在11月2日乘车，却买了11月1日的票。她和客服核对票面日期、11月2日的余票及两种费用，再决定如何处理。人物、日期、余票、费用和服务规则均为教学设定。",
+  "dialogue": [
+    {
+      "en": "Lin: I bought a train ticket, but I think I chose the wrong date.",
+      "zh": "林：我买了火车票，但好像选错了日期。"
+    },
+    {
+      "en": "Agent: What date is on your ticket, and when do you need to travel?",
+      "zh": "客服：票上是什么日期？您需要哪天出行？"
+    },
+    {
+      "en": "Lin: The ticket says November 1. I need to travel on November 2.",
+      "zh": "林：票上写着11月1日。我需要11月2日出行。"
+    },
+    {
+      "en": "Agent: In this example, there is a seat on November 2. You can change the ticket for a five-dollar fee.",
+      "zh": "客服：在这个示例中，11月2日还有座位。您可以支付五美元手续费改签。"
+    },
+    {
+      "en": "Lin: What if I cancel the November 1 ticket instead?",
+      "zh": "林：如果我改为取消11月1日的票呢？"
+    },
+    {
+      "en": "Agent: The cancellation fee is ten dollars in this example. A new ticket would be a separate purchase.",
+      "zh": "客服：在这个示例中，取消手续费是十美元。新车票还需要另外购买。"
+    },
+    {
+      "en": "Lin: Then I will change my ticket to November 2. It keeps my trip and costs less than canceling.",
+      "zh": "林：那我把车票改到11月2日。这样能保留行程，而且费用比取消更低。"
+    },
+    {
+      "en": "Agent: Done. Your updated ticket now shows November 2, with a five-dollar change fee.",
+      "zh": "客服：办好了。更新后的车票显示11月2日，改签手续费为五美元。"
+    }
+  ],
+  "notes": {
+    "ticket": {
+      "usage": "ticket 是某次出行的票；receipt 是付款凭证，不能代替车票。",
+      "pitfall": "一张票说 a ticket；不要漏掉可数名词前的冠词。"
+    },
+    "date": {
+      "usage": "date 指几月几日；time 指具体几点。核对车票时两者要分开说。",
+      "pitfall": "说 on November 2；具体日期前用 on。"
+    },
+    "change": {
+      "usage": "change 保留这次购票安排并更改日期；cancel 是终止原票。",
+      "pitfall": "说 change my ticket to November 2；to 后接新日期。"
+    },
+    "fee": {
+      "usage": "fee 是办理服务所收的费用；fare 是乘车票价。",
+      "pitfall": "说 a five-dollar fee，作定语的 dollar 用单数。"
+    },
+    "cancel": {
+      "usage": "cancel 取消原票；change 只更改原票的某项信息。",
+      "pitfall": "美式过去式通常写 canceled，一个 l；英式可写 cancelled。"
+    }
+  },
+  "practice": [
+    {
+      "question": "票上写11月1日，但你要11月2日乘车。用 ticket 和 date 说清问题。",
+      "answer": "The date on my ticket is November 1, but I need to travel on November 2.",
+      "explanation": "date on my ticket 明确是票面日期；两个日期各有作用。"
+    },
+    {
+      "question": "示例改签费五美元，取消费十美元，而且你仍要出行。用 change 和 fee 说出选择。",
+      "answer": "I will change my ticket because the five-dollar change fee is lower.",
+      "explanation": "仍需乘车且改签费用较低，因此选择 change。"
+    },
+    {
+      "question": "新情境：你不再出行，示例服务允许取消。用 cancel 改写 “I want to stop using this ticket.”",
+      "answer": "I want to cancel this ticket.",
+      "explanation": "不再使用原票，直接说 cancel this ticket；不要说 change。"
+    }
+  ],
+  "takeaway_en": "The date on my ticket is wrong. Can I change it to November 2, and what is the fee?",
+  "takeaway_zh": "我的车票日期不对。我能改到11月2日吗？手续费是多少？",
+  "closing": "车票日期出错时，先核对原日期和目标日期，再问清改签或取消的费用及结果。"
+}

@@ -24,6 +24,7 @@
 
 | 期数 | 日期 | 单词 |
 |------|------|------|
+| [第 35 期：车票日期买错后比较改签与取消](archive/2026-10-31.md) | 2026-10-31 | ticket · date · change · fee · cancel |
 | [第 34 期：水果沙拉缺橙子后的食材替换](archive/2026-10-30.md) | 2026-10-30 | recipe · ingredient · missing · replace · mix |
 | [第 33 期：外卖地址填错后联系配送员](archive/2026-10-29.md) | 2026-10-29 | address · correct · contact · driver · deliver |
 | [第 32 期：Word 作业转 PDF 后提交](archive/2026-10-28.md) | 2026-10-28 | format · convert · preview · upload · submit |
@@ -65,6 +66,7 @@
 
 | 日期 | 文章 | 在线页面 |
 |------|------|----------|
+| 2026-10-31 | [谁能在悬泉置用餐？汉代驿路上的食物与身份](archive/history-2026-10-31.md) | [阅读页面](outputs/history-2026-10-31.html) |
 | 2026-10-30 | [悬泉置一匹病马：汉代驿路背后的照料与责任](archive/history-2026-10-30.md) | [阅读页面](outputs/history-2026-10-30.html) |
 | 2026-10-29 | [骆驼与申诉：悬泉置留下的一场交易争议](archive/history-2026-10-29.md) | [阅读页面](outputs/history-2026-10-29.html) |
 | 2026-10-28 | [姓名、粮食与文书：居延汉简中的边塞日常](archive/history-2026-10-28.md) | [阅读页面](outputs/history-2026-10-28.html) |
