@@ -1,0 +1,42 @@
+[
+  {
+    "word": "price",
+    "phonetic": "/praɪs/",
+    "meaning": "n. 价格；此处指商品标价或收银价格",
+    "en": "The price on the screen is higher than the shelf price.",
+    "zh": "屏幕上的价格比货架价高。",
+    "tip": "the price of an item：一件商品的价格。"
+  },
+  {
+    "word": "shelf",
+    "phonetic": "/ʃelf/",
+    "meaning": "n. 货架；此处指陈列商品及价格牌的架子",
+    "en": "The shelf sign says the tea is on sale.",
+    "zh": "货架标牌写着这款茶正在促销。",
+    "tip": "a shelf sign：货架标牌。"
+  },
+  {
+    "word": "scan",
+    "phonetic": "/skæn/",
+    "meaning": "v. 扫描；此处指扫描商品条码",
+    "en": "Could you scan the tea again?",
+    "zh": "您能再扫一次这款茶吗？",
+    "tip": "scan a barcode：扫描条码。"
+  },
+  {
+    "word": "discount",
+    "phonetic": "/ˈdɪs.kaʊnt/",
+    "meaning": "n. 折扣；此处指从原价减去的金额",
+    "en": "The two-dollar discount applies to this tea.",
+    "zh": "这款茶适用两美元折扣。",
+    "tip": "a discount on something：某商品的折扣。"
+  },
+  {
+    "word": "total",
+    "phonetic": "/ˈtoʊ.t̬əl/",
+    "meaning": "n. 总额；此处指结账时应付金额",
+    "en": "The total for the tea is six dollars after the discount.",
+    "zh": "折扣后，这款茶应付总额是六美元。",
+    "tip": "the total after the discount：折扣后的总额。"
+  }
+]

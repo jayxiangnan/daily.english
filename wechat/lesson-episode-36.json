@@ -1,0 +1,78 @@
+{
+  "title": "收银台价格高于货架价，怎样核对折扣？",
+  "wechat_title": "每日 5 词 · 第 36 期（2026年11月1日）",
+  "wechat_digest": "收银台价格高于货架价，怎样核对折扣？",
+  "lead": "示例情境：米娅拿一盒茶结账，货架标牌写原价 8 美元、立减 2 美元，收银屏幕却显示 8 美元。她先核对标牌适用的商品，再请店员重新扫码并确认应付 6 美元。人物、价格和促销规则均为教学设定。",
+  "dialogue": [
+    {
+      "en": "Mia: The price on the screen is eight dollars, but the shelf sign says this tea has a two-dollar discount.",
+      "zh": "米娅：屏幕上显示八美元，但货架标牌写着这款茶立减两美元。"
+    },
+    {
+      "en": "Cashier: Let me check the shelf sign. Does it name this exact tea?",
+      "zh": "店员：我去核对货架标牌。标牌写的是这款茶吗？"
+    },
+    {
+      "en": "Mia: Yes. The name and size match the box I have.",
+      "zh": "米娅：是的，名称和规格都与我拿的这盒一致。"
+    },
+    {
+      "en": "Cashier: You are right. I will scan it again and apply the discount.",
+      "zh": "店员：您说得对。我再扫一次，并应用折扣。"
+    },
+    {
+      "en": "Mia: What is the total for the tea now?",
+      "zh": "米娅：现在这盒茶的应付总额是多少？"
+    },
+    {
+      "en": "Cashier: It is six dollars: eight dollars minus the two-dollar discount. The screen now shows six dollars.",
+      "zh": "店员：六美元，八美元减去两美元折扣。屏幕现在显示六美元。"
+    },
+    {
+      "en": "Mia: Great. I will pay six dollars for the tea.",
+      "zh": "米娅：好的，我按六美元付款。"
+    }
+  ],
+  "notes": {
+    "price": {
+      "usage": "price 是商品标价；total 是结账时把适用折扣计入后的应付总额。",
+      "pitfall": "问某商品多少钱，说 What is the price of this tea?；不要把 price 当动词与 cost 混用。"
+    },
+    "shelf": {
+      "usage": "shelf 是放商品的架子；sign 是架子上的价格或促销标牌。",
+      "pitfall": "shelf 的复数是 shelves，不是 shelfs。"
+    },
+    "scan": {
+      "usage": "scan 指用设备读取条码；check 指核对价格或规则是否正确，重新扫码本身不等于核实促销。",
+      "pitfall": "过去式写 scanned，双写 n。"
+    },
+    "discount": {
+      "usage": "discount 是从原价减去的优惠；sale 可以指促销活动，不等于具体减了多少钱。",
+      "pitfall": "本期名词重音在首音节 /ˈdɪs.kaʊnt/；作动词常读 /dɪˈskaʊnt/。"
+    },
+    "total": {
+      "usage": "total 是加减后得到的总额；price 可指单件商品原价，两者不能直接互换。",
+      "pitfall": "问最终应付金额，说 What is the total?；不要说 How much is the total price? 来重复表达。"
+    }
+  },
+  "practice": [
+    {
+      "question": "货架标牌显示原价 8 美元、立减 2 美元，屏幕显示 8 美元。用 price 和 shelf 说明差异。",
+      "answer": "The price on the screen is eight dollars, but the shelf sign shows a two-dollar discount.",
+      "explanation": "分别指出收银价格和货架标牌的信息，不能只说价格不对。"
+    },
+    {
+      "question": "店员确认折扣适用并重新扫码。用 scan、discount 和 total 问最终金额。",
+      "answer": "Could you scan it again, apply the discount, and tell me the total?",
+      "explanation": "按重新扫码、应用折扣、确认总额的顺序提问。"
+    },
+    {
+      "question": "新情境：一支笔原价 5 美元，标牌写立减 1 美元，且店员确认适用。用 total 说应付金额。",
+      "answer": "The total for the pen is four dollars after the discount.",
+      "explanation": "五减一等于四；这是笔的新情境，不沿用茶的价格。"
+    }
+  ],
+  "takeaway_en": "The shelf sign shows a discount. Could you check the price and tell me the total?",
+  "takeaway_zh": "货架标牌显示有折扣。您能核对价格并告诉我应付总额吗？",
+  "closing": "结账价与标牌不一致时，先核对商品及促销条件，再确认折扣后的总额。"
+}
