@@ -1,0 +1,78 @@
+{
+  "title": "预约撞上工作安排，怎样改约并确认新时段？",
+  "wechat_title": "每日 5 词 · 第 37 期（2026年11月3日）",
+  "wechat_digest": "预约撞上工作安排，怎样改约并确认新时段？",
+  "lead": "示例情境：莉娜原约星期二下午三点办理业务，临时被安排同一时间值班。她询问星期四上午的空余时段，得到九点的选择后核对日历、回复确认，并设置带表格的提醒。人物、时间与预约流程均为教学设定。",
+  "dialogue": [
+    {
+      "en": "Lina: I have an appointment on Tuesday at three, but my work shift now starts at the same time.",
+      "zh": "莉娜：我约了星期二三点，但现在我的工作班次也从那时开始。"
+    },
+    {
+      "en": "Staff: I see the Tuesday appointment. Would you like to reschedule it?",
+      "zh": "工作人员：我查到了星期二的预约。您想改期吗？"
+    },
+    {
+      "en": "Lina: Yes. Is there an available slot on Thursday morning?",
+      "zh": "莉娜：是的。星期四上午有可预约的时段吗？"
+    },
+    {
+      "en": "Staff: There is a slot at nine. Please check your calendar before you choose it.",
+      "zh": "工作人员：九点有一个时段。选择前请先核对您的日历。"
+    },
+    {
+      "en": "Lina: Nine works for me. I will reply to your message to confirm it.",
+      "zh": "莉娜：九点可以。我会回复您的消息确认。"
+    },
+    {
+      "en": "Staff: Thanks. Once I receive your reply, I will move the appointment to Thursday at nine and send you the updated details.",
+      "zh": "工作人员：谢谢。收到您的回复后，我会把预约改到星期四九点，并发给您更新后的详情。"
+    },
+    {
+      "en": "Lina: I have replied, and I can see the new time. I will set an alert to remind me to bring the form.",
+      "zh": "莉娜：我已回复，也看到了新时间。我会设置提醒，记得带表格。"
+    }
+  ],
+  "notes": {
+    "appointment": {
+      "usage": "appointment 是已经约定的会面或服务时间；slot 是还可供选择的时段。",
+      "pitfall": "表示三点的预约说 an appointment at three；不要说 in three。"
+    },
+    "reschedule": {
+      "usage": "reschedule 保留原本要办的事并另定时间；cancel 只表示取消。",
+      "pitfall": "reschedule 后直接接被改期的事：reschedule my appointment；不要说 reschedule for my appointment。"
+    },
+    "slot": {
+      "usage": "slot 强调日程表里可分配的一段时间；time 只表示时间，可以不含可预约之意。",
+      "pitfall": "问是否有空余时段说 Is there an available slot?；不要用 free slot 指免费服务。"
+    },
+    "reply": {
+      "usage": "reply 指针对收到的消息作答；send 可以指主动发送新消息。",
+      "pitfall": "reply 作不及物动词时接对象用 to：reply to the message。"
+    },
+    "remind": {
+      "usage": "remind 是让某人记起要做的事；remember 是自己记得。",
+      "pitfall": "说 remind me to bring the form；不要说 remind me bring the form。"
+    }
+  },
+  "practice": [
+    {
+      "question": "你原约周二三点，但那时要上班。用 appointment 和 reschedule 礼貌提出改期。",
+      "answer": "I have an appointment on Tuesday at three, but I have to work then. Could I reschedule it?",
+      "explanation": "先说明时间冲突，再提出改约。"
+    },
+    {
+      "question": "工作人员提供周四九点的时段。用 slot 和 reply 表达先核对日历再答复。",
+      "answer": "I will check my calendar and reply to your message about the nine o’clock slot.",
+      "explanation": "先核对，再回复具体时段；reply 后接 to。"
+    },
+    {
+      "question": "新情境：你已把理发预约改到周五十点。请用 remind 改写“Please help me remember to bring the photo.”",
+      "answer": "Please remind me to bring the photo to my appointment on Friday at ten.",
+      "explanation": "remind someone to do something；新情境沿用新词，不沿用表格。"
+    }
+  ],
+  "takeaway_en": "Could I reschedule my appointment? Is there an available slot on Thursday morning?",
+  "takeaway_zh": "我能改约吗？星期四上午有可预约的时段吗？",
+  "closing": "改约时先说清原预约与冲突，询问空余时段，核对后再回复确认。"
+}

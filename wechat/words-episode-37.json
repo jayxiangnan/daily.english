@@ -1,0 +1,42 @@
+[
+  {
+    "word": "appointment",
+    "phonetic": "/əˈpɔɪnt.mənt/",
+    "meaning": "n. 预约；此处指约定时间的办事时段",
+    "en": "My appointment is at three, but I have to work then.",
+    "zh": "我预约的是三点，但那时我得工作。",
+    "tip": "an appointment at three：三点的预约。"
+  },
+  {
+    "word": "reschedule",
+    "phonetic": "/ˌriːˈskedʒ.uːl/",
+    "meaning": "v. 改期；为已经约好的事情另定时间",
+    "en": "Could I reschedule my appointment for Thursday?",
+    "zh": "我能把预约改到星期四吗？",
+    "tip": "reschedule an appointment for Thursday：把预约改到星期四。"
+  },
+  {
+    "word": "slot",
+    "phonetic": "/slɑːt/",
+    "meaning": "n. 可预约的时段",
+    "en": "Is there a morning slot on Thursday?",
+    "zh": "星期四上午有空余时段吗？",
+    "tip": "an available slot：一个可用时段。"
+  },
+  {
+    "word": "reply",
+    "phonetic": "/rɪˈplaɪ/",
+    "meaning": "v. 回复；此处指答复对方提出的时段",
+    "en": "I will reply to your message after checking my calendar.",
+    "zh": "我核对日历后会回复你的消息。",
+    "tip": "reply to a message：回复一条消息。"
+  },
+  {
+    "word": "remind",
+    "phonetic": "/rɪˈmaɪnd/",
+    "meaning": "v. 提醒；使人记起要做的事",
+    "en": "Please remind me to bring the form on Thursday.",
+    "zh": "请提醒我星期四带上表格。",
+    "tip": "remind someone to do something：提醒某人做某事。"
+  }
+]

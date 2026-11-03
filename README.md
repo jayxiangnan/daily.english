@@ -24,6 +24,7 @@
 
 | 期数 | 日期 | 单词 |
 |------|------|------|
+| [第 37 期：预约撞上工作安排后改约](archive/2026-11-03.md) | 2026-11-03 | appointment · reschedule · slot · reply · remind |
 | [第 36 期：核对货架折扣与收银总额](archive/2026-11-01.md) | 2026-11-01 | price · shelf · scan · discount · total |
 | [第 35 期：车票日期买错后比较改签与取消](archive/2026-10-31.md) | 2026-10-31 | ticket · date · change · fee · cancel |
 | [第 34 期：水果沙拉缺橙子后的食材替换](archive/2026-10-30.md) | 2026-10-30 | recipe · ingredient · missing · replace · mix |
