@@ -1,0 +1,42 @@
+[
+  {
+    "word": "cable",
+    "phonetic": "/ˈkeɪ.bəl/",
+    "meaning": "n. 连接手机与充电头的线",
+    "en": "The cable is loose at the phone end.",
+    "zh": "数据线在手机这一端松了。",
+    "tip": "a charging cable：充电线。"
+  },
+  {
+    "word": "outlet",
+    "phonetic": "/ˈaʊt.let/",
+    "meaning": "n. （美式英语）电源插座",
+    "en": "Is this wall outlet working?",
+    "zh": "这个墙上的插座有电吗？",
+    "tip": "a wall outlet：墙上插座。"
+  },
+  {
+    "word": "adapter",
+    "phonetic": "/əˈdæp.tɚ/",
+    "meaning": "n. 此处指手机充电头、电源适配器",
+    "en": "Let us try another adapter with the same cable.",
+    "zh": "我们用同一条线换个充电头试试。",
+    "tip": "a power adapter：电源适配器。"
+  },
+  {
+    "word": "plug",
+    "phonetic": "/plʌɡ/",
+    "meaning": "v. 插入电源或设备接口",
+    "en": "Plug the adapter into the wall outlet.",
+    "zh": "把充电头插进墙上的插座。",
+    "tip": "plug something into something：把某物插入某处。"
+  },
+  {
+    "word": "unplug",
+    "phonetic": "/ʌnˈplʌɡ/",
+    "meaning": "v. 拔下电器插头",
+    "en": "Unplug the adapter before you leave.",
+    "zh": "离开前拔下充电头。",
+    "tip": "unplug the adapter：拔下充电头。"
+  }
+]

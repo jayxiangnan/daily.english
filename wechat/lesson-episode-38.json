@@ -1,0 +1,78 @@
+{
+  "title": "出门前手机充不进电，怎样逐步找出问题？",
+  "wechat_title": "每日 5 词 · 第 38 期（2026年11月4日）",
+  "wechat_digest": "出门前手机充不进电，怎样逐步找出问题？",
+  "lead": "示例情境：米娅出门前发现手机接上电源仍未显示充电。她和杰依次检查线的连接、插座与充电头，确认更换充电头后手机开始充电，离开时拔下插头。人物和排查过程均为教学设定。",
+  "dialogue": [
+    {
+      "en": "Mia: My phone is not charging, and I need to leave soon.",
+      "zh": "米娅：手机没在充电，我很快就要出门。"
+    },
+    {
+      "en": "Jay: First, check the cable. Is it connected firmly at the phone end?",
+      "zh": "杰：先检查线。它在手机这一端接牢了吗？"
+    },
+    {
+      "en": "Mia: Yes, the cable is firmly connected. Could the wall outlet be the problem?",
+      "zh": "米娅：接牢了。会不会是墙上的插座出了问题？"
+    },
+    {
+      "en": "Jay: This outlet works with my lamp. Let’s try another adapter with your cable.",
+      "zh": "杰：这个插座接我的台灯能用。我们用你的线换个充电头试试。"
+    },
+    {
+      "en": "Mia: I’ll plug the new adapter into the outlet. Now the phone shows that it is charging.",
+      "zh": "米娅：我把新充电头插进插座。现在手机显示正在充电了。"
+    },
+    {
+      "en": "Jay: Then the old adapter may be faulty. Unplug the new one before you leave.",
+      "zh": "杰：那旧充电头可能有故障。离开前把新充电头拔下来。"
+    },
+    {
+      "en": "Mia: Done. I’ll take the working adapter with me.",
+      "zh": "米娅：拔好了。我会带上能用的充电头。"
+    }
+  ],
+  "notes": {
+    "cable": {
+      "usage": "cable 指整条线；plug 指插入插座的插头。",
+      "pitfall": "说 the cable is loose；不要用 loosen 表示“处于松动状态”。"
+    },
+    "outlet": {
+      "usage": "outlet 是墙上供电的插座；adapter 是连接线和插座之间的充电头。",
+      "pitfall": "在美式英语中问插座可说 an electrical outlet；不要把 outlet 误当作插头。"
+    },
+    "adapter": {
+      "usage": "adapter 把电源接到设备；cable 是传输电力的线。",
+      "pitfall": "说 another adapter；不要把 adapter 直接当作 wall outlet。"
+    },
+    "plug": {
+      "usage": "plug in 表示接通；unplug 表示拔下。",
+      "pitfall": "说 plug the adapter into the outlet；不要省掉 into 后的接入位置。"
+    },
+    "unplug": {
+      "usage": "unplug 是从电源处拔开；disconnect 可泛指断开任何连接。",
+      "pitfall": "unplug 后可直接接物品：unplug the adapter；不要说 unplug out the adapter。"
+    }
+  },
+  "practice": [
+    {
+      "question": "手机接上电源但没充电。用 cable 和 outlet 说出先检查的两个地方。",
+      "answer": "First, check the cable connection and the wall outlet.",
+      "explanation": "分别检查设备连接与供电位置。"
+    },
+    {
+      "question": "同一插座接台灯能用；换充电头后手机开始充电。用 adapter 说明可能的问题。",
+      "answer": "The old adapter may be faulty.",
+      "explanation": "对比测试指向旧充电头；may 保留合理的不确定性。"
+    },
+    {
+      "question": "新情境：离开办公室前要把台灯插头从插座拔下。用 unplug 改写“Disconnect the lamp from the outlet.”",
+      "answer": "Unplug the lamp before you leave the office.",
+      "explanation": "unplug 直接接设备，表示从电源插座拔下。"
+    }
+  ],
+  "takeaway_en": "Could we try another adapter with the same cable?",
+  "takeaway_zh": "我们能用同一条线换个充电头试试吗？",
+  "closing": "排查时一次只更换一个部件，才容易看出是哪一处出了问题。"
+}

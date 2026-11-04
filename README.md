@@ -24,7 +24,11 @@
 
 | 期数 | 日期 | 单词 |
 |------|------|------|
-| [第 37 期：预约撞上工作安排后改约](archive/2026-11-03.md) | 2026-11-03 | appointment · reschedule · slot · reply · remind |
+| [第 38 期：办公室通道洒水后的提醒与清理](archive/2026-11-04.md) | 2026-11-04 | spill · warn · slip · wipe · dry |
+| [第 38 期：出门前手机充不进电后的逐步排查](archive/2026-11-04.md) | 2026-11-04 | cable · outlet · adapter · plug · unplug |
+| [第 38 期：办公室通道洒水后的提醒与清理](archive/2026-11-04.md) | 2026-11-04 | spill · warn · slip · wipe · dry |
+| [第 37 期：预约撞上工作安排后改约](archive/2026-11-03.md) | 2026-11-04 | [关卡上的一件皮衣：缺少通行凭证的代价](archive/history-2026-11-04.md) | [阅读页面](outputs/history-2026-11-04.html) |
+| 2026-11-03 | appointment · reschedule · slot · reply · remind |
 | [第 36 期：核对货架折扣与收银总额](archive/2026-11-01.md) | 2026-11-01 | price · shelf · scan · discount · total |
 | [第 35 期：车票日期买错后比较改签与取消](archive/2026-10-31.md) | 2026-10-31 | ticket · date · change · fee · cancel |
 | [第 34 期：水果沙拉缺橙子后的食材替换](archive/2026-10-30.md) | 2026-10-30 | recipe · ingredient · missing · replace · mix |
