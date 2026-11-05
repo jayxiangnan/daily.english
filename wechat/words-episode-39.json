@@ -1,0 +1,42 @@
+[
+  {
+    "word": "attempt",
+    "phonetic": "/əˈtempt/",
+    "meaning": "n. 一次尝试；此处指投递尝试",
+    "en": "The delivery attempt was unsuccessful.",
+    "zh": "这次投递没有成功。",
+    "tip": "a delivery attempt：一次投递尝试。"
+  },
+  {
+    "word": "notice",
+    "phonetic": "/ˈnoʊ.t̬ɪs/",
+    "meaning": "n. 通知；此处指投递通知",
+    "en": "The delivery notice gives a pickup address.",
+    "zh": "投递通知写有自提地址。",
+    "tip": "a delivery notice：投递通知。"
+  },
+  {
+    "word": "location",
+    "phonetic": "/loʊˈkeɪ.ʃən/",
+    "meaning": "n. 地点；此处指自提点所在位置",
+    "en": "Is the pickup location near the station?",
+    "zh": "自提点在车站附近吗？",
+    "tip": "pickup location：自提地点。"
+  },
+  {
+    "word": "identity",
+    "phonetic": "/aɪˈden.t̬ə.t̬i/",
+    "meaning": "n. 身份；此处指领取人的身份",
+    "en": "Please bring a document that proves your identity.",
+    "zh": "请带一份能证明身份的证件。",
+    "tip": "prove your identity：证明你的身份。"
+  },
+  {
+    "word": "pickup",
+    "phonetic": "/ˈpɪk.ʌp/",
+    "meaning": "n. 领取；此处指自提包裹",
+    "en": "The package is ready for pickup.",
+    "zh": "包裹可以自提了。",
+    "tip": "ready for pickup：可供领取。"
+  }
+]
