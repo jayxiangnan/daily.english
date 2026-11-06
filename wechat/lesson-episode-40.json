@@ -1,0 +1,78 @@
+{
+  "title": "只排序了姓名列，怎样找回每人的分数？",
+  "wechat_title": "每日 5 词 · 第 40 期（2026年11月6日）",
+  "wechat_digest": "只排序了姓名列，怎样找回每人的分数？",
+  "lead": "示例情境：小林给成绩表排序时只选了姓名列，姓名和分数错位。人物、数据及操作过程均为教学设定。",
+  "dialogue": [
+    {
+      "en": "Lin: I sorted the name column, but the scores stayed where they were.",
+      "zh": "林：我给姓名列排了序，可分数还留在原位。"
+    },
+    {
+      "en": "Mei: Then the scores may not match the names. Did you select the whole table?",
+      "zh": "梅：那分数可能和姓名对不上。你选中了整张表吗？"
+    },
+    {
+      "en": "Lin: No, only that column. In the first row, the name changed but the score did not.",
+      "zh": "林：没有，只选了那一列。第一行的姓名变了，分数却没变。"
+    },
+    {
+      "en": "Mei: Undo that sort first. Can you still see the original names and scores together?",
+      "zh": "梅：先撤销那次排序。你还能看到原本对应的姓名和分数吗？"
+    },
+    {
+      "en": "Lin: Yes. The original pairs are back.",
+      "zh": "林：能，原来的姓名和分数又对应上了。"
+    },
+    {
+      "en": "Mei: Now select the whole table and sort it by score. Check two rows against the original copy.",
+      "zh": "梅：现在选中整张表，按分数排序。再对照原始副本核查两行。"
+    },
+    {
+      "en": "Lin: I checked both rows. Each score still matches the right name.",
+      "zh": "林：我核查了这两行。每个分数仍与正确的姓名对应。"
+    }
+  ],
+  "notes": {
+    "column": {
+      "usage": "column 是竖向的列；row 是横向的行。",
+      "pitfall": "说 the name column；不要把第一行表头误称为 first column。"
+    },
+    "row": {
+      "usage": "row 指横向的一组单元格；line 更常指线条或文字行。",
+      "pitfall": "本义读 /roʊ/；不要读成表示“争吵”的 /raʊ/。"
+    },
+    "sort": {
+      "usage": "sort by score 指依分数排序；filter by score 是按条件筛选可见记录。",
+      "pitfall": "表格中要让整行一起移动；只排序姓名列会使姓名和分数错位。"
+    },
+    "undo": {
+      "usage": "undo 取消上一步操作的效果；delete 是删除内容。",
+      "pitfall": "过去式是 undid，过去分词是 undone，不写成 undoed。"
+    },
+    "match": {
+      "usage": "match 强调两项相符或对应；equal 强调数值相等。",
+      "pitfall": "说 the scores match the names；不要用 equal 来表达姓名与分数的对应关系。"
+    }
+  },
+  "practice": [
+    {
+      "question": "你发现姓名列单独移动了。用 column 和 match 说明问题。",
+      "answer": "The name column moved, so the scores no longer match the names.",
+      "explanation": "说明错位的原因和结果。"
+    },
+    {
+      "question": "在重新排序前，怎样用 undo 说明第一步？",
+      "answer": "Undo the last sort first.",
+      "explanation": "undo 后直接接要撤销的操作。"
+    },
+    {
+      "question": "新情境：值班表按日期排序，但员工姓名必须跟着所在行移动。用 row 和 sort 写出操作。",
+      "answer": "Select the whole table and sort it by date so each row stays together.",
+      "explanation": "按日期排序整张表，保持同一行的数据对应。"
+    }
+  ],
+  "takeaway_en": "The scores no longer match the names. Let’s undo the last sort and select the whole table.",
+  "takeaway_zh": "分数和姓名对不上了。我们先撤销上次排序，再选中整张表。",
+  "closing": "发现错位时，先撤销，再选中整张表排序，最后核对关键行。"
+}

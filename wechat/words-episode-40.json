@@ -1,0 +1,42 @@
+[
+  {
+    "word": "column",
+    "phonetic": "/ˈkɑː.ləm/",
+    "meaning": "n. 列；此处指表格中竖向的一列",
+    "en": "The names are in the first column.",
+    "zh": "姓名在第一列。",
+    "tip": "the name column：姓名列。"
+  },
+  {
+    "word": "row",
+    "phonetic": "/roʊ/",
+    "meaning": "n. 行；此处指表格中横向的一行",
+    "en": "Each row has a name and a score.",
+    "zh": "每一行都有姓名和分数。",
+    "tip": "in the same row：在同一行。"
+  },
+  {
+    "word": "sort",
+    "phonetic": "/sɔːrt/",
+    "meaning": "v. 排序；按某一规则排列",
+    "en": "Sort the whole table by score.",
+    "zh": "按分数给整张表排序。",
+    "tip": "sort something by something：按某项给某物排序。"
+  },
+  {
+    "word": "undo",
+    "phonetic": "/ʌnˈduː/",
+    "meaning": "v. 撤销；取消上一步操作",
+    "en": "Undo the last sort before editing the table.",
+    "zh": "编辑表格前先撤销上一次排序。",
+    "tip": "undo the last change：撤销上一次更改。"
+  },
+  {
+    "word": "match",
+    "phonetic": "/mætʃ/",
+    "meaning": "v. 与……对应；相符",
+    "en": "The scores no longer match the names.",
+    "zh": "分数不再与姓名对应。",
+    "tip": "match the names：与姓名对应。"
+  }
+]
