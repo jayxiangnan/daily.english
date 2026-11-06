@@ -25,7 +25,8 @@
 | 期数 | 日期 | 单词 |
 |------|------|------|
 | [第 40 期：排序错位后找回姓名和分数的对应关系](archive/2026-11-06.md) | 2026-11-06 | column · row · sort · undo · match |
-| [第 39 期：投递失败后核对自提信息](archive/2026-11-05.md) | 2026-11-05 | attempt · notice · location · identity · pickup |
+| [第 39 期：投递失败后核对自提信息](archive/2026-11-05.md) | 2026-11-06 | [二万二千三百五十钱：敦煌账目中的乌孙贡物](archive/history-2026-11-06.md) | [阅读页面](outputs/history-2026-11-06.html) |
+| 2026-11-05 | attempt · notice · location · identity · pickup |
 | [第 38 期：出门前手机充不进电后的逐步排查](archive/2026-11-04.md) | 2026-11-04 | cable · outlet · adapter · plug · unplug |
 | [第 37 期：预约撞上工作安排后改约](archive/2026-11-03.md) | 2026-11-03 | appointment · reschedule · slot · reply · remind |
 | [第 36 期：核对货架折扣与收银总额](archive/2026-11-01.md) | 2026-11-01 | price · shelf · scan · discount · total |
