@@ -1,0 +1,86 @@
+{
+  "title": "雨伞落在咖啡馆，怎样确认并取回？",
+  "wechat_title": "每日 5 词 · 第 41 期（2026年11月7日）",
+  "wechat_digest": "雨伞落在咖啡馆，怎样确认并取回？",
+  "lead": "示例情境：小林在咖啡馆遗落雨伞，店员找到两把，需要核实特征再归还。人物、物品及核实流程均为教学设定。",
+  "dialogue": [
+    {
+      "en": "Lin: I think I left my umbrella at the café.",
+      "zh": "林：我想我把雨伞落在咖啡馆了。"
+    },
+    {
+      "en": "Staff: Where did you last see it?",
+      "zh": "店员：你最后在哪里见到它的？"
+    },
+    {
+      "en": "Lin: Beside the counter when I paid.",
+      "zh": "林：付款时，它在柜台旁边。"
+    },
+    {
+      "en": "Staff: We found two umbrellas there. Can you describe yours?",
+      "zh": "店员：我们在那里找到两把雨伞。你能描述你的那把吗？"
+    },
+    {
+      "en": "Lin: It is black, with a yellow handle.",
+      "zh": "林：它是黑色的，手柄是黄色的。"
+    },
+    {
+      "en": "Staff: That helps us identify one. What is attached to the handle?",
+      "zh": "店员：这有助于辨认其中一把。手柄上还系着什么？"
+    },
+    {
+      "en": "Lin: A small blue tag with my name on it.",
+      "zh": "林：一张写着我名字的蓝色小标签。"
+    },
+    {
+      "en": "Staff: The tag matches. You are the owner of this one. Here you go.",
+      "zh": "店员：标签对上了。这把的主人是你。给你。"
+    },
+    {
+      "en": "Lin: Thank you. I have my umbrella back.",
+      "zh": "林：谢谢，我拿回雨伞了。"
+    }
+  ],
+  "notes": {
+    "umbrella": {
+      "usage": "umbrella 是遮雨的物品；raincoat 是穿在身上的雨衣。",
+      "pitfall": "单数可数，需说 an umbrella。"
+    },
+    "counter": {
+      "usage": "counter 是服务台面；cash register 是收银机。",
+      "pitfall": "“柜台旁”说 beside the counter；on the counter 表示放在台面上。"
+    },
+    "describe": {
+      "usage": "describe 讲清特征；explain 讲清原因或过程。",
+      "pitfall": "describe 后直接接物品，不说 describe about the umbrella。"
+    },
+    "identify": {
+      "usage": "identify 强调确认是哪一件；describe 只是说出外观。",
+      "pitfall": "此处是 identify the umbrella，不是 identify with the umbrella（认同）。"
+    },
+    "owner": {
+      "usage": "owner 是物主；finder 是拾到物品的人。",
+      "pitfall": "不要把 cafe owner（咖啡馆老板）和 the umbrella’s owner（雨伞主人）混为一谈。"
+    }
+  },
+  "practice": [
+    {
+      "question": "你在店里找不到雨伞。用 umbrella 和 counter 说明最后放在哪里。",
+      "answer": "I left my umbrella beside the counter.",
+      "explanation": "beside 指柜台旁边；单数雨伞用 my 或 an 限定。"
+    },
+    {
+      "question": "店员找到两把雨伞。用 describe 和 identify 请求核实外观。",
+      "answer": "Can you describe yours so I can identify it?",
+      "explanation": "先描述特征，再辨认具体是哪一把。"
+    },
+    {
+      "question": "新情境：你在健身房拾到水瓶，蓝色瓶盖上有姓名。用 owner 写一句说明归还依据的话。",
+      "answer": "The name on the blue cap helps us find the owner of the bottle.",
+      "explanation": "owner of the bottle 指水瓶的物主；姓名是核实依据。"
+    }
+  ],
+  "takeaway_en": "I left my umbrella beside the counter. It is black, with a yellow handle.",
+  "takeaway_zh": "我把雨伞落在柜台旁了。它是黑色的，手柄是黄色的。",
+  "closing": "先说最后见到物品的位置，再描述可核实的特征，确认后领取。"
+}

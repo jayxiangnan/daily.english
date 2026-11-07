@@ -1,0 +1,42 @@
+[
+  {
+    "word": "umbrella",
+    "phonetic": "/ʌmˈbrel.ə/",
+    "meaning": "n. 雨伞",
+    "en": "I left my umbrella by the café counter.",
+    "zh": "我把雨伞落在咖啡馆柜台旁了。",
+    "tip": "leave an umbrella behind：遗落一把雨伞。"
+  },
+  {
+    "word": "counter",
+    "phonetic": "/ˈkaʊn.t̬ɚ/",
+    "meaning": "n. 柜台；此处指咖啡馆服务台面",
+    "en": "I put it beside the counter when I paid.",
+    "zh": "付款时，我把它放在柜台旁边。",
+    "tip": "at the counter：在柜台处。"
+  },
+  {
+    "word": "describe",
+    "phonetic": "/dɪˈskraɪb/",
+    "meaning": "v. 描述；说出物品的特征",
+    "en": "Can you describe the umbrella?",
+    "zh": "你能描述一下这把雨伞吗？",
+    "tip": "describe something to someone：向某人描述某物。"
+  },
+  {
+    "word": "identify",
+    "phonetic": "/aɪˈden.t̬ə.faɪ/",
+    "meaning": "v. 辨认；确认是哪一件",
+    "en": "The yellow handle helps identify it.",
+    "zh": "黄色手柄有助于辨认它。",
+    "tip": "identify something by a feature：凭某个特征辨认某物。"
+  },
+  {
+    "word": "owner",
+    "phonetic": "/ˈoʊ.nɚ/",
+    "meaning": "n. 物主；拥有某物的人",
+    "en": "The staff asked one more question before returning it to its owner.",
+    "zh": "工作人员归还给物主前，又问了一个问题。",
+    "tip": "the owner of something：某物的主人。"
+  }
+]
