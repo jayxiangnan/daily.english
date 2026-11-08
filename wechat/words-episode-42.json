@@ -1,0 +1,42 @@
+[
+  {
+    "word": "leak",
+    "phonetic": "/liːk/",
+    "meaning": "v. 漏出；此处指水从管道漏出",
+    "en": "Water is leaking from the pipe under the sink.",
+    "zh": "水正从水槽下方的管道漏出。",
+    "tip": "leak from a pipe：从管道漏出"
+  },
+  {
+    "word": "pipe",
+    "phonetic": "/paɪp/",
+    "meaning": "n. 管道；此处指水管",
+    "en": "The pipe under the sink is wet.",
+    "zh": "水槽下方的水管是湿的。",
+    "tip": "a water pipe：水管"
+  },
+  {
+    "word": "bucket",
+    "phonetic": "/ˈbʌk.ɪt/",
+    "meaning": "n. 水桶；带提手的敞口容器",
+    "en": "Put a bucket under the leak for now.",
+    "zh": "先在漏水处下方放一个水桶。",
+    "tip": "put a bucket under something：在某物下方放水桶"
+  },
+  {
+    "word": "shut",
+    "phonetic": "/ʃʌt/",
+    "meaning": "v. 关闭；此处指切断供水",
+    "en": "Can we shut off the water to this sink?",
+    "zh": "我们能关掉这个水槽的供水吗？",
+    "tip": "shut off the water：关闭供水"
+  },
+  {
+    "word": "repair",
+    "phonetic": "/rɪˈper/",
+    "meaning": "v. 修理；使损坏的东西恢复正常",
+    "en": "A plumber will repair the pipe tomorrow.",
+    "zh": "水管工明天会修理这根管道。",
+    "tip": "repair a pipe：修理管道"
+  }
+]

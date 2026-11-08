@@ -24,6 +24,7 @@
 
 | 期数 | 日期 | 单词 |
 |------|------|------|
+| [第 42 期：水槽漏水后止水并报修](archive/2026-11-08.md) | 2026-11-08 | leak · pipe · bucket · shut · repair |
 | [第 41 期：雨伞落在咖啡馆，确认并取回](archive/2026-11-07.md) | 2026-11-07 | umbrella · counter · describe · identify · owner |
 | [第 40 期：排序错位后找回姓名和分数的对应关系](archive/2026-11-06.md) | 2026-11-06 | column · row · sort · undo · match |
 | [第 39 期：投递失败后核对自提信息](archive/2026-11-05.md) | 2026-11-06 | [二万二千三百五十钱：敦煌账目中的乌孙贡物](archive/history-2026-11-06.md) | [阅读页面](outputs/history-2026-11-06.html) |

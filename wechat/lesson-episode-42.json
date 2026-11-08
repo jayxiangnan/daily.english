@@ -1,0 +1,78 @@
+{
+  "title": "水槽下方漏水，怎样先止水再报修？",
+  "wechat_title": "每日 5 词 · 第 42 期（2026年11月8日）",
+  "wechat_digest": "水槽下方漏水，怎样先止水再报修？",
+  "lead": "示例情境：厨房水槽下方出现漏水。两人检查漏水位置，先接住水、关闭该水槽供水，再联系维修人员。人物、设施及维修时间均为教学设定。",
+  "dialogue": [
+    {
+      "en": "Mia: There is water on the kitchen floor. Is the sink leaking?",
+      "zh": "米娅：厨房地上有水。是水槽在漏吗？"
+    },
+    {
+      "en": "Ben: Let me check. Water is leaking from the pipe under the sink.",
+      "zh": "本：我看看。水正从水槽下方的管道漏出。"
+    },
+    {
+      "en": "Mia: I will put a bucket under the leak so the water stays off the floor.",
+      "zh": "米娅：我会在漏水处下方放个水桶，免得水流到地上。"
+    },
+    {
+      "en": "Ben: The pipe is still dripping. Can we shut off the water to this sink?",
+      "zh": "本：管道还在滴水。我们能关掉这个水槽的供水吗？"
+    },
+    {
+      "en": "Mia: Yes. I have turned off its valve. The dripping has stopped.",
+      "zh": "米娅：能。我已关掉它的阀门。滴水停了。"
+    },
+    {
+      "en": "Ben: I will report the leak and ask someone to repair the pipe.",
+      "zh": "本：我会报告漏水情况，请人修理这根管道。"
+    },
+    {
+      "en": "Mia: The plumber can come tomorrow. We will leave this sink off until then.",
+      "zh": "米娅：水管工明天能来。在那之前，我们不使用这个水槽。"
+    }
+  ],
+  "notes": {
+    "leak": {
+      "usage": "leak 指液体从破口漏出；spill 指液体因打翻等洒出。",
+      "pitfall": "说 water is leaking from the pipe；不要把 from 换成 into 来表示漏水来源。"
+    },
+    "pipe": {
+      "usage": "pipe 是输送水的管道；tap 是出水的水龙头。",
+      "pitfall": "一根管道是 a pipe；不要把可数名词 pipe 单独用于此处。"
+    },
+    "bucket": {
+      "usage": "bucket 常指带提手的敞口桶；bottle 是通常有窄口的瓶子。",
+      "pitfall": "表示把桶放在漏点下方用 under the leak，不用 over the leak。"
+    },
+    "shut": {
+      "usage": "shut off the water 指切断供水；turn off the tap 指关闭水龙头，未必能止住管道漏水。",
+      "pitfall": "shut 的过去式仍是 shut，不写成 shutted。"
+    },
+    "repair": {
+      "usage": "repair 指把损坏处修好；replace 指换成另一个部件。",
+      "pitfall": "repair 后直接接对象：repair the pipe，不说 repair for the pipe。"
+    }
+  },
+  "practice": [
+    {
+      "question": "发现水从水槽下方管道漏出。用 leak 和 pipe 描述问题。",
+      "answer": "Water is leaking from the pipe under the sink.",
+      "explanation": "leak from 说明漏水来源；pipe 指管道。"
+    },
+    {
+      "question": "先接住水，再关闭该水槽的供水。用 bucket 和 shut off 写两句。",
+      "answer": "Put a bucket under the leak. Then shut off the water to this sink.",
+      "explanation": "under 指桶的位置；shut off 指切断供水。"
+    },
+    {
+      "question": "新情境：办公室饮水机的水管漏水，已停用机器。用 repair 改写“Someone will fix the pipe.”",
+      "answer": "Someone will repair the pipe.",
+      "explanation": "repair the pipe 表示修理损坏的管道。"
+    }
+  ],
+  "takeaway_en": "Water is leaking from the pipe under the sink. Can we shut off the water?",
+  "takeaway_zh": "水正从水槽下方的管道漏出。我们能关闭供水吗？",
+  "closing": "先说明漏水位置，再说已采取的止水措施和需要的维修。"
+}
