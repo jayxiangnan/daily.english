@@ -1,42 +1,42 @@
 [
   {
-    "word": "task",
-    "phonetic": "/tæsk/",
-    "meaning": "n. 任务；需要完成的一项工作",
-    "en": "The task is to check the figures in the report.",
-    "zh": "这项任务是核对报告中的数字。",
-    "tip": "a task to do something：一项要做某事的任务"
+    "word": "allocate",
+    "phonetic": "/ˈæl.ə.keɪt/",
+    "meaning": "v. 分配（时间、资源等）",
+    "en": "We allocated an hour to checking the survey data.",
+    "zh": "我们留出一小时核对调查数据。",
+    "tip": "allocate time to something：为某事分配时间"
   },
   {
-    "word": "assign",
-    "phonetic": "/əˈsaɪn/",
-    "meaning": "v. 分配；把任务交给某人负责",
-    "en": "Let’s assign the figures to Mei.",
-    "zh": "我们把数字核对交给梅负责吧。",
-    "tip": "assign a task to someone：把任务分配给某人"
+    "word": "compile",
+    "phonetic": "/kəmˈpaɪl/",
+    "meaning": "v. 汇编；整理（资料）",
+    "en": "Mei compiled the responses into one table.",
+    "zh": "梅把回复整理成一张表。",
+    "tip": "compile data into a table：把数据汇总成表"
   },
   {
-    "word": "deadline",
-    "phonetic": "/ˈded.laɪn/",
-    "meaning": "n. 截止时间；必须完成工作的时间点",
-    "en": "The deadline for the report is 4 p.m. today.",
-    "zh": "报告的截止时间是今天下午四点。",
-    "tip": "the deadline for something：某事的截止时间"
+    "word": "assess",
+    "phonetic": "/əˈses/",
+    "meaning": "v. 评估；判断",
+    "en": "We need to assess whether the figures support our conclusion.",
+    "zh": "我们需要评估这些数字是否支持结论。",
+    "tip": "assess whether ...：评估是否……"
   },
   {
-    "word": "update",
-    "phonetic": "/ˌʌpˈdeɪt/",
-    "meaning": "v. 告知最新进展",
-    "en": "Please update us on the figures by 3 p.m.",
-    "zh": "请在下午三点前告诉我们数字核对的最新进展。",
-    "tip": "update someone on something：向某人通报某事的进展"
+    "word": "refine",
+    "phonetic": "/rɪˈfaɪn/",
+    "meaning": "v. 改进；完善",
+    "en": "We refined the summary after checking the data.",
+    "zh": "核对数据后，我们完善了摘要。",
+    "tip": "refine a summary：完善摘要"
   },
   {
-    "word": "complete",
-    "phonetic": "/kəmˈpliːt/",
-    "meaning": "v. 完成；把一项工作做完",
-    "en": "Mei completed the check before the deadline.",
-    "zh": "梅在截止时间前完成了核对。",
-    "tip": "complete a task：完成一项任务"
+    "word": "distribute",
+    "phonetic": "/dɪˈstrɪb.juːt/",
+    "meaning": "v. 分发；发送给多人",
+    "en": "Please distribute the final report to the team.",
+    "zh": "请把最终报告发给团队成员。",
+    "tip": "distribute something to someone：把某物分发给某人"
   }
 ]
