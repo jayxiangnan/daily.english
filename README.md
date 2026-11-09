@@ -24,6 +24,7 @@
 
 | 期数 | 日期 | 单词 |
 |------|------|------|
+| [第 43 期：报告交付前明确分工与进度](archive/2026-11-09.md) | 2026-11-09 | task · assign · deadline · update · complete |
 | [第 42 期：水槽漏水后止水并报修](archive/2026-11-08.md) | 2026-11-08 | leak · pipe · bucket · shut · repair |
 | [第 41 期：雨伞落在咖啡馆，确认并取回](archive/2026-11-07.md) | 2026-11-07 | umbrella · counter · describe · identify · owner |
 | [第 40 期：排序错位后找回姓名和分数的对应关系](archive/2026-11-06.md) | 2026-11-06 | column · row · sort · undo · match |

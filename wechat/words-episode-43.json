@@ -1,0 +1,42 @@
+[
+  {
+    "word": "task",
+    "phonetic": "/tæsk/",
+    "meaning": "n. 任务；需要完成的一项工作",
+    "en": "The task is to check the figures in the report.",
+    "zh": "这项任务是核对报告中的数字。",
+    "tip": "a task to do something：一项要做某事的任务"
+  },
+  {
+    "word": "assign",
+    "phonetic": "/əˈsaɪn/",
+    "meaning": "v. 分配；把任务交给某人负责",
+    "en": "Let’s assign the figures to Mei.",
+    "zh": "我们把数字核对交给梅负责吧。",
+    "tip": "assign a task to someone：把任务分配给某人"
+  },
+  {
+    "word": "deadline",
+    "phonetic": "/ˈded.laɪn/",
+    "meaning": "n. 截止时间；必须完成工作的时间点",
+    "en": "The deadline for the report is 4 p.m. today.",
+    "zh": "报告的截止时间是今天下午四点。",
+    "tip": "the deadline for something：某事的截止时间"
+  },
+  {
+    "word": "update",
+    "phonetic": "/ˌʌpˈdeɪt/",
+    "meaning": "v. 告知最新进展",
+    "en": "Please update us on the figures by 3 p.m.",
+    "zh": "请在下午三点前告诉我们数字核对的最新进展。",
+    "tip": "update someone on something：向某人通报某事的进展"
+  },
+  {
+    "word": "complete",
+    "phonetic": "/kəmˈpliːt/",
+    "meaning": "v. 完成；把一项工作做完",
+    "en": "Mei completed the check before the deadline.",
+    "zh": "梅在截止时间前完成了核对。",
+    "tip": "complete a task：完成一项任务"
+  }
+]
