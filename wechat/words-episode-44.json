@@ -1,0 +1,42 @@
+[
+  {
+    "word": "audience",
+    "phonetic": "/ˈɑː.di.əns/",
+    "meaning": "n. 听众，观众（集合名词）",
+    "en": "Part of the audience will be sitting in the back row.",
+    "zh": "有些听众会坐在最后一排。",
+    "tip": "a member of the audience（现场听众中的一位）"
+  },
+  {
+    "word": "visible",
+    "phonetic": "/ˈvɪz.ə.bəl/",
+    "meaning": "adj. 看得见的",
+    "en": "The title is visible from the doorway, but the small print is hard to read.",
+    "zh": "在门口能看到标题，但小字很难看清。",
+    "tip": "be visible from a place（从某个位置看得见）"
+  },
+  {
+    "word": "glare",
+    "phonetic": "/ɡler/",
+    "meaning": "n. 刺眼的强光，眩光（此义不可数）",
+    "en": "The blinds help reduce glare on my laptop screen.",
+    "zh": "百叶窗有助于减少笔记本电脑屏幕上的眩光。",
+    "tip": "reduce glare（减少眩光）"
+  },
+  {
+    "word": "adjust",
+    "phonetic": "/əˈdʒʌst/",
+    "meaning": "v. 调整，调节",
+    "en": "Could you adjust the blinds so the sunlight doesn’t hit the screen?",
+    "zh": "能把百叶窗调一下，让阳光别照到屏幕上吗？",
+    "tip": "adjust the settings（调整设置）"
+  },
+  {
+    "word": "contrast",
+    "phonetic": "/ˈkɑːn.træst/",
+    "meaning": "n. 明暗或颜色的对比",
+    "en": "Dark text on a white background gives the slide better contrast.",
+    "zh": "白底深色字能让幻灯片的对比更鲜明。",
+    "tip": "contrast between A and B（A 和 B 之间的对比）"
+  }
+]
