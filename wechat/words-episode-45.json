@@ -1,0 +1,42 @@
+[
+  {
+    "word": "forecast",
+    "phonetic": "/ˈfɔːr.kæst/",
+    "meaning": "n. 预报，预测（这里指天气预报）",
+    "en": "I checked the forecast before hanging the laundry outside.",
+    "zh": "我把衣服晾到室外前查了天气预报。",
+    "tip": "check the weather forecast（查看天气预报）"
+  },
+  {
+    "word": "shelter",
+    "phonetic": "/ˈʃel.t̬ɚ/",
+    "meaning": "n. 遮蔽，庇护（这里指避雨）",
+    "en": "We found shelter under the station roof.",
+    "zh": "我们在车站的顶棚下避雨。",
+    "tip": "take shelter from the rain（找地方避雨）"
+  },
+  {
+    "word": "venue",
+    "phonetic": "/ˈven.juː/",
+    "meaning": "n. 活动的举办场地",
+    "en": "We’re looking for a venue for the school concert.",
+    "zh": "我们在为学校音乐会找场地。",
+    "tip": "book a venue（预订活动场地）"
+  },
+  {
+    "word": "alternative",
+    "phonetic": "/ɔlˈtɜr.nə.t̬ɪv/",
+    "meaning": "n. 可替代的选择，替代方案",
+    "en": "A phone call is a good alternative to meeting in person.",
+    "zh": "打个电话是代替当面见面的一个好办法。",
+    "tip": "an alternative to doing something（代替某种做法的方案）"
+  },
+  {
+    "word": "proceed",
+    "phonetic": "/proʊˈsiːd/",
+    "meaning": "v. 继续进行，按计划开展",
+    "en": "Once everyone has signed in, we can proceed with the tour.",
+    "zh": "等大家都签到后，参观就可以开始了。",
+    "tip": "proceed with the plan（继续执行计划）"
+  }
+]

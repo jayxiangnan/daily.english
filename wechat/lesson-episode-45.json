@@ -1,0 +1,78 @@
+{
+  "title": "露天电影开场时可能下雨，怎样换场地又不改时间？",
+  "wechat_title": "每日 5 词 · 第 45 期（2026年11月11日）",
+  "wechat_digest": "露天电影开场时可能下雨，怎样换场地又不改时间？",
+  "lead": "示例情境：社区电影原定晚上七点在公园放映，预报那时可能下雨。两名组织者要找一个能放映、也能坐下 30 位观众的地方。人物、时间和场地条件均为示例。",
+  "dialogue": [
+    {
+      "en": "Maya: The forecast calls for rain around seven, right when our outdoor movie is due to start.",
+      "zh": "玛雅：预报说七点左右可能有雨，正好是露天电影开场的时候。"
+    },
+    {
+      "en": "Leo: Could we use the picnic shelter in the park?",
+      "zh": "利奥：能用公园里的野餐棚吗？"
+    },
+    {
+      "en": "Maya: People can take shelter there, but I checked it this morning. There isn’t enough room for the screen and 30 chairs.",
+      "zh": "玛雅：那里能避雨，但我上午去看过了，放不下银幕和 30 把椅子。"
+    },
+    {
+      "en": "Leo: The community center might be an alternative. Is its main hall free at seven?",
+      "zh": "利奥：社区中心也许可以替代。那里的大厅七点有空吗？"
+    },
+    {
+      "en": "Maya: I just called. The hall is free, it seats 40, and it has a screen we can use.",
+      "zh": "玛雅：我刚打了电话。大厅七点空着，有 40 个座位，还有银幕可以用。"
+    },
+    {
+      "en": "Leo: Then let’s book it. We can proceed with the screening at seven and tell everyone about the change of venue.",
+      "zh": "利奥：那就订那里吧。电影可以在七点照常放映，我们通知大家场地改了。"
+    },
+    {
+      "en": "Maya: It’s booked. I’ve sent everyone the new address and confirmed that the start time is still seven.",
+      "zh": "玛雅：订好了。我已经把新地址发给大家，也确认了开场时间还是七点。"
+    }
+  ],
+  "notes": {
+    "forecast": {
+      "usage": "forecast 提供对未来天气的预测。weather warning 则专门提醒人们注意可能有危险的天气。",
+      "pitfall": "forecast 作可数名词。指双方都知道的那份预报时，说 the forecast，例如 Rain is in the forecast."
+    },
+    "shelter": {
+      "usage": "shade 强调有阴凉、挡阳光。树荫能让人凉快，却未必能提供足够的 shelter 来挡雨。",
+      "pitfall": "take shelter 里的 shelter 表示庇护，通常不加冠词。a shelter 指一个能提供遮蔽的具体地方或设施。"
+    },
+    "venue": {
+      "usage": "location 可以指任何位置，比如某张椅子的位置。venue 强调某个地方用来举办活动，例如礼堂或露天广场。",
+      "pitfall": "表示某场活动的举办地，说 the venue for the concert。说明你已经到场，可以说 I’m at the venue."
+    },
+    "alternative": {
+      "usage": "option 泛指可选项，原方案也可以算一个 option。an alternative to the original plan 明确指出这个办法可以替代原方案。",
+      "pitfall": "alternative to 中的 to 是介词。后面接动作时，用动名词，如 an alternative to driving。"
+    },
+    "proceed": {
+      "usage": "proceed 可以指准备就绪后开始下一步。resume 强调某事已经开始过，中断后再恢复。",
+      "pitfall": "接正在推进的事项时，用 proceed with the event。proceed to the hall 中的 to 引出接下来要去的地方。"
+    }
+  },
+  "practice": [
+    {
+      "question": "有人说 “We can use the shelter.” 请用一句英文说明为什么那个棚子能避雨，却无法用来放电影。",
+      "answer": "We can take shelter there, but there isn’t enough room for the screen and 30 chairs.",
+      "explanation": "前半句说明能挡雨，后半句用设备和座位说明为什么放映还需要另找地方。"
+    },
+    {
+      "question": "用 proceed 和 venue 写一则通知。放映仍是七点开始，但地点改到社区中心。",
+      "answer": "We’ll proceed with the screening at seven. The new venue is the community center.",
+      "explanation": "with 接继续进行的事项，new venue 指更换后的举办地。"
+    },
+    {
+      "question": "新情境：原定线下家长会，教室当天无法使用。用 alternative to 改写这句话，保留原意。We could meet online instead of meeting in person.",
+      "answer": "Meeting online could be an alternative to meeting in person.",
+      "explanation": "alternative to 后用 meeting，表示被替代的原做法。"
+    }
+  ],
+  "takeaway_en": "We can keep the original start time if we find an indoor venue.",
+  "takeaway_zh": "如果能找到室内场地，我们就能保留原定开始时间。",
+  "closing": "通知换场时，把新地址和原定开始时间放在同一条消息里。"
+}

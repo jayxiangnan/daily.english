@@ -24,6 +24,7 @@
 
 | 期数 | 日期 | 单词 |
 |------|------|------|
+| [第 45 期：露天电影遇雨后更换场地](archive/2026-11-11.md) | 2026-11-11 | forecast · shelter · venue · alternative · proceed |
 | [第 44 期：演讲彩排时调整投影](archive/2026-11-10.md) | 2026-11-10 | audience · visible · glare · adjust · contrast |
 | [第 43 期：调查报告交付前核对数据](archive/2026-11-09.md) | 2026-11-09 | allocate · compile · assess · refine · distribute |
 | [第 42 期：水槽漏水后止水并报修](archive/2026-11-08.md) | 2026-11-08 | leak · pipe · bucket · shut · repair |
