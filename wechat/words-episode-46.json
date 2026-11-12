@@ -1,0 +1,42 @@
+[
+  {
+    "word": "chore",
+    "phonetic": "/tʃɔːr/",
+    "meaning": "n. 一项日常杂务（这里指家务）",
+    "en": "I usually do my household chores on Saturday morning.",
+    "zh": "我通常周六早上做家务。",
+    "tip": "do household chores（做家务）"
+  },
+  {
+    "word": "divide",
+    "phonetic": "/dɪˈvaɪd/",
+    "meaning": "v. 分配，分担",
+    "en": "We divided the work between the two teams.",
+    "zh": "我们把工作分给了两个团队。",
+    "tip": "divide the work between two people（把工作分给两个人）"
+  },
+  {
+    "word": "equal",
+    "phonetic": "/ˈiː.kwəl/",
+    "meaning": "adj. 相等的，同等的",
+    "en": "We each paid an equal share of the bill.",
+    "zh": "这笔账单我们各付了同样多的钱。",
+    "tip": "an equal share of something（某事物中同等的一份）"
+  },
+  {
+    "word": "responsibility",
+    "phonetic": "/rɪˌspɑːn.səˈbɪl.ə.t̬i/",
+    "meaning": "n. 职责，负责的事项",
+    "en": "It’s my responsibility to lock up after practice.",
+    "zh": "训练结束后由我负责锁门。",
+    "tip": "It’s someone’s responsibility to do something（做某事是某人的职责）"
+  },
+  {
+    "word": "rotate",
+    "phonetic": "/ˈroʊ.teɪt/",
+    "meaning": "v. 按顺序定期轮换",
+    "en": "We rotate meeting duties every month.",
+    "zh": "我们每月轮换一次会议分工。",
+    "tip": "rotate duties（轮换职责）"
+  }
+]
