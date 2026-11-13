@@ -24,6 +24,7 @@
 
 | 期数 | 日期 | 单词 |
 |------|------|------|
+| [第 47 期：移走堵住活动室通道的纸箱](archive/2026-11-13.md) | 2026-11-13 | entrance · passage · storage · prohibit · designate |
 | [第 46 期：室友轮换家务](archive/2026-11-12.md) | 2026-11-12 | chore · divide · equal · responsibility · rotate |
 | [第 45 期：露天电影遇雨后更换场地](archive/2026-11-11.md) | 2026-11-11 | forecast · shelter · venue · alternative · proceed |
 | [第 44 期：演讲彩排时调整投影](archive/2026-11-10.md) | 2026-11-11 | [汉代邮书若迟到：河西驿路怎样倒查责任](archive/history-2026-11-11.md) | [阅读页面](outputs/history-2026-11-11.html) |

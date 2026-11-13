@@ -1,0 +1,78 @@
+{
+  "title": "纸箱堵住了活动室通道，该搬到哪里？",
+  "wechat_title": "每日 5 词 · 第 47 期（2026年11月13日）",
+  "wechat_digest": "纸箱堵住了活动室通道，该搬到哪里？",
+  "lead": "示例情境：活动开始前，莉娜发现纸箱堵住了通往活动室的通道。她和本需要确认哪里可以放这些纸箱，让推车顺利通过。人物、场地和存放规则均为示例。",
+  "dialogue": [
+    {
+      "en": "Lina: These boxes are blocking the passage to the activity room. I can’t get the cart through.",
+      "zh": "莉娜：这些纸箱堵住了通往活动室的通道。我的推车过不去。"
+    },
+    {
+      "en": "Ben: Could we move them next to the main entrance?",
+      "zh": "本：能把它们挪到正门旁边吗？"
+    },
+    {
+      "en": "Lina: Let’s check the sign. It says the center prohibits storing boxes in the passage or by the main entrance.",
+      "zh": "莉娜：看看告示。上面写着，中心禁止在通道里或正门旁存放纸箱。"
+    },
+    {
+      "en": "Ben: The sign also says the center has designated the shelves in Room B for box storage. Is there any space left?",
+      "zh": "本：告示还说，中心指定 B 室的架子存放纸箱。还有空位吗？"
+    },
+    {
+      "en": "Lina: I just checked. The bottom shelf has enough room for all the boxes. Let’s put them there.",
+      "zh": "莉娜：我刚看过。最下面一层放得下这些纸箱。我们把它们搬过去吧。"
+    },
+    {
+      "en": "Ben: That’s the last box. The passage is clear now. Try the cart again.",
+      "zh": "本：这是最后一个纸箱。现在通道空出来了。再推车试试。"
+    },
+    {
+      "en": "Lina: It fits. I can get it all the way into the activity room now.",
+      "zh": "莉娜：过得去。现在我可以把车一路推进活动室了。"
+    }
+  ],
+  "notes": {
+    "entrance": {
+      "usage": "entrance 从进出用途指入口。door 指门本身。入口可以是一道敞开的拱门，里面没有可开关的门扇。",
+      "pitfall": "指通往某处的入口，常用 to。交代见面地点时，用 at the entrance。"
+    },
+    "passage": {
+      "usage": "passage 常指供人穿行的狭长空间。aisle 常指成排的座位或货架之间的过道。",
+      "pitfall": "形容通道畅通可以说 the passage is clear。the passage is clean 表示通道干净。"
+    },
+    "storage": {
+      "usage": "storage 泛指把东西存起来。warehousing 常指在仓库集中存放货物，带有物流语境。",
+      "pitfall": "storage 在这个义项中不可数。要数储物间，可以说 two storage rooms。"
+    },
+    "prohibit": {
+      "usage": "prohibit 表示规则上不允许。prevent 强调实际上阻止某事发生。告示可以禁止停车，路障可以拦住车。",
+      "pitfall": "点明受约束的人时，用 prohibit someone from doing something。from 后接动词的 -ing 形式。"
+    },
+    "designate": {
+      "usage": "designate 表示正式确定用途。label 表示贴标签或加标识。先确定哪个架子用来放纸箱，再贴上标牌，是两个动作。",
+      "pitfall": "写「指定区域」用 designated area。动词原形 designate 可以作谓语，如 They designate an area for deliveries。"
+    }
+  },
+  "practice": [
+    {
+      "question": "用 entrance 和 passage 各填一空。纸箱堵住的是走道，正门旁也不能放。The boxes are blocking the ___. We can’t leave them by the main ___ either.",
+      "answer": "The boxes are blocking the passage. We can’t leave them by the main entrance either.",
+      "explanation": "passage 指推车要经过的走道，main entrance 指进楼的正门。"
+    },
+    {
+      "question": "新情境：美术教室禁止学生在水槽里清洗画笔。用 prohibit 改写 Students aren’t allowed to wash their brushes in the sink.",
+      "answer": "The art room rules prohibit students from washing their brushes in the sink.",
+      "explanation": "students 是受规定约束的人，from washing 引出禁止的行为。"
+    },
+    {
+      "question": "图书馆把一个闲置房间指定为储物区。用 designate 和 storage 写一句话。",
+      "answer": "The library designated an unused room as a storage area.",
+      "explanation": "as 引出指定用途，storage 修饰 area，说明区域用于储物。"
+    }
+  ],
+  "takeaway_en": "Could we move these boxes to the designated storage area?",
+  "takeaway_zh": "我们能把这些纸箱搬到指定的储物区吗？",
+  "closing": ""
+}

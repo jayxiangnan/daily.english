@@ -1,0 +1,42 @@
+[
+  {
+    "word": "entrance",
+    "phonetic": "/ˈen.trəns/",
+    "meaning": "n. 入口",
+    "en": "I’ll meet you at the entrance to the library.",
+    "zh": "我在图书馆入口等你。",
+    "tip": "the entrance to a building（某栋楼的入口）"
+  },
+  {
+    "word": "passage",
+    "phonetic": "/ˈpæs.ɪdʒ/",
+    "meaning": "n. 通道，走道",
+    "en": "A narrow passage connects the two buildings.",
+    "zh": "一条狭窄的通道把两栋楼连在一起。",
+    "tip": "a narrow passage（一条狭窄的通道）"
+  },
+  {
+    "word": "storage",
+    "phonetic": "/ˈstɔːr.ɪdʒ/",
+    "meaning": "n. 存放，储存",
+    "en": "We need more storage space for the folding chairs.",
+    "zh": "我们需要更多地方来存放折叠椅。",
+    "tip": "storage space（储物空间）"
+  },
+  {
+    "word": "prohibit",
+    "phonetic": "/prəˈhɪb.ɪt/",
+    "meaning": "v. （以规定）禁止",
+    "en": "The library prohibits eating in the reading room.",
+    "zh": "图书馆禁止在阅览室吃东西。",
+    "tip": "prohibit doing something（禁止做某事）"
+  },
+  {
+    "word": "designate",
+    "phonetic": "/ˈdez.ɪɡ.neɪt/",
+    "meaning": "v. 指定，划定作某种用途",
+    "en": "The staff designated the lobby as a waiting area.",
+    "zh": "工作人员把大厅指定为等候区。",
+    "tip": "designate A as B（把 A 指定为 B）"
+  }
+]
