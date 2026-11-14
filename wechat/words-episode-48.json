@@ -1,0 +1,42 @@
+[
+  {
+    "word": "budget",
+    "phonetic": "/ˈbʌdʒ.ɪt/",
+    "meaning": "n. 预算，可支配的金额",
+    "en": "The club has a budget of $150 for the workshop.",
+    "zh": "社团为这次工作坊准备了 150 美元的预算。",
+    "tip": "a budget of $150 for an event（为一场活动准备的 150 美元预算）"
+  },
+  {
+    "word": "afford",
+    "phonetic": "/əˈfɔːrd/",
+    "meaning": "v. 有足够的钱支付，负担得起",
+    "en": "We can afford to rent a room for two hours.",
+    "zh": "我们付得起两小时的场地租金。",
+    "tip": "can afford to do something（有足够的钱做某事）"
+  },
+  {
+    "word": "expense",
+    "phonetic": "/ɪkˈspens/",
+    "meaning": "n. 一项开支",
+    "en": "The room rental was our biggest expense.",
+    "zh": "场地租金是我们最大的一笔开支。",
+    "tip": "cover an expense（支付一项开支）"
+  },
+  {
+    "word": "reduce",
+    "phonetic": "/rɪˈduːs/",
+    "meaning": "v. 减少，降低",
+    "en": "Sharing a ride helped us reduce travel costs.",
+    "zh": "拼车帮我们降低了出行费用。",
+    "tip": "reduce costs（降低成本）"
+  },
+  {
+    "word": "quotation",
+    "phonetic": "/kwoʊˈteɪ.ʃən/",
+    "meaning": "n. 报价，报价单",
+    "en": "Could you send me a written quotation for 50 posters?",
+    "zh": "能发我一份印刷 50 张海报的书面报价吗？",
+    "tip": "a quotation for something（某项商品或服务的报价）"
+  }
+]
