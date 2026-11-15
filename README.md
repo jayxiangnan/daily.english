@@ -24,6 +24,7 @@
 
 | 期数 | 日期 | 单词 |
 |------|------|------|
+| [第 49 期：确认社团合照的公开范围](archive/2026-11-15.md) | 2026-11-15 | private · permission · consent · crop · blur |
 | [第 48 期：印刷报价超出预算后保住印量](archive/2026-11-14.md) | 2026-11-14 | budget · afford · expense · reduce · quotation |
 | [第 47 期：移走堵住活动室通道的纸箱](archive/2026-11-13.md) | 2026-11-13 | entrance · passage · storage · prohibit · designate |
 | [第 46 期：室友轮换家务](archive/2026-11-12.md) | 2026-11-12 | chore · divide · equal · responsibility · rotate |
