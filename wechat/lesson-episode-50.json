@@ -1,0 +1,78 @@
+{
+  "title": "桌子一碰就晃，是螺丝松了还是地面不平？",
+  "wechat_title": "每日 5 词 · 第 50 期（2026年11月16日）",
+  "wechat_digest": "桌子一碰就晃，是螺丝松了还是地面不平？",
+  "lead": "示例情境：玛雅和利奥想在窗边摊开图纸，但一靠桌子，桌面就晃。他们得先找出原因，再确认桌子能放稳。",
+  "dialogue": [
+    {
+      "en": "Maya: This table rocks every time I lean on it. Is one of the legs loose?",
+      "zh": "玛雅：我一靠上去，桌子就晃。是不是有条桌腿松了？"
+    },
+    {
+      "en": "Leo: Yes, there’s a loose screw on this leg. I’ll tighten it and see if that helps.",
+      "zh": "利奥：是的，这条腿上有颗螺丝松了。我拧紧试试。"
+    },
+    {
+      "en": "Maya: The leg doesn’t move anymore, but the table still rocks. Let’s try it on the flat part of the floor by the door.",
+      "zh": "玛雅：桌腿不松动了，可桌子还是晃。我们搬到门边那块平地上试试。"
+    },
+    {
+      "en": "Leo: It’s stable here. The floor under the window must be uneven.",
+      "zh": "利奥：放在这里就稳了。窗边的地面应该不平。"
+    },
+    {
+      "en": "Maya: We need the light by the window. Let’s move it back and check which foot doesn’t touch the floor.",
+      "zh": "玛雅：我们需要窗边的光线。搬回去看看哪只桌脚够不着地。"
+    },
+    {
+      "en": "Leo: There’s a small gap under this foot. I’ll fold this piece of cardboard in half and slide it under the foot for now.",
+      "zh": "利奥：这只桌脚下面有条小缝。我把这片硬纸板对折，先垫在下面。"
+    },
+    {
+      "en": "Maya: I’ve pressed down on each corner. It’s stable now. We can spread out the drawings.",
+      "zh": "玛雅：四个角我都按过了。桌子稳了，可以把图纸摊开了。"
+    }
+  ],
+  "notes": {
+    "loose": {
+      "usage": "a loose screw 还在原处，只是没固定牢。a missing screw 指螺丝已经不在了。",
+      "pitfall": "loose 的词尾读 /s/。lose（丢失）的词尾读 /z/。The screw is loose 表示螺丝松了。We lost a screw 表示我们弄丢了一颗螺丝。"
+    },
+    "tighten": {
+      "usage": "fasten a strap 可以指扣上带子。tighten a strap 指调短带子、让它贴得更紧。带子扣好了，仍然可能需要再拉紧。",
+      "pitfall": "tight 是形容词，tighten 是动词。请人把螺丝拧紧时，用 Tighten the screw 或 Make sure the screw is tight。"
+    },
+    "uneven": {
+      "usage": "uneven floor 指地面有高低差或凹凸。sloping floor 指地面有坡度，即使表面很平整也可以用 sloping。",
+      "pitfall": "表示地面不平时，直接说 The floor is uneven。用 unevenly 修饰动作，例如 The tiles were laid unevenly（地砖铺得不平）。"
+    },
+    "fold": {
+      "usage": "fold a sheet of paper 会把纸的一部分叠到另一部分上。roll up a sheet of paper 会把纸卷成筒。",
+      "pitfall": "表示对折，用 fold it in half。fold it twice 指折两次，并未说明每次如何折。"
+    },
+    "stable": {
+      "usage": "stable 关注会不会晃动或倾倒。level 关注是否水平。桌子放得稳，桌面仍可能稍微倾斜。",
+      "pitfall": "用 The table is stable 描述桌子的状态。stability 是名词，可说 Check the stability of the table。"
+    }
+  },
+  "practice": [
+    {
+      "question": "用 come loose 补全句子，说明椅子靠背上的螺丝松了。The screw on the back of the chair has ___.",
+      "answer": "The screw on the back of the chair has come loose.",
+      "explanation": "has 后接过去分词 come，loose 表示螺丝现在的状态。"
+    },
+    {
+      "question": "桌腿已经牢固，桌子在门边放得稳，搬回窗边又晃。用 stable 和 uneven 各写一句，说明观察和推测。",
+      "answer": "The table is stable by the door. The floor by the window may be uneven.",
+      "explanation": "stable 描述实际观察到的状态，may be 把地面不平表述为根据对照得出的推测。"
+    },
+    {
+      "question": "新情境：背包的肩带已经扣好，但背包垂得太低。用 fasten 或 tighten 写一句建议，再说明怎样让背包背得更高。",
+      "answer": "Tighten the straps so the backpack sits higher.",
+      "explanation": "肩带已经扣好。tighten 表示调紧肩带，让背包背得更高。"
+    }
+  ],
+  "takeaway_en": "Could you check whether the legs are loose before we move the table?",
+  "takeaway_zh": "搬桌子之前，你能先看看桌腿有没有松动吗？",
+  "closing": ""
+}
