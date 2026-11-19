@@ -1,42 +1,42 @@
 [
   {
-    "word": "loose",
-    "phonetic": "/luːs/",
-    "meaning": "adj. 松动的，固定不牢的",
-    "en": "One of the screws under the desk has come loose.",
-    "zh": "书桌下面有一颗螺丝松了。",
-    "tip": "come loose（变松，松脱）"
+    "word": "agenda",
+    "phonetic": "/əˈdʒen.də/",
+    "meaning": "n. 会议议程",
+    "en": "Choosing a room is the only item on today’s agenda.",
+    "zh": "选房间是今天议程上唯一的事项。",
+    "tip": "on the agenda（列在议程上）"
   },
   {
-    "word": "tighten",
-    "phonetic": "/ˈtaɪ.tən/",
-    "meaning": "v. 拧紧，拉紧",
-    "en": "Could you tighten the straps on my backpack?",
-    "zh": "你能帮我把背包的带子拉紧一点吗？",
-    "tip": "tighten a screw（拧紧螺丝）"
+    "word": "focus",
+    "phonetic": "/ˈfoʊ.kəs/",
+    "meaning": "v. 集中注意力",
+    "en": "Let’s focus on choosing a room before we discuss the posters.",
+    "zh": "我们先集中讨论选房间，再讨论海报。",
+    "tip": "focus on doing something（集中精力做某事）"
   },
   {
-    "word": "uneven",
-    "phonetic": "/ʌnˈiː.vən/",
-    "meaning": "adj. 不平整的，高低不齐的",
-    "en": "The cart rattled as it rolled across the uneven floor.",
-    "zh": "小推车经过高低不平的地面时哐当作响。",
-    "tip": "an uneven surface（不平整的表面）"
+    "word": "relevant",
+    "phonetic": "/ˈrel.ə.vənt/",
+    "meaning": "adj. 与所讨论事项有关的",
+    "en": "The number of chairs is relevant to our choice of room.",
+    "zh": "椅子的数量与我们选哪个房间有关。",
+    "tip": "be relevant to something（与某事相关）"
   },
   {
-    "word": "fold",
-    "phonetic": "/foʊld/",
-    "meaning": "v. 折叠",
-    "en": "Fold the letter in half so it fits in the envelope.",
-    "zh": "把信对折，这样就能装进信封里。",
-    "tip": "fold something in half（把某物对折）"
+    "word": "decision",
+    "phonetic": "/dɪˈsɪʒ.ən/",
+    "meaning": "n.（考虑后的）决定",
+    "en": "We made a decision to use Room B.",
+    "zh": "我们决定使用 B 房间。",
+    "tip": "make a decision to do something（决定做某事）"
   },
   {
-    "word": "stable",
-    "phonetic": "/ˈsteɪ.bəl/",
-    "meaning": "adj. 稳固的，不易晃动或倾倒的",
-    "en": "The wide base keeps the lamp stable.",
-    "zh": "宽大的底座让台灯放得很稳。",
-    "tip": "keep something stable（使某物保持稳固）"
+    "word": "conclude",
+    "phonetic": "/kənˈkluːd/",
+    "meaning": "v. 结束（会议、讲话等）",
+    "en": "She concluded the meeting by reading out the decision.",
+    "zh": "她宣读了决定，以此结束会议。",
+    "tip": "conclude something by doing something（以做某事结束某事）"
   }
 ]

@@ -24,9 +24,9 @@
 
 | 期数 | 日期 | 单词 |
 |------|------|------|
-| [第 52 期：把跑题会议拉回房间选择](archive/2026-11-19.md) | 2026-11-19 | agenda · focus · relevant · decision · conclude |
-| [第 51 期：排查桌子晃动的原因](archive/2026-11-18.md) | 2026-11-18 | loose · tighten · uneven · fold · stable |
-| [第 50 期：确认社团合照的公开范围](archive/2026-11-17.md) | 2026-11-17 | private · permission · consent · crop · blur |
+| [第 51 期：把跑题会议拉回房间选择](archive/2026-11-19.md) | 2026-11-19 | agenda · focus · relevant · decision · conclude |
+| [第 50 期：排查桌子晃动的原因](archive/2026-11-18.md) | 2026-11-18 | loose · tighten · uneven · fold · stable |
+| [第 49 期：确认社团合照的公开范围](archive/2026-11-17.md) | 2026-11-17 | private · permission · consent · crop · blur |
 | [第 48 期：印刷报价超出预算后保住印量](archive/2026-11-16.md) | 2026-11-16 | budget · afford · expense · reduce · quotation |
 | [第 47 期：移走堵住活动室通道的纸箱](archive/2026-11-13.md) | 2026-11-13 | entrance · passage · storage · prohibit · designate |
 | [第 46 期：室友轮换家务](archive/2026-11-12.md) | 2026-11-12 | chore · divide · equal · responsibility · rotate |

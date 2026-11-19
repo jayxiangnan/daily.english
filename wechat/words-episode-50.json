@@ -1,42 +1,42 @@
 [
   {
-    "word": "private",
-    "phonetic": "/ˈpraɪ.vət/",
-    "meaning": "adj. 非公开的，仅限特定人群的",
-    "en": "The club shares rehearsal photos in a private group chat.",
-    "zh": "社团在仅成员可见的群聊里分享排练照片。",
-    "tip": "a private group chat（非公开群聊）"
+    "word": "loose",
+    "phonetic": "/luːs/",
+    "meaning": "adj. 松动的，固定不牢的",
+    "en": "One of the screws under the desk has come loose.",
+    "zh": "书桌下面有一颗螺丝松了。",
+    "tip": "come loose（变松，松脱）"
   },
   {
-    "word": "permission",
-    "phonetic": "/pɚˈmɪʃ.ən/",
-    "meaning": "n. 许可，允许",
-    "en": "Please ask for permission before posting a photo of someone else.",
-    "zh": "发布别人的照片前，请先征得对方的同意。",
-    "tip": "get permission to do something（获得做某事的许可）"
+    "word": "tighten",
+    "phonetic": "/ˈtaɪ.tən/",
+    "meaning": "v. 拧紧，拉紧",
+    "en": "Could you tighten the straps on my backpack?",
+    "zh": "你能帮我把背包的带子拉紧一点吗？",
+    "tip": "tighten a screw（拧紧螺丝）"
   },
   {
-    "word": "consent",
-    "phonetic": "/kənˈsent/",
-    "meaning": "v. 同意，允诺",
-    "en": "The speaker consented to the use of her photo in the newsletter.",
-    "zh": "演讲者同意在通讯简报里使用她的照片。",
-    "tip": "consent to the use of something（同意使用某物）"
+    "word": "uneven",
+    "phonetic": "/ʌnˈiː.vən/",
+    "meaning": "adj. 不平整的，高低不齐的",
+    "en": "The cart rattled as it rolled across the uneven floor.",
+    "zh": "小推车经过高低不平的地面时哐当作响。",
+    "tip": "an uneven surface（不平整的表面）"
   },
   {
-    "word": "crop",
-    "phonetic": "/krɑːp/",
-    "meaning": "v. 裁剪（图片）",
-    "en": "I cropped the photo to remove the empty space on the left.",
-    "zh": "我裁掉了照片左边的留白。",
-    "tip": "crop a photo（裁剪照片）"
+    "word": "fold",
+    "phonetic": "/foʊld/",
+    "meaning": "v. 折叠",
+    "en": "Fold the letter in half so it fits in the envelope.",
+    "zh": "把信对折，这样就能装进信封里。",
+    "tip": "fold something in half（把某物对折）"
   },
   {
-    "word": "blur",
-    "phonetic": "/blɝː/",
-    "meaning": "v. 使（画面或细节）模糊",
-    "en": "We blurred the license plate before sharing the video.",
-    "zh": "我们分享视频前把车牌做了模糊处理。",
-    "tip": "blur a face（把人脸做模糊处理）"
+    "word": "stable",
+    "phonetic": "/ˈsteɪ.bəl/",
+    "meaning": "adj. 稳固的，不易晃动或倾倒的",
+    "en": "The wide base keeps the lamp stable.",
+    "zh": "宽大的底座让台灯放得很稳。",
+    "tip": "keep something stable（使某物保持稳固）"
   }
 ]

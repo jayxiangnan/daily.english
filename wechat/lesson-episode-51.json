@@ -1,78 +1,78 @@
 {
-  "title": "桌子一碰就晃，是螺丝松了还是地面不平？",
-  "wechat_title": "每日 5 词 · 第 51 期（2026年11月18日）",
-  "wechat_digest": "桌子一碰就晃，是螺丝松了还是地面不平？",
-  "lead": "示例情境：玛雅和利奥想在窗边摊开图纸，但一靠桌子，桌面就晃。他们得先找出原因，再确认桌子能放稳。",
+  "title": "会议聊到海报去了，怎样拉回选房间的议题？",
+  "wechat_title": "每日 5 词 · 第 51 期（2026年11月19日）",
+  "wechat_digest": "会议聊到海报去了，怎样拉回选房间的议题？",
+  "lead": "示例情境：社团开会要为十二个人选房间，却聊起海报颜色。两人需要把讨论拉回议程，核实座位再作决定。人物、人数、房间情况及禁止加椅子的规则均为教学设定。",
   "dialogue": [
     {
-      "en": "Maya: This table rocks every time I lean on it. Is one of the legs loose?",
-      "zh": "玛雅：我一靠上去，桌子就晃。是不是有条桌腿松了？"
+      "en": "Nina: We’re discussing poster colors, but we still haven’t chosen a room. What’s on the agenda?",
+      "zh": "妮娜：我们在聊海报颜色，可房间还没选。议程上写的是什么？"
     },
     {
-      "en": "Leo: Yes, there’s a loose screw on this leg. I’ll tighten it and see if that helps.",
-      "zh": "利奥：是的，这条腿上有颗螺丝松了。我拧紧试试。"
+      "en": "Leo: Just the room choice. We need seats for twelve people. Let’s focus on that and discuss posters afterward.",
+      "zh": "利奥：只有选房间这一项。我们需要十二个人的座位。先集中讨论这个，之后再聊海报。"
     },
     {
-      "en": "Maya: The leg doesn’t move anymore, but the table still rocks. Let’s try it on the flat part of the floor by the door.",
-      "zh": "玛雅：桌腿不松动了，可桌子还是晃。我们搬到门边那块平地上试试。"
+      "en": "Nina: I have the room list. Room A has ten chairs; Room B has sixteen. Both are available at our meeting time.",
+      "zh": "妮娜：我有房间清单。A 房间有十把椅子，B 房间有十六把。我们开会的时段两个房间都能用。"
     },
     {
-      "en": "Leo: It’s stable here. The floor under the window must be uneven.",
-      "zh": "利奥：放在这里就稳了。窗边的地面应该不平。"
+      "en": "Leo: That’s relevant to our choice. Can we bring extra chairs into Room A?",
+      "zh": "利奥：这与我们的选择有关。A 房间能加椅子吗？"
     },
     {
-      "en": "Maya: We need the light by the window. Let’s move it back and check which foot doesn’t touch the floor.",
-      "zh": "玛雅：我们需要窗边的光线。搬回去看看哪只桌脚够不着地。"
+      "en": "Nina: The center’s room guide says no extra chairs. Room B already has enough seats.",
+      "zh": "妮娜：中心的房间指南写着不能加椅子。B 房间现有的座位就够了。"
     },
     {
-      "en": "Leo: There’s a small gap under this foot. I’ll fold this piece of cardboard in half and slide it under the foot for now.",
-      "zh": "利奥：这只桌脚下面有条小缝。我把这片硬纸板对折，先垫在下面。"
+      "en": "Leo: Then let’s make a decision to use Room B. Everyone will have a seat without moving any chairs.",
+      "zh": "利奥：那我们就决定用 B 房间吧。不用搬椅子，每个人也都有座位。"
     },
     {
-      "en": "Maya: I’ve pressed down on each corner. It’s stable now. We can spread out the drawings.",
-      "zh": "玛雅：四个角我都按过了。桌子稳了，可以把图纸摊开了。"
+      "en": "Nina: Agreed. I’ll conclude the meeting by reading that back: Room B for twelve people. I’ve added the decision to our notes; posters can wait until tomorrow.",
+      "zh": "妮娜：同意。我把决定再读一遍，结束这次会议：十二个人，用 B 房间。我已经把决定记下了；海报明天再聊。"
     }
   ],
   "notes": {
-    "loose": {
-      "usage": "a loose screw 还在原处，只是没固定牢。a missing screw 指螺丝已经不在了。",
-      "pitfall": "loose 的词尾读 /s/。lose（丢失）的词尾读 /z/。The screw is loose 表示螺丝松了。We lost a screw 表示我们弄丢了一颗螺丝。"
+    "agenda": {
+      "usage": "agenda 列出要讨论什么；schedule 侧重何时做什么。议程里可以写选房间，时间表里可以写十点开会。",
+      "pitfall": "说 on the agenda；agenda 是可数名词，一份议程用 an agenda，复数用 agendas。"
     },
-    "tighten": {
-      "usage": "fasten a strap 可以指扣上带子。tighten a strap 指调短带子、让它贴得更紧。带子扣好了，仍然可能需要再拉紧。",
-      "pitfall": "tight 是形容词，tighten 是动词。请人把螺丝拧紧时，用 Tighten the screw 或 Make sure the screw is tight。"
+    "focus": {
+      "usage": "focus on 强调把注意力放在一个重点上；discuss 只表示讨论，讨论过程中也可能跑题。",
+      "pitfall": "on 是介词，后接动词时用 -ing：focus on choosing，不能写 focus on choose。"
     },
-    "uneven": {
-      "usage": "uneven floor 指地面有高低差或凹凸。sloping floor 指地面有坡度，即使表面很平整也可以用 sloping。",
-      "pitfall": "表示地面不平时，直接说 The floor is uneven。用 unevenly 修饰动作，例如 The tiles were laid unevenly（地砖铺得不平）。"
+    "relevant": {
+      "usage": "relevant 强调与当前问题的关系；important 强调重要程度。海报很重要，但未必与选房间有关。",
+      "pitfall": "表示与某事相关用 relevant to，后接名词或代词，如 relevant to our discussion。"
     },
-    "fold": {
-      "usage": "fold a sheet of paper 会把纸的一部分叠到另一部分上。roll up a sheet of paper 会把纸卷成筒。",
-      "pitfall": "表示对折，用 fold it in half。fold it twice 指折两次，并未说明每次如何折。"
+    "decision": {
+      "usage": "suggestion 是供讨论的建议；decision 是已经作出的选择。提出用 B 房间不等于大家已经决定使用它。",
+      "pitfall": "常用 make a decision，不能按中文“做决定”写 do a decision；动词形式是 decide。"
     },
-    "stable": {
-      "usage": "stable 关注会不会晃动或倾倒。level 关注是否水平。桌子放得稳，桌面仍可能稍微倾斜。",
-      "pitfall": "用 The table is stable 描述桌子的状态。stability 是名词，可说 Check the stability of the table。"
+    "conclude": {
+      "usage": "conclude a meeting 表示结束会议；conclude that ... 表示推断、得出结论。两者不能仅凭中文“结论”混用。",
+      "pitfall": "by 后接 -ing：conclude by reading。若说“会议以一段总结结束”，可用 The meeting concluded with a summary。"
     }
   },
   "practice": [
     {
-      "question": "用 come loose 补全句子，说明椅子靠背上的螺丝松了。The screw on the back of the chair has ___.",
-      "answer": "The screw on the back of the chair has come loose.",
-      "explanation": "has 后接过去分词 come，loose 表示螺丝现在的状态。"
+      "question": "用 agenda 补全：Choosing a room is the only item ___ today’s ___.",
+      "answer": "on; agenda。Choosing a room is the only item on today’s agenda.",
+      "explanation": "议程上的事项用 an item on the agenda。"
     },
     {
-      "question": "桌腿已经牢固，桌子在门边放得稳，搬回窗边又晃。用 stable 和 uneven 各写一句，说明观察和推测。",
-      "answer": "The table is stable by the door. The floor by the window may be uneven.",
-      "explanation": "stable 描述实际观察到的状态，may be 把地面不平表述为根据对照得出的推测。"
+      "question": "对话中，为什么椅子数量 relevant，而海报颜色暂时不相关？用英文写一句理由。",
+      "answer": "The number of chairs is relevant to our room choice because we need seats for twelve people.",
+      "explanation": "选房间必须满足十二人的座位需求；海报颜色不能帮助核实这个条件。"
     },
     {
-      "question": "新情境：背包的肩带已经扣好，但背包垂得太低。用 fasten 或 tighten 写一句建议，再说明怎样让背包背得更高。",
-      "answer": "Tighten the straps so the backpack sits higher.",
-      "explanation": "肩带已经扣好。tighten 表示调紧肩带，让背包背得更高。"
+      "question": "新情境：小组正比较租车方案，却开始讨论旅行歌单。用 focus on 礼貌地建议先选车；再用 conclude ... by ... 说明打算以宣读租车决定结束讨论。",
+      "answer": "Let’s focus on choosing a car first. We can conclude the discussion by reading out our decision.",
+      "explanation": "on 和 by 后都接 -ing；先拉回重点，再明确结束讨论的方式。"
     }
   ],
-  "takeaway_en": "Could you check whether the legs are loose before we move the table?",
-  "takeaway_zh": "搬桌子之前，你能先看看桌腿有没有松动吗？",
+  "takeaway_en": "Could we focus on the room choice and leave the posters for tomorrow?",
+  "takeaway_zh": "我们能先集中讨论选房间，把海报留到明天再谈吗？",
   "closing": ""
 }
