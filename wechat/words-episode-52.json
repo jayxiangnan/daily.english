@@ -1,0 +1,42 @@
+[
+  {
+    "word": "compare",
+    "phonetic": "/kəmˈper/",
+    "meaning": "v. 比较，对照",
+    "en": "Let’s compare the two backpacks before we choose one.",
+    "zh": "我们先比较这两个背包，再选一个。",
+    "tip": "compare A with B（把 A 与 B 作比较）"
+  },
+  {
+    "word": "quality",
+    "phonetic": "/ˈkwɑː.lə.t̬i/",
+    "meaning": "n.（商品的）质量",
+    "en": "A higher price does not always mean better quality.",
+    "zh": "价格更高并不总意味着质量更好。",
+    "tip": "be of good quality（质量好）"
+  },
+  {
+    "word": "durable",
+    "phonetic": "/ˈdʊr.ə.bəl/",
+    "meaning": "adj. 耐用的",
+    "en": "I need a bag made of durable material for daily use.",
+    "zh": "我需要一个用耐用材料做的包，供日常使用。",
+    "tip": "durable material（耐用的材料）"
+  },
+  {
+    "word": "defect",
+    "phonetic": "/ˈdiː.fekt/",
+    "meaning": "n.（产品的）缺陷，瑕疵",
+    "en": "There is a defect in the zipper on this bag.",
+    "zh": "这个包的拉链有缺陷。",
+    "tip": "a defect in something（某物存在的缺陷）"
+  },
+  {
+    "word": "warranty",
+    "phonetic": "/ˈwɔːr.ən.t̬i/",
+    "meaning": "n.（一定期限及条件内的）产品保修承诺",
+    "en": "This backpack comes with a one-year warranty.",
+    "zh": "这个背包附带一年保修。",
+    "tip": "a one-year warranty（一年保修）"
+  }
+]

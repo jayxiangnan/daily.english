@@ -1,0 +1,78 @@
+{
+  "title": "试背包时拉链卡住，买之前要问清什么？",
+  "wechat_title": "每日 5 词 · 第 52 期（2026年11月23日）",
+  "wechat_digest": "试背包时拉链卡住，买之前要问清什么？",
+  "lead": "示例情境：米娅买日常用的背包，试拉链时发现卡顿。她要比较实物、确认缺陷并问清保修后再决定。人物、商品、缺齿情况、一年期限和保修范围均为教学设定，不代表实际商家政策；耐用也不表示永不损坏。",
+  "dialogue": [
+    {
+      "en": "Mia: This backpack is cheaper, but the zipper keeps getting stuck. Can we compare it with the other one?",
+      "zh": "米娅：这个背包便宜些，可拉链老是卡住。我们能把它和另一个比较一下吗？"
+    },
+    {
+      "en": "Ben: Yes. Let’s check the quality, not just the price. You need a durable bag for daily use.",
+      "zh": "本：可以。我们看看质量，别只看价格。你每天都要用，需要一个耐用的包。"
+    },
+    {
+      "en": "Mia: Look, two teeth are missing from this zipper. Is that a defect?",
+      "zh": "米娅：看，这条拉链少了两颗齿。这算缺陷吗？"
+    },
+    {
+      "en": "Clerk: Yes. We won’t sell this one. Please try the other bag; it’s made of durable nylon.",
+      "zh": "店员：算。这个我们不卖了。请试试另一个包，它用的是耐用的尼龙材料。"
+    },
+    {
+      "en": "Mia: This zipper opens smoothly. Does the bag come with a warranty, and what does it cover?",
+      "zh": "米娅：这个拉链拉起来很顺畅。这个包有保修吗？保什么？"
+    },
+    {
+      "en": "Clerk: A one-year warranty. The written terms cover manufacturing defects, including faulty zippers, but exclude normal wear. Keep your receipt.",
+      "zh": "店员：保修一年。书面条款涵盖制造缺陷，包括有问题的拉链，但不包括正常磨损。请留好小票。"
+    },
+    {
+      "en": "Mia: I’ve read the terms. I’ll take this one and keep the receipt with the warranty card.",
+      "zh": "米娅：我读过条款了。我要这个，把小票和保修卡放在一起保存。"
+    }
+  ],
+  "notes": {
+    "compare": {
+      "usage": "compare 强调查看异同；choose 是作出选择。比较是选择前的步骤，并不表示已经选好。",
+      "pitfall": "compare 后可直接接两个比较对象：compare the two bags；接第二个对象可用 with，不能写 compare A than B。"
+    },
+    "quality": {
+      "usage": "quality 说做工、材料等方面的好坏；quantity 说数量。买两个包是数量问题，拉链是否顺畅是质量问题。",
+      "pitfall": "表示整体质量时通常不可数：good quality，不说 a good quality；可说 The bag is of good quality。"
+    },
+    "durable": {
+      "usage": "durable 强调长期使用仍不易损坏；strong 强调结实、能承受力量。一次拉扯没坏不能证明长期耐用。",
+      "pitfall": "durable 不等于 waterproof（防水的）；说耐用不能据此推断下雨时包内不会进水。"
+    },
+    "defect": {
+      "usage": "defect 指产品本身的问题；damage 指受到损伤的状态。拉链出厂就少齿是缺陷，使用中被剪坏则是损伤。",
+      "pitfall": "本期用可数名词：a defect / two defects；不要把形容词 defective 直接当名词写成 a defective。"
+    },
+    "warranty": {
+      "usage": "warranty 是有期限和条件的维修或更换承诺；refund 是退钱。有保修不等于任何情况下都能退款。",
+      "pitfall": "作定语的一年写 one-year，year 不加 s：a one-year warranty；范围还要看 warranty terms，不能只看期限。"
+    }
+  },
+  "practice": [
+    {
+      "question": "改错：This bag comes with a one-years warranty. 再说明保修是否必然包含退款。",
+      "answer": "This bag comes with a one-year warranty. 保修不必然包含退款。",
+      "explanation": "复合定语中的 year 用单数；维修、更换与退款是不同的处理方式。"
+    },
+    {
+      "question": "对话中，为什么不买第一个包？用 defect 写一句英文；另一个包的保修是否涵盖正常磨损？",
+      "answer": "There is a defect in the zipper on the first bag. 另一个包的示例保修不涵盖正常磨损。",
+      "explanation": "拉链少齿是已核实的问题；书面条款明确排除 normal wear，不能只根据一年期限推断范围。"
+    },
+    {
+      "question": "新情境：买行李箱前，你想先比较两个箱子，并说明需要耐用材料。用 compare 和 durable 写两句英文。",
+      "answer": "Could I compare these two suitcases first? I need a suitcase made of durable material.",
+      "explanation": "compare 后直接接两个对象；durable 修饰 material，表达长期使用需求。"
+    }
+  ],
+  "takeaway_en": "What does the warranty cover, and what does it exclude?",
+  "takeaway_zh": "保修涵盖哪些情况，又不涵盖哪些情况？",
+  "closing": ""
+}
