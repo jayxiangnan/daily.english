@@ -24,6 +24,7 @@
 
 | 期数 | 日期 | 单词 |
 |------|------|------|
+| [第 52 期：买背包前核实拉链质量与保修](archive/2026-11-23.md) | 2026-11-23 | compare · quality · durable · defect · warranty |
 | [第 51 期：把跑题会议拉回房间选择](archive/2026-11-19.md) | 2026-11-19 | agenda · focus · relevant · decision · conclude |
 | [第 50 期：排查桌子晃动的原因](archive/2026-11-18.md) | 2026-11-18 | loose · tighten · uneven · fold · stable |
 | [第 49 期：确认社团合照的公开范围](archive/2026-11-17.md) | 2026-11-17 | private · permission · consent · crop · blur |
@@ -84,6 +85,7 @@
 
 | 日期 | 文章 | 在线页面 |
 |------|------|----------|
+| 2026-11-23 | [少了六件车具：一辆传车抵达悬泉置之后](archive/history-2026-11-23.md) | [阅读页面](outputs/history-2026-11-23.html) |
 | 2026-11-19 | [十三匹马留置：悬泉置的一次传马调配](archive/history-2026-11-19.md) | [阅读页面](outputs/history-2026-11-19.html) |
 | 2026-11-17 | [马到站后吃什么：悬泉置的草料与劳作](archive/history-2026-11-17.md) | [阅读页面](outputs/history-2026-11-17.html) |
 | 2026-11-16 | [两匹传马入站：悬泉置如何补足役马](archive/history-2026-11-16.md) | [阅读页面](outputs/history-2026-11-16.html) |
