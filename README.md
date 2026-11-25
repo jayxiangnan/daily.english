@@ -24,6 +24,7 @@
 
 | 期数 | 日期 | 单词 |
 |------|------|------|
+| [第 53 期：寄杯子前重新包装](archive/2026-11-25.md) | 2026-11-25 | fragile · wrap · cushion · secure · seal |
 | [第 52 期：买背包前核实拉链质量与保修](archive/2026-11-23.md) | 2026-11-23 | compare · quality · durable · defect · warranty |
 | [第 52 期：买背包前核实拉链质量与保修](archive/2026-11-23.md) | 2026-11-23 | compare · quality · durable · defect · warranty |
 | [第 51 期：把跑题会议拉回房间选择](archive/2026-11-19.md) | 2026-11-19 | agenda · focus · relevant · decision · conclude |

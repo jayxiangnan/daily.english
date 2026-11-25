@@ -1,0 +1,42 @@
+[
+  {
+    "word": "fragile",
+    "phonetic": "/ˈfrædʒ.əl/",
+    "meaning": "adj. 易碎的，易损坏的",
+    "en": "This cup is fragile, so it needs protective packaging.",
+    "zh": "这个杯子易碎，所以需要保护性包装。",
+    "tip": "fragile items（易碎物品）"
+  },
+  {
+    "word": "wrap",
+    "phonetic": "/ræp/",
+    "meaning": "v. 用材料包裹",
+    "en": "I wrapped the cup in bubble wrap before putting it in the box.",
+    "zh": "我先用气泡膜包好杯子，再把它放进箱子。",
+    "tip": "wrap something in something（用某物包裹某物）"
+  },
+  {
+    "word": "cushion",
+    "phonetic": "/ˈkʊʃ.ən/",
+    "meaning": "v. 给……加缓冲保护，减轻冲击",
+    "en": "The extra padding cushions the cup against knocks.",
+    "zh": "额外的衬垫能缓冲碰撞，保护杯子。",
+    "tip": "cushion something against knocks（缓冲碰撞以保护某物）"
+  },
+  {
+    "word": "secure",
+    "phonetic": "/səˈkjʊr/",
+    "meaning": "adj. 固定牢靠的，不易移动的",
+    "en": "The cup is secure inside the padded box.",
+    "zh": "杯子在有衬垫的箱子里放得很牢靠。",
+    "tip": "make sure something is secure（确认某物固定牢靠）"
+  },
+  {
+    "word": "seal",
+    "phonetic": "/siːl/",
+    "meaning": "v. 封好，封住（包装开口）",
+    "en": "We sealed the box with packing tape after checking the cup.",
+    "zh": "检查杯子后，我们用封箱胶带封好了箱子。",
+    "tip": "seal a box with tape（用胶带封箱）"
+  }
+]

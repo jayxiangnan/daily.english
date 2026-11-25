@@ -1,0 +1,78 @@
+{
+  "title": "寄杯子前发现箱内晃动，怎样重新包装？",
+  "wechat_title": "每日 5 词 · 第 53 期（2026年11月25日）",
+  "wechat_digest": "寄杯子前发现箱内晃动，怎样重新包装？",
+  "lead": "示例情境：琳准备寄一个陶瓷杯，封箱前轻轻倾斜箱子，发现杯子会滑动。她和杰伊先检查包装，再增加缓冲、固定杯子，最后封箱。人物、物品、检查过程和结果均为教学设定；这里练习包装沟通，不承诺运输结果。学完试着用英语说明哪里没包好，并提出下一步处理办法。",
+  "dialogue": [
+    {
+      "en": "Lin: The cup slides around when I gently tilt the box. It’s fragile. Can we check the packing?",
+      "zh": "琳：我轻轻倾斜箱子，杯子就会滑动。它是易碎品。我们检查一下包装好吗？"
+    },
+    {
+      "en": "Jay: Yes. Did you wrap the cup before putting it inside?",
+      "zh": "杰伊：好。放进去之前，你把杯子包好了吗？"
+    },
+    {
+      "en": "Lin: I wrapped it in bubble wrap, but there are gaps around it.",
+      "zh": "琳：我用气泡膜包了，可周围还有空隙。"
+    },
+    {
+      "en": "Jay: Let’s add soft padding underneath and around it to cushion it against knocks.",
+      "zh": "杰伊：我们在下面和周围加些柔软的衬垫，缓冲碰撞。"
+    },
+    {
+      "en": "Lin: I’ve added the padding. When I gently tilt the box now, the cup stays in place.",
+      "zh": "琳：衬垫加好了。现在轻轻倾斜箱子，杯子会留在原位。"
+    },
+    {
+      "en": "Jay: Good. The cup looks secure. We can close the box and seal it with packing tape.",
+      "zh": "杰伊：好。杯子看起来放牢靠了。我们可以合上箱盖，用封箱胶带封好。"
+    },
+    {
+      "en": "Lin: Done. The box is sealed, and I’ve marked it “Fragile.” The label doesn’t replace protective packing.",
+      "zh": "琳：好了。箱子封好了，我还标了“易碎”。这个标签不能代替保护性包装。"
+    }
+  ],
+  "notes": {
+    "fragile": {
+      "usage": "fragile 强调容易损坏；broken 表示已经破损。完好的杯子也可能很 fragile。",
+      "pitfall": "fragile 是形容词：The cup is fragile；不能说 The cup is fragiled。"
+    },
+    "wrap": {
+      "usage": "wrap 是把材料包在物品外面；pack 是装箱、打包的整体过程，可能包含包裹和填充。",
+      "pitfall": "过去式 wrapped 要双写 p；词首 w 不发音，别读成 /wræp/。"
+    },
+    "cushion": {
+      "usage": "cushion 强调缓冲冲击；fill 强调填满空间。塞满硬物不等于给易碎品提供缓冲。",
+      "pitfall": "本期用及物动词，直接接保护对象：cushion the cup；不要写 cushion to the cup。"
+    },
+    "secure": {
+      "usage": "secure 在这里强调位置牢靠；safe 强调没有危险。固定好了仍不能保证运输中绝不会破损。",
+      "pitfall": "形容状态用 be secure；描述方式用副词 securely，如 pack it securely，不能写 pack it secure。"
+    },
+    "seal": {
+      "usage": "close 是合上；seal 是进一步把开口封住。把箱盖搭上，还不等于封好了箱。",
+      "pitfall": "表示使用的材料用 with：seal it with tape；不说 seal it by tape。"
+    }
+  },
+  "practice": [
+    {
+      "question": "改错：I wraped the cup in bubble wrap and sealed the box by tape.",
+      "answer": "I wrapped the cup in bubble wrap and sealed the box with tape.",
+      "explanation": "wrap 的过去式双写 p；with 引出封口所用的材料。"
+    },
+    {
+      "question": "对话中杯子已经包了气泡膜，为什么仍不立即封箱？用 cushion 和 secure 说明接下来要做什么。",
+      "answer": "We need more padding to cushion the cup and make sure it is secure.",
+      "explanation": "单件包裹并未消除箱内空隙；增加缓冲后，还要确认杯子不再滑动。"
+    },
+    {
+      "question": "新情境：搬家时，一个相框已用软布包好，但仍会在箱内滑动。选 wrap、cushion、seal 中最适合“再加缓冲”的词，写一句请求；再用 secure 写一句检查要求。",
+      "answer": "Could we cushion the frame with more padding? Make sure the frame is secure before closing the box.",
+      "explanation": "已包好不代表缓冲充分，cushion 对应当前动作；secure 表达需要检查的牢靠状态。"
+    }
+  ],
+  "takeaway_en": "Could we add more padding to make sure it is secure before we seal the box?",
+  "takeaway_zh": "封箱前，我们能不能多加些衬垫，确认它放得牢靠？",
+  "closing": ""
+}
