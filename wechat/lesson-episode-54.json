@@ -1,0 +1,90 @@
+{
+  "title": "办公室很闷，先开窗还是开空调？",
+  "wechat_title": "每日 5 词 · 第 54 期（2026年11月26日）",
+  "wechat_digest": "办公室很闷，先开窗还是开空调？",
+  "lead": "示例情境：关窗开会后，琳觉得办公室很闷，想打开空调；杰伊先核实室温，再与靠窗同事商量开窗试一试。人物、室温、室外条件、时间与结果均为教学设定。学完试着说明“不热但闷”，提出通风请求，并询问对方是否舒适。",
+  "dialogue": [
+    {
+      "en": "Lin: It feels stuffy in here. Shall I turn on the air conditioner?",
+      "zh": "琳：这里感觉很闷。要我开空调吗？"
+    },
+    {
+      "en": "Jay: Let’s check the temperature first. It’s twenty-four degrees Celsius. Are you hot, or does the air just feel stale?",
+      "zh": "杰伊：先看看温度。二十四摄氏度。你是觉得热，还是只是觉得空气不新鲜？"
+    },
+    {
+      "en": "Lin: I’m not hot. We’ve had the windows closed throughout the meeting.",
+      "zh": "琳：我不热。整个会议期间窗户都关着。"
+    },
+    {
+      "en": "Jay: It’s mild and quiet outside, with a gentle breeze. Could we open the window for a few minutes, Mei? You’re sitting beside it.",
+      "zh": "杰伊：外面温和又安静，还有微风。梅，我们能开窗几分钟吗？你正坐在窗边。"
+    },
+    {
+      "en": "Mei: Yes. Let’s try that before turning on the air conditioner.",
+      "zh": "梅：可以。开空调之前先试试这个办法。"
+    },
+    {
+      "en": "Lin: The window is open now. Shall I use the fan to help circulate the air around the room?",
+      "zh": "琳：窗户现在打开了。要不要用风扇帮助房间里的空气流动？"
+    },
+    {
+      "en": "Mei: Yes, on low, please. I’d rather not have it blowing straight at me.",
+      "zh": "梅：好，请用低档。我不太想让风直吹我。"
+    },
+    {
+      "en": "Jay: It’s been a few minutes. Are you both comfortable?",
+      "zh": "杰伊：已经过了几分钟。你们俩觉得舒服吗？"
+    },
+    {
+      "en": "Lin: Yes, it feels less stuffy now.",
+      "zh": "琳：舒服，现在没那么闷了。"
+    },
+    {
+      "en": "Mei: I’m comfortable too. Let’s leave the air conditioner off for now.",
+      "zh": "梅：我也觉得舒服。空调暂时先不开吧。"
+    }
+  ],
+  "notes": {
+    "stuffy": {
+      "usage": "stuffy 指缺少新鲜空气而闷；hot 指温度高。房间不热，也可能很闷。",
+      "pitfall": "说房间闷用 The room is stuffy；I’m stuffy 容易让人想到性格古板。鼻塞则说 I have a stuffy nose。"
+    },
+    "temperature": {
+      "usage": "temperature 是可测量的温度；heat 指热、热量。问读数用 What’s the temperature?，不用 What’s the heat?。",
+      "pitfall": "读温度时通常用 degrees：twenty-four degrees Celsius；一度则用 one degree Celsius。"
+    },
+    "breeze": {
+      "usage": "breeze 是较轻、通常让人舒适的风；wind 范围更广，也可以是强风。",
+      "pitfall": "breeze 在这里是可数名词，单数要有冠词：There’s a breeze，不说 There’s breeze。"
+    },
+    "circulate": {
+      "usage": "circulate 强调空气移动；cool 强调降温。空气流动不等于一定降温，也不等于已经换入室外新鲜空气。",
+      "pitfall": "可说 The air circulates，也可说 The fan circulates the air；不要把主动的空气流动误写成 The air is circulate。"
+    },
+    "comfortable": {
+      "usage": "comfortable 说人或环境舒适；convenient 说安排省事、方便。说窗边坐着舒服用 comfortable，不能用 convenient 代替。",
+      "pitfall": "feel 后接形容词：I feel comfortable；描述坐的方式才用副词，如 sit comfortably。"
+    }
+  },
+  "practice": [
+    {
+      "question": "改错：There is gentle breeze, and I feel comfortably beside the window.",
+      "answer": "There is a gentle breeze, and I feel comfortable beside the window.",
+      "explanation": "breeze 是可数名词；feel 后用形容词描述人的状态。"
+    },
+    {
+      "question": "对话中为什么没有直接开空调？用 temperature 和 stuffy 各写一句说明。",
+      "answer": "The temperature is twenty-four degrees Celsius. The room feels stuffy to Lin, but she is not hot.",
+      "explanation": "测温后又核实感受，发现当前问题是空气闷；开窗尝试后大家反馈舒适，因此暂不开空调。"
+    },
+    {
+      "question": "新情境：排练室窗户已打开，同伴仍觉得角落空气不流动。用 circulate 写一句使用风扇的建议，再用 comfortable 询问对方感受。",
+      "answer": "Could we use a fan to circulate the air around the room? Are you comfortable with it on low?",
+      "explanation": "circulate 对应让空气流动；comfortable 询问舒适程度。窗户已开是本题条件，风扇本身不代表引入新鲜空气。"
+    }
+  ],
+  "takeaway_en": "It feels stuffy in here. Could we open the window for a few minutes and see if everyone is comfortable?",
+  "takeaway_zh": "这里感觉很闷。我们能开窗几分钟，看看大家是否觉得舒服吗？",
+  "closing": ""
+}

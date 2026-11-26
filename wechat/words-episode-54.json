@@ -1,0 +1,42 @@
+[
+  {
+    "word": "stuffy",
+    "phonetic": "/ˈstʌf.i/",
+    "meaning": "adj.（房间）空气不流通的，闷的",
+    "en": "The office feels stuffy after an hour with the windows closed.",
+    "zh": "关窗一小时后，办公室感觉很闷。",
+    "tip": "a stuffy room（空气不流通的房间）"
+  },
+  {
+    "word": "temperature",
+    "phonetic": "/ˈtem.pɚ.ə.tʃɚ/",
+    "meaning": "n. 温度",
+    "en": "The room temperature is twenty-four degrees Celsius.",
+    "zh": "室温是二十四摄氏度。",
+    "tip": "room temperature（室温）"
+  },
+  {
+    "word": "breeze",
+    "phonetic": "/briːz/",
+    "meaning": "n. 微风，和风",
+    "en": "A gentle breeze comes through the open window.",
+    "zh": "一阵微风从开着的窗户吹进来。",
+    "tip": "a gentle breeze（一阵微风）"
+  },
+  {
+    "word": "circulate",
+    "phonetic": "/ˈsɝː.kjə.leɪt/",
+    "meaning": "v.（使空气等）流通，循环",
+    "en": "The fan helps circulate the air around the room.",
+    "zh": "风扇帮助空气在房间里流动。",
+    "tip": "circulate the air（使空气流通）"
+  },
+  {
+    "word": "comfortable",
+    "phonetic": "/ˈkʌm.fɚ.t̬ə.bəl/",
+    "meaning": "adj. 感到舒适的，自在的",
+    "en": "Are you comfortable with the window open?",
+    "zh": "窗户开着，你觉得舒服吗？",
+    "tip": "feel comfortable（感觉舒适）"
+  }
+]
