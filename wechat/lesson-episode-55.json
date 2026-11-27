@@ -1,0 +1,86 @@
+{
+  "title": "胃口不大又怕辣，怎样点得合适？",
+  "wechat_title": "每日 5 词 · 第 55 期（2026年11月27日）",
+  "wechat_digest": "胃口不大又怕辣，怎样点得合适？",
+  "lead": "示例情境：琳准备点大份咖喱，却发现自己胃口不大，也担心太辣。她先看菜单，再向服务员核实辣度、份量和配饭，最后决定先点小份。人物、菜品、配餐方式与结果均为教学设定，并非真实餐厅规则。学完可说明食量和口味需求，询问推荐，并核实一份里包含什么。",
+  "dialogue": [
+    {
+      "en": "Lin: I was going to order the large curry, but I don’t have much of an appetite.",
+      "zh": "琳：我本来想点大份咖喱，但我没多大胃口。"
+    },
+    {
+      "en": "Jay: Let’s check the menu before we order. There’s a small vegetable curry too.",
+      "zh": "杰伊：点餐前先看看菜单。也有小份蔬菜咖喱。"
+    },
+    {
+      "en": "Lin: The menu doesn’t say how spicy it is. What would you recommend if I want a small meal that isn’t very spicy?",
+      "zh": "琳：菜单没写它有多辣。如果我想少吃一点，又不想吃太辣的，你会推荐什么？"
+    },
+    {
+      "en": "Server: I’d recommend the small vegetable curry. It’s mild, but it does contain a little chili.",
+      "zh": "服务员：我推荐小份蔬菜咖喱。辣味较轻，但确实放了一点辣椒。"
+    },
+    {
+      "en": "Lin: A little chili is fine. Does the small portion include rice?",
+      "zh": "琳：一点辣椒可以。小份里包含米饭吗？"
+    },
+    {
+      "en": "Server: Yes, it comes with a small portion of rice.",
+      "zh": "服务员：包含，配一小份米饭。"
+    },
+    {
+      "en": "Lin: Then I’ll have that, please. I’ll see how hungry I am before ordering anything else.",
+      "zh": "琳：那就请给我这份。我先看看吃完后还饿不饿，再决定是否加点。"
+    },
+    {
+      "en": "Jay: How was it?",
+      "zh": "杰伊：吃得怎么样？"
+    },
+    {
+      "en": "Lin: The small portion was enough, and the curry wasn’t too spicy for me. I don’t need anything else.",
+      "zh": "琳：小份够了，咖喱对我来说也不太辣。不需要再点了。"
+    }
+  ],
+  "notes": {
+    "menu": {
+      "usage": "menu 是可供选择的菜品清单；dish 是一道具体的菜。看 menu，再选 a dish。",
+      "pitfall": "说某道菜在菜单上用 on the menu，不用 in the menu。"
+    },
+    "portion": {
+      "usage": "portion 关注一次供应的量；dish 关注菜品。两份同一种菜是 two portions of the same dish。",
+      "pitfall": "portion 可数：two portions；后接不可数食物用 of，如 a portion of rice，不说 a rice。"
+    },
+    "appetite": {
+      "usage": "appetite 侧重想吃东西的欲望；hunger 侧重饥饿感。说明自己不想吃很多，用 appetite 很自然。",
+      "pitfall": "appetite 是名词：I have a good appetite；描述“我饿了”用 I’m hungry，不说 I’m appetite。"
+    },
+    "recommend": {
+      "usage": "recommend 含有认为某选择合适、值得尝试的判断；mention 只表示提到，并不等于推荐。",
+      "pitfall": "建议先点小份可说 I recommend ordering a small portion，不说 I recommend to order a small portion。"
+    },
+    "mild": {
+      "usage": "mild 形容味道不强烈，此处指辣味较轻；bland 往往带有寡淡、没什么滋味的评价。",
+      "pitfall": "mild 不保证完全不辣。若一点辣也不想要，应明确问 Is there any chili in it?，不能只靠 mild 推断。"
+    }
+  },
+  "practice": [
+    {
+      "question": "改错：I recommend to order two portion of rice.",
+      "answer": "I recommend ordering two portions of rice.",
+      "explanation": "recommend 后接动作可用动名词；two 后的可数名词 portion 用复数。"
+    },
+    {
+      "question": "琳为什么选小份咖喱？用 appetite 和 mild 各写一句，并说明 mild 是否代表完全不辣。",
+      "answer": "She doesn’t have much of an appetite. The server says the curry is mild. Mild does not mean there is no chili in it.",
+      "explanation": "小份对应她的食量；服务员明确说含一点辣椒，她表示可以接受，才作出选择。"
+    },
+    {
+      "question": "新情境：在面馆，你只想吃一小份，不想吃太辣。用 recommend、portion、mild 写一句询问，再问是否含辣椒。",
+      "answer": "Could you recommend a small portion of something mild? Is there any chili in it?",
+      "explanation": "把份量与口味两个条件一起说清，再核实辣椒；店家回答后才能判断是否适合自己。"
+    }
+  ],
+  "takeaway_en": "I don’t have much of an appetite. Could you recommend something mild in a small portion?",
+  "takeaway_zh": "我没多大胃口。能推荐一道小份、味道不太浓烈的菜吗？",
+  "closing": ""
+}

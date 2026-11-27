@@ -1,0 +1,42 @@
+[
+  {
+    "word": "menu",
+    "phonetic": "/ˈmen.juː/",
+    "meaning": "n. 菜单",
+    "en": "Is there a smaller dish on the menu?",
+    "zh": "菜单上有小份的菜吗？",
+    "tip": "on the menu（在菜单上）"
+  },
+  {
+    "word": "portion",
+    "phonetic": "/ˈpɔːr.ʃən/",
+    "meaning": "n.（食物的）一份；一份的量",
+    "en": "Could I have a small portion of rice?",
+    "zh": "能给我一小份米饭吗？",
+    "tip": "a small portion of rice（一小份米饭）"
+  },
+  {
+    "word": "appetite",
+    "phonetic": "/ˈæp.ə.taɪt/",
+    "meaning": "n. 食欲，胃口",
+    "en": "I don’t have much of an appetite this evening.",
+    "zh": "今晚我没多大胃口。",
+    "tip": "not have much of an appetite（没多大胃口）"
+  },
+  {
+    "word": "recommend",
+    "phonetic": "/ˌrek.əˈmend/",
+    "meaning": "v. 推荐；建议",
+    "en": "What would you recommend for someone who wants a small meal?",
+    "zh": "想少吃一点的人，你会推荐什么？",
+    "tip": "recommend doing something（建议做某事）"
+  },
+  {
+    "word": "mild",
+    "phonetic": "/maɪld/",
+    "meaning": "adj.（食物）味道不浓烈的；辣味较轻的",
+    "en": "Is the curry mild or very spicy?",
+    "zh": "这道咖喱辣味较轻，还是很辣？",
+    "tip": "a mild curry（辣味较轻的咖喱）"
+  }
+]
